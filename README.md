@@ -1,3 +1,3 @@
-# zcproject for WechatExecute Application
+# zcproject
 # Author:BarneyX
 #
