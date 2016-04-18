@@ -16,4 +16,18 @@ class SysConfig extends Api{
 			$_result = $this->sysObj->getSysConfigInfo('',true);
 			return $_result?$_result:-1;
 		}
+
+		/**
+		 * 获取微信对象要使用的参数列表
+		 */
+		public function getWeChatConfigInfo(){
+			$option = array();
+			$result_ = $this->sysObj->getWeChatInfo();
+			$option['token'] = $result_[0][2];
+			$option['appsecret'] = $result_[1][2];
+			$option['appid'] = $result_[2][2];
+			//$option['encodingaeskey'] = $result_[3][2];
+
+			return $option;
+		}
 }

@@ -40,6 +40,23 @@ class SysConfigModel extends  Model{
 		}
 
 		/**
+		 * 返回微信配制信息
+		 * @return multitype:Ambigous <\SysConfig\Model\multitype:unknown, number> Ambigous <\SysConfig\Model\multitype:unknown, number, multitype:unknown Ambigous <> , \Think\mixed, boolean, string, NULL, mixed, unknown, multitype:, object> |boolean
+		 */
+		public function getWeChatInfo(){
+
+			$token 			= $this->getSysConfigInfo('ZC_TOKEN',false,true);
+			$appsecret 	    = $this->getSysConfigInfo('ZC_APPSECRET',false,true);
+			$appId 			= $this->getSysConfigInfo('ZC_APPID',false,true);
+			$encodingaeskey = $this->getSysConfigInfo('ZC_ENCODINGAESKEY',false,true);
+
+			if(is_array($token) && is_array($appsecret) && is_array($appId) && is_array($encodingaeskey)){
+					return array($token,$appsecret,$appId,$encodingaeskey);
+			}
+			return false;
+		}
+
+		/**
 		 * 保存设置选项
 		 * @param unknown $sid
 		 * @param unknown $sval

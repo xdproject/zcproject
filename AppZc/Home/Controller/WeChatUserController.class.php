@@ -2,6 +2,10 @@
 namespace Home\Controller;
 
 class WeChatUserController extends BasicController {
+
+	public function _initialize(){
+
+	}
 	public function index(){
 		$this->display();
 	}

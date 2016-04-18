@@ -1,0 +1,1832 @@
+[ 2016-04-18T08:55:43+08:00 ] 119.60.2.182 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015623s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T08:55:59+08:00 ] 119.60.2.182 /index.php/Home/Login/LoginIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_admin` [ RunTime:0.0312s ]
+SQL: SELECT * FROM `zc_admin` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T08:56:01+08:00 ] 119.60.2.182 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T08:56:04+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T08:56:07+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T08:56:12+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T08:56:36+08:00 ] 119.60.2.182 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: syslist D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\2ac25299c577111cafe5cb9c833c86d9.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T08:56:38+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T08:56:40+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T09:17:10+08:00 ] 119.60.2.182 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: syslist D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\2ac25299c577111cafe5cb9c833c86d9.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T09:17:12+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T09:17:14+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T09:47:09+08:00 ] 119.60.2.182 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T09:47:13+08:00 ] 119.60.2.182 /index.php/Home/Login/LoginIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_admin` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T09:47:15+08:00 ] 119.60.2.182 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T09:47:17+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T09:48:07+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T09:48:52+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ZC_TOKEN D:\www\wechatapp\web\AppZc\SysConfig\Api\SysConfig.class.php 第 22 行.
+
+[ 2016-04-18T09:48:55+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ZC_TOKEN D:\www\wechatapp\web\AppZc\SysConfig\Api\SysConfig.class.php 第 22 行.
+
+[ 2016-04-18T09:49:01+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: ZC_TOKEN D:\www\wechatapp\web\AppZc\SysConfig\Api\SysConfig.class.php 第 22 行.
+
+[ 2016-04-18T09:49:14+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T09:49:16+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T09:49:34+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T09:50:10+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Uninitialized string offset: 2 D:\www\wechatapp\web\AppZc\SysConfig\Model\SysConfigModel.class.php 第 53 行.
+NOTIC: [8] Uninitialized string offset: 2 D:\www\wechatapp\web\AppZc\SysConfig\Api\SysConfig.class.php 第 22 行.
+
+[ 2016-04-18T09:50:20+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Uninitialized string offset: 2 D:\www\wechatapp\web\AppZc\SysConfig\Model\SysConfigModel.class.php 第 53 行.
+NOTIC: [8] Array to string conversion D:\www\wechatapp\web\AppZc\SysConfig\Api\SysConfig.class.php 第 22 行.
+
+[ 2016-04-18T09:50:47+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\www\wechatapp\web\AppZc\SysConfig\Api\SysConfig.class.php 第 22 行.
+
+[ 2016-04-18T10:00:41+08:00 ] 119.60.2.182 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:00:48+08:00 ] 119.60.2.182 /index.php/Home/Login/LoginIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_admin` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:00:50+08:00 ] 119.60.2.182 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:00:52+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:01:11+08:00 ] 119.60.2.182 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: syslist D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\2ac25299c577111cafe5cb9c833c86d9.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:01:17+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:01:21+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:01:25+08:00 ] 119.60.2.182 /index.php?s=/home/SysConfig/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\SysConfig\Model\SysConfigModel.class.php on line 34 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_sysconfig`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:23:48+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 3 D:\www\wechatapp\web\AppZc\SysConfig\Api\SysConfig.class.php 第 26 行.
+
+[ 2016-04-18T10:24:43+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:24:48+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:29:34+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for WeChat\Api\Wechat::__construct(), called in D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatBasic.class.php on line 18 and defined D:\www\wechatapp\web\AppZc\WeChat\Api\Wechat.class.php 第 238 行.
+
+[ 2016-04-18T10:29:42+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for WeChat\Api\Wechat::__construct(), called in D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatBasic.class.php on line 18 and defined D:\www\wechatapp\web\AppZc\WeChat\Api\Wechat.class.php 第 238 行.
+
+[ 2016-04-18T10:30:34+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:30:47+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:31:03+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:31:22+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:31:41+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:32:02+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T10:32:07+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:12+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015622s ]
+
+[ 2016-04-18T10:32:42+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:43+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:44+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:44+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:45+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:45+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:49+08:00 ] 119.60.2.182 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:49+08:00 ] 119.60.2.182 /index.php?s=/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:52+08:00 ] 119.60.2.182 /index.php?s=/home/SysConfig/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\SysConfig\Model\SysConfigModel.class.php on line 34 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_sysconfig`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015623s ]
+
+[ 2016-04-18T10:32:53+08:00 ] 119.60.2.182 /index.php?s=/home/SysConfig/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\SysConfig\Model\SysConfigModel.class.php on line 34 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_sysconfig`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:54+08:00 ] 119.60.2.182 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: syslist D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\2ac25299c577111cafe5cb9c833c86d9.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:32:57+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:33:00+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015623s ]
+
+[ 2016-04-18T10:33:17+08:00 ] 119.60.2.182 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: syslist D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\2ac25299c577111cafe5cb9c833c86d9.php 第 121 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:33:19+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015623s ]
+
+[ 2016-04-18T10:33:24+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015623s ]
+
+[ 2016-04-18T10:33:25+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:33:28+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:33:34+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:33:35+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:33:36+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:33:36+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:34:20+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:34:21+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:36:25+08:00 ] 140.207.54.79 /index.php?signature=3ba5405136274a2c9ebc470dd46906615495f1b7&timestamp=1460946985&nonce=699799597
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:03:47+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:04:07+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:04:08+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:04:33+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:04:34+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:04:35+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:04:35+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:12:59+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:13:00+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:22:28+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:22:29+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:22:44+08:00 ] 101.226.103.70 /index.php?s=/home/Pwechat/index.html&signature=82a44c4a42ba2d9eb156c46ecbe5ca7892750fdc&echostr=6401833736102311718&timestamp=1460949764&nonce=2033130061
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:22:49+08:00 ] 58.247.206.152 /index.php?s=/home/Pwechat/index&signature=5285148e6bc4841409a94da88e1f6b498eb617fb&echostr=6049699920776942493&timestamp=1460949768&nonce=1041816223
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:23:21+08:00 ] 58.247.206.150 /index.php?s=/home/Pwechat/index&signature=fc40f759eaca7e3ca530b6dcfa754f2fbebb4056&echostr=6494382477906213679&timestamp=1460949801&nonce=1642674516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:23:30+08:00 ] 58.247.206.155 /index.php?s=/home/Pwechat/index.html&signature=baf3a015d30a53223d36aa41df03d6044237c932&echostr=8018372604083338038&timestamp=1460949810&nonce=1724479586
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:23:53+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=9cd1892fa818805c731be99deb1bb74699110e77&timestamp=1460949832&nonce=1984483116
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:25:10+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=dade6913f869aa43a14049f25f843801eea85aea&timestamp=1460949910&nonce=479404082
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:26:36+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:26:37+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:28:12+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:28:12+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:28:19+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:28:20+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:28:21+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:28:21+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:29:24+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:29:46+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:30:41+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:30:42+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:30:43+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:31:51+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:32:14+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015622s ]
+
+[ 2016-04-18T11:32:24+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:33:11+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:33:14+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T11:33:38+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T11:33:54+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Array to string conversion D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 12 行.
+
+[ 2016-04-18T11:34:02+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T13:00:57+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T13:00:58+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015623s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T13:00:59+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T13:01:00+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T13:01:01+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T13:01:17+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=c1a2f1629cbc210a1cab1062ee239dabd6116669&timestamp=1460955675&nonce=787849448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: WeChat\Api\WeChatExternal::$weObj D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 19 行.
+
+[ 2016-04-18T13:01:31+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=1b5d3a8c3554736f113d744232b111e79ce91be8&timestamp=1460955690&nonce=1717582624
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: WeChat\Api\WeChatExternal::$weObj D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 19 行.
+
+[ 2016-04-18T13:02:18+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:03:28+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T13:03:34+08:00 ] 140.207.54.76 /index.php?s=/home/Pwechat/index.html&signature=857b79240a13660e8d0517abd5a0e3b020ee8113&timestamp=1460955813&nonce=1607915713
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: WeChat\Api\WeChatExternal::$weObj D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 19 行.
+
+[ 2016-04-18T13:04:43+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=59b3c8d1020ed36220793739b9510a9c241b8037&timestamp=1460955882&nonce=1044936568
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: WeChat\Api\WeChatExternal::$weObj D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 19 行.
+
+[ 2016-04-18T13:04:49+08:00 ] 119.60.2.182 /index.php?s=/home/Pwechat/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-18T13:04:53+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:04:54+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:04:57+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:05:48+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=24d6ff27843beb5f806dc040b764e4072d1b3c34&timestamp=1460955947&nonce=1830322301
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0156s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: WeChat\Api\WeChatExternal::$weObj D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 19 行.
+
+[ 2016-04-18T13:05:53+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=3782f569e26dd33595896c7e2e1ce2d16a72902d&timestamp=1460955952&nonce=1091492153
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: WeChat\Api\WeChatExternal::$weObj D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 19 行.
+
+[ 2016-04-18T13:05:57+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=590d43470b2cc18c0b40064fe36142904aa97c6f&timestamp=1460955956&nonce=1608683068
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: WeChat\Api\WeChatExternal::$weObj D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 19 行.
+
+[ 2016-04-18T13:06:28+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=fdbdb0d900732b517cbc2b1c5beb9501576cfd30&timestamp=1460955987&nonce=1301600929
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:07:12+08:00 ] 140.207.54.80 /index.php?s=/home/Pwechat/index.html&signature=b89f2789db229aa357830df1c529873c99089da1&timestamp=1460956031&nonce=1313890010
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined property: WeChat\Api\WeChatExternal::$weObj D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatExternal.class.php 第 19 行.
+
+[ 2016-04-18T13:07:28+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=4a58706770dd3ecad1dbef35b9a6d61f8141eae6&timestamp=1460956047&nonce=139015819
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:07:32+08:00 ] 140.207.54.76 /index.php?s=/home/Pwechat/index.html&signature=179903bc4d925522f638e10f55c9d09f0701a5aa&timestamp=1460956050&nonce=535396239
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:18:11+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=b81053f428fef9f1824db029967bf819c9d49cb0&timestamp=1460956689&nonce=1151040412
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0156s ]
+
+[ 2016-04-18T13:18:25+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=765e4e4b7bd29d74b8f916c1bb2912971bbb1441&timestamp=1460956703&nonce=561634092
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
