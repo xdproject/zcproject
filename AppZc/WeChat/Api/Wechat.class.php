@@ -274,6 +274,7 @@ class Wechat
 	 */
 	public function valid($return=false)
     {
+
         $encryptStr="";
         if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $postStr = file_get_contents("php://input");
@@ -320,6 +321,8 @@ class Wechat
         }
         return true;
     }
+
+
 
 	/**
 	 * 设置发送消息

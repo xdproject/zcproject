@@ -1,4 +1,10 @@
 <?php
+/**********************************************************************************************
+* 系统设置类
+* 作者:小白怕怕
+* QQ:353532415
+*
+*/
 namespace SysConfig\Api;
 use SysConfig\Api\Api;
 use SysConfig\Model\SysConfigModel;
@@ -14,7 +20,7 @@ class SysConfig extends Api{
 		 */
 		public function getSysConfigList(){
 			$_result = $this->sysObj->getSysConfigInfo('',true);
-			return $_result?$_result:-1;
+			return $_result?$_result : -1;
 		}
 
 		/**
