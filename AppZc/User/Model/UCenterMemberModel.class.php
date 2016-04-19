@@ -52,7 +52,10 @@ class UCenterMemberModel extends Model{
 				$user  = $this->where($map)->find();
 				if(is_array($user) && $user['status']){
 					if(zc_ucenter_md5($str_pwd)===$user['upwd']){
-						$session['zc_user_info']['uid'] = $user['id'];
+						$_SESSION['zc_user_info']['st'] = true;
+						$_SESSION['zc_user_info']['uid'] =$user['id'];
+						$_SESSION['zc_user_info']['uname']=$user['uname'];
+						$_SESSION['zc_user_lofo']['logintime'] = time();
 						return $user['id'];
 					}else{
 						return -2; //只是单单的用户密码错误

@@ -38,7 +38,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">设置</a></li>
             <li><a href="#">帮助</a></li>
-			<li><a href="/index.php?s=/Home/Login/index">退出</a></li>
+			<li><a href="/index.php?s=/Home/Login/LoginOut">退出</a></li>
           </ul>
         </div>
       </div>

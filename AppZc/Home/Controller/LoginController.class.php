@@ -38,8 +38,8 @@ class LoginController extends Controller {
 	 * 用户登出
 	 */
 	public function LoginOut(){
-
-
+		$_SESSION = array();
+		$this->success("退出成功,正面跳转登陆页面",U("Home/Login/index"));
 	}
 
 

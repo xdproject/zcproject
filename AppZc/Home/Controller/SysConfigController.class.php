@@ -7,6 +7,7 @@ class SysConfigController extends BasicController {
 	private static $sysConfigMap = array();
 	private $sysObj = null;
 
+
 	public function index(){
 		$this->assign('syslist',static::$sysConfigMap);
 		$this->display();
@@ -16,6 +17,7 @@ class SysConfigController extends BasicController {
 	public function _initialize(){
 			$this->sysObj = new SysConfig();
 			static::$sysConfigMap=$this->sysObj->getSysConfigList();
+			parent::_initialize();
 	}
 
 

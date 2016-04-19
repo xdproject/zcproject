@@ -13,15 +13,13 @@ class WeChatModel extends Model{
 	protected  $tableName = 'Wechatuserinfo';
 
 	public function SaveToDataBase($param =array()){
-		//	var_dump($param);
+
 
 			if(is_array($param) && count($param)>0){
-				for($i = 0; $i<count($param);$i++){
-					if(!$this->Info($param[$i]['nickname'],false,false)){
-						$this->add($param[$i]);
+				for($i = 0; $i<count($param)+1;$i++){
+					if(!$this->Info($param[$i]['openid'],false,false)){
+ 						if(!$this->add($param[$i])) return false;
 					}
-// 					var_dump($this->Info($param[$i]['nickname'],false,false));
-// 					die();
 				}
 				return true;
 			}

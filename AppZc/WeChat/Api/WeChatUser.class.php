@@ -17,14 +17,10 @@ class WeChatUser extends WeChatBasic{
 	 */
 	public function SaveWeChatAttentionUserToDataBase(){
 			$res_UserAppIdList = $this->wechatObj->getUserList();
-			//var_dump($res_UserAppIdList);
-			//die();
-			//echo $res_UserAppIdList['total'];
 			$UserInfo_DataMap = array();
-			for($i = 0; $i<=count($res_UserAppIdList['data']['openid'])+1;$i++){
+			for($i = 0; $i<=count($res_UserAppIdList['data']['openid']);$i++){
 				$UserInfo_DataMap[] = $this->wechatObj->getUserInfo($res_UserAppIdList['data']['openid'][$i]);
 			}
-
 			if(is_array($UserInfo_DataMap))
 				if($this->model->SaveToDataBase($UserInfo_DataMap)){
 					return true;

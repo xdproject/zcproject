@@ -38,7 +38,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">设置</a></li>
             <li><a href="#">帮助</a></li>
-			<li><a href="/index.php?s=/Home/Login/index">退出</a></li>
+			<li><a href="/index.php?s=/Home/Login/LoginOut">退出</a></li>
           </ul>
         </div>
       </div>
@@ -83,7 +83,7 @@
   	<div class="pull-left">当前用户列表</div>
 	<div class="pull-right">
 		<form method="post" name="userInfoForm">
-			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" href="/index.php?s=/Home/WeChatUser/UpdateUserList">更新用户信息</a>
+			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" href="/index.php?s=/home/we_chat_user/UpdateUserList">更新用户信息</a>
 			<input type="hidden" value="STOUIOID0x000" name="wid">
 			<input type="hidden" value="studioit" name="token">
 			<input type="hidden" value="dzCWxyJLTFCVcHEXcQB1j9NZcfMVUR4MovLdP6Pa5ix" name="encodingaeskey">
