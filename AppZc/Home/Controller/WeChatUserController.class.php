@@ -12,15 +12,22 @@ class WeChatUserController extends BasicController {
 	}
 	public function index(){
 		//var_dump($_SESSION);
-		$this->assign('wulist',static::$USER_LIST->getWeChatAttentionUserList());
+		//$this->assign('wulist',static::$USER_LIST->getWeChatAttentionUserList());
+		$userlist = D("Wechatuserinfo");
+		$count = $userlist->where()->count();
+		$page = new \Think\Page($count,25);
+		$show = $page->show();
+		$list =$userlist->where()->order('id')->limit($page->firstRow.','.$page->listRows)->select();
+		$this->assign('wulist',$list);
+		$this->assign('page',$show);
 		$this->display();
 	}
 
 	public function UpdateUserList(){
 		if(static::$USER_LIST->SaveWeChatAttentionUserToDataBase())
-			$this->success("OK!");
+			$this->success("同步平台用户成功!",U("WeChatUser/index"));
 		else
-			$this->error("NO!!");
+			$this->error("同步时可能出了点小意外!");
 	}
 
 	public function replayindex(){$this->display();}

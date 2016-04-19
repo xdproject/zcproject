@@ -5,7 +5,7 @@
   	<div class="pull-left">当前用户列表</div>
 	<div class="pull-right">
 		<form method="post" name="userInfoForm">
-			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" href="__URL__/UpdateUserList">更新用户信息</a>
+			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" href="__URL__/UpdateUserList">同步用户信息</a>
 			<input type="hidden" value="STOUIOID0x000" name="wid">
 			<input type="hidden" value="studioit" name="token">
 			<input type="hidden" value="dzCWxyJLTFCVcHEXcQB1j9NZcfMVUR4MovLdP6Pa5ix" name="encodingaeskey">
@@ -34,7 +34,7 @@
 		        <tbody>
 		<foreach  name="wulist" item="vo" key="k">
 				<tr>
-				            <th scope="row" class="Auto_ID">0</th>
+				            <th scope="row" class="Auto_ID"><{$vo.id}></th>
 				            <td><img src="<{$vo.headimgurl}>" width="41" height="41" /></td>
 				            <td><{$vo.nickname}></td>
 				            <td>
@@ -48,8 +48,8 @@
 							<td><{$vo.subscribe_time|date="Y-m-d H:i",###}></td>
 							<td><{$vo.remark}></td>
 							<td>
-								<a href="javascript:void(0);" class="btn btn-default btn-xs">编辑</a>
-								<a href="javascript:void(0);" class="btn btn-primary btn-xs">删除</a>
+								<a href="javascript:void(0);" class="btn btn-default btn-xs">详情</a>
+								<a href="javascript:void(0);" class="btn btn-primary btn-xs">编辑</a>
 							</td>
 				 </tr>
 		</foreach>
@@ -57,21 +57,8 @@
 		      </table>
 
 	<ul class="pagination pull-right">
-        <li>
-          <a href="#" aria-label="Previous">
-            <span aria-hidden="true">«</span>
-          </a>
-        </li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li>
-          <a href="#" aria-label="Next">
-            <span aria-hidden="true">»</span>
-          </a>
-        </li>
+       	  <{$page}>
       </ul>
+
 
 </nav>

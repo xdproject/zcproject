@@ -38,4 +38,10 @@ class WeChatUser extends WeChatBasic{
 				return $user_list;
 			else false;
 	}
+
+
+// 	public function PageUser(){
+
+
+// 	}
 }

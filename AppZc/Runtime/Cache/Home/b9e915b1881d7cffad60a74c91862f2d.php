@@ -83,7 +83,7 @@
   	<div class="pull-left">当前用户列表</div>
 	<div class="pull-right">
 		<form method="post" name="userInfoForm">
-			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" href="/index.php?s=/home/we_chat_user/UpdateUserList">更新用户信息</a>
+			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" href="/index.php?s=/home/we_chat_user/UpdateUserList">同步用户信息</a>
 			<input type="hidden" value="STOUIOID0x000" name="wid">
 			<input type="hidden" value="studioit" name="token">
 			<input type="hidden" value="dzCWxyJLTFCVcHEXcQB1j9NZcfMVUR4MovLdP6Pa5ix" name="encodingaeskey">
@@ -111,7 +111,7 @@
 		        </thead>
 		        <tbody>
 		<?php if(is_array($wulist)): foreach($wulist as $k=>$vo): ?><tr>
-				            <th scope="row" class="Auto_ID">0</th>
+				            <th scope="row" class="Auto_ID"><?php echo ($vo["id"]); ?></th>
 				            <td><img src="<?php echo ($vo["headimgurl"]); ?>" width="41" height="41" /></td>
 				            <td><?php echo ($vo["nickname"]); ?></td>
 				            <td>
@@ -124,30 +124,17 @@
 							<td><?php echo (date("Y-m-d H:i",$vo["subscribe_time"])); ?></td>
 							<td><?php echo ($vo["remark"]); ?></td>
 							<td>
-								<a href="javascript:void(0);" class="btn btn-default btn-xs">编辑</a>
-								<a href="javascript:void(0);" class="btn btn-primary btn-xs">删除</a>
+								<a href="javascript:void(0);" class="btn btn-default btn-xs">详情</a>
+								<a href="javascript:void(0);" class="btn btn-primary btn-xs">编辑</a>
 							</td>
 				 </tr><?php endforeach; endif; ?>
 			       </tbody>
 		      </table>
 
 	<ul class="pagination pull-right">
-        <li>
-          <a href="#" aria-label="Previous">
-            <span aria-hidden="true">«</span>
-          </a>
-        </li>
-        <li><a href="#">1</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li>
-          <a href="#" aria-label="Next">
-            <span aria-hidden="true">»</span>
-          </a>
-        </li>
+       	  <?php echo ($page); ?>
       </ul>
+
 
 </nav>
         </div>
