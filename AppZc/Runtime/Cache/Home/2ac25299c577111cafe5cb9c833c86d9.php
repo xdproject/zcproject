@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta author="BarneyX" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
     <meta name="description" content="">
     <meta name="author" content="">
     <title>微信助手-后台管理中心-众筹</title>
@@ -12,6 +12,7 @@
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="/Public/css/dashboard.css" />
+	<link rel="stylesheet" type="text/css" href="/Public/css/bootstrap-datetimepicker.min.css" />
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="/Public/js/ie-emulation-modes-warning.js"></script>
@@ -20,6 +21,9 @@
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="http://v3.bootcss.com/assets/js/ie10-viewport-bug-workaround.js"></script>
   </head>
 
   <body>
@@ -32,13 +36,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="javascript:void(0);">微信助手</a>
+          <a class="navbar-brand" href="javascript:void(0);">微信助手-<smill>推荐使用谷歌浏览器,以达到最佳的用户体验</smill></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">设置</a></li>
             <li><a href="#">帮助</a></li>
-			<li><a href="/index.php?s=/Home/Login/index">退出</a></li>
+			<li><a href="/index.php?s=/Home/Login/LoginOut">退出</a></li>
           </ul>
         </div>
       </div>
@@ -76,14 +80,14 @@
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-			  <h1 class="page-header">微信助手-功能中心</h1>
+			<h1 class="page-header">微信助手-功能中心</h1>
 <div class="panel panel-default margin-sy">
   <!-- Default panel contents -->
   <div class="panel-heading" style="height:50px;">
   	<div class="pull-left">众筹应用-众筹项目列表</div>
 	<div class="pull-right">
 		<form method="post" name="userInfoForm">
-			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn">新建项目</a>
+			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">新建项目</a>
 			<input type="hidden" value="STOUIOID0x000" name="wid">
 			<input type="hidden" value="studioit" name="token">
 			<input type="hidden" value="dzCWxyJLTFCVcHEXcQB1j9NZcfMVUR4MovLdP6Pa5ix" name="encodingaeskey">
@@ -140,12 +144,59 @@
 
 
     </div>
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="exampleModalLabel">新建众筹项目</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="recipient-name" class="control-label">项目名称:</label>
+            <input type="text" class="form-control" id="recipient-name" placeholder="新建项目">
+		  </div>
+
+		  <div class="form-group"
+			 <label for="recipient-name" class="control-label">项目目标:</label>
+			 <label class="sr-only" for="exampleInputAmount">总额 (请输入数字)</label>　
+		     <div class="input-group">
+		      <div class="input-group-addon">￥</div>
+		      <input type="text" class="form-control" id="exampleInputAmount" placeholder="总额　666.6666">
+		      <div class="input-group-addon">.00</div>
+		    </div>
+		  </div>
+
+		  <div class="form-group">
+			 <label for="recipient-name" class="control-label">结束日期</label>
+             <div class="input-group date form_datetime" data-date="2012-05-15 21:05" data-date-format="yyyy-MM-dd HH:ii" data-link-field="dtp_input1">
+                <input class="form-control" size="16" type="text" value="" readonly>
+                <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+				<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+             </div>
+          </div>
+          <div class="form-group">
+            <label for="message-text" class="control-label">项目简要描述</label>
+            <textarea class="form-control" id="message-text" placeholder="项目简要描述 ......."></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-primary">确认新建</button>
+      </div>
+    </div>
+  </div>
+</div>
 
         </div>
       </div>
     </div>
-    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
-    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-	<script src="http://v3.bootcss.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+
+
+	<script src="/Public/js/locales/bootstrap-datetimepicker.fr.js"></script>
+	<script src="/Public/js/bootstrap-datetimepicker.min.js" ></script>
+	<script src="/Public/js/zc-crowdfunding.js"></script>
   </body>
 </html>

@@ -8,7 +8,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>微信助手-后台管理中心-用户中心</title>
-    <!-- Bootstrap core CSS -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link rel="stylesheet" type="text/css" href="/Public/css/dashboard.css" />
@@ -20,6 +19,7 @@
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
 
   <body>
@@ -83,7 +83,8 @@
   	<div class="pull-left">当前用户列表</div>
 	<div class="pull-right">
 		<form method="post" name="userInfoForm">
-			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" href="/index.php?s=/home/we_chat_user/UpdateUserList">同步用户信息</a>
+			<a type="button" class="btn btn-success"  href="/index.php?s=/home/we_chat_user/UpdateUserList" data-toggle="tooltip" data-placement="top" title="Tooltip on top">同步用户信息</a>
+			<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="left" title="Tooltip on left">Tooltip on left</button>
 			<input type="hidden" value="STOUIOID0x000" name="wid">
 			<input type="hidden" value="studioit" name="token">
 			<input type="hidden" value="dzCWxyJLTFCVcHEXcQB1j9NZcfMVUR4MovLdP6Pa5ix" name="encodingaeskey">

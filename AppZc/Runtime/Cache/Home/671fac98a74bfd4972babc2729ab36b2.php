@@ -80,7 +80,7 @@
 <div class="panel panel-default margin-sy">
       <!-- Default panel contents -->
       <div class="panel-heading">
-	  	<a href="javascript:void(0);" id="AddAutoKeyWorkBtn" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#AddKeyWordBtn" data-whatever="@mdo">添加文本回复</a>
+	  	<a href="/index.php?s=/home/WeChatUser/addRReplay" id="AddAutoKeyWorkBtn" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Tooltip on top">添加文本回复</a>
 		<a href="javascript:void(0);" id="AddAutoKeyWorkBtn" class="btn btn-success btn-sm" data-toggle="modal" data-target="#AddKeyWordBtn" data-whatever="@mdo">添加图文回复</a>
 		（PS:添加新回复的关键词）
 	  </div>

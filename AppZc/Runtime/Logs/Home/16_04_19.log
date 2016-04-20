@@ -587,3 +587,1012 @@ INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 
+[ 2016-04-19T14:53:28+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:53:50+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 50,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:54:15+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:54:21+08:00 ] 119.60.2.182 /index.php?s=/home/SysConfig/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\SysConfig\Model\SysConfigModel.class.php on line 40 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_sysconfig`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:54:57+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:01+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015623s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 75,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:04+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 175,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:11+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 150,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:16+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 125,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:21+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 100,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:25+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 75,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:30+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 50,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:34+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 25,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:39+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:43+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 25,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:48+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 175,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:52+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 150,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:55:58+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 125,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:56:07+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 100,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:56:16+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015623s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 75,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:56:21+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 50,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:56:25+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 25,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:56:36+08:00 ] 119.60.2.182 /index.php?s=/home/we_chat_user/index/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:56:47+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:56:50+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0312s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T14:56:55+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015623s ]
+
+[ 2016-04-19T14:56:58+08:00 ] 119.60.2.182 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 17 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 20 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T16:10:19+08:00 ] 140.207.54.79 /index.php?s=/home/Pwechat/index.html&signature=f0d3f66158fecc92d2952e504ec10a99f0e841e1&timestamp=1461053417&nonce=208047427
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T16:11:20+08:00 ] 140.207.54.76 /index.php?s=/home/Pwechat/index.html&signature=c808168c68f0d78578b66863554f5ac5a8ae6fc2&timestamp=1461053478&nonce=1443108969
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-19T21:01:34+08:00 ] 180.153.6.103 /index.php?s=/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

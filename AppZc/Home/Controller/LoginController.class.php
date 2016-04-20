@@ -1,4 +1,12 @@
 <?php
+/******************************************************************************
+ * Builder-Tools:Zend Studio v10.6.2
+* Create-Date:2016-04-20 11:21:23
+* ZC-Project
+* Author:BarneyX
+* QQ:35353415
+* E-mail:vcmsdn@gmail.com
+*****************************************************************************/
 namespace Home\Controller;
 use Think\Controller;
 use User\Api\UserApi;
@@ -6,7 +14,10 @@ use User\Api\UserApi;
 class LoginController extends Controller {
 	private $uname = "";
 	private $upwd = "";
+
+
     public function index(){
+    	if($_SESSION['zc_user_info']['st']) $this->success("您已经登陆过了!",U("Home/Index/index"));
 		$this->display();
     }
 
