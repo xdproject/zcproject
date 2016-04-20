@@ -18,4 +18,15 @@ class CrowdfundingController extends BasicController {
 
 	public function replayindex(){$this->display();}
 	public function crlist(){$this->display();}
+
+	public function AddProject(){
+		if(!IS_POST)
+			$this->error("系统错误,请稍后重试!");
+		else{
+
+
+		}
+
+
+	}
 }
