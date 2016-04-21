@@ -8,12 +8,15 @@
 * E-mail:vcmsdn@gmail.com
 *****************************************************************************/
 namespace Home\Controller;
+use ExtFunction\Crowdfunding\Api\CFController;
 
 class CrowdfundingController extends BasicController {
 	public function _initialize(){parent::_initialize();}
 
 	public function index(){
-		$this->display();
+		//$this->display();
+		$test = new CFController();
+		$test->Start();
 	}
 
 	public function replayindex(){$this->display();}
