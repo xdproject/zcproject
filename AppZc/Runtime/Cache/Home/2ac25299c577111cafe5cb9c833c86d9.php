@@ -100,6 +100,7 @@
   <ul id="myTabs" class="nav nav-tabs" role="tablist">
       <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">项目列表</a></li>
       <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">众筹设置</a></li>
+	  <li role="presentation"><a href="#zctrash" role="tab" id="profile-tab" data-toggle="tab" aria-controls="zctrash">众筹回收站</a></li>
 
     </ul>
 
@@ -122,25 +123,55 @@
 		          </tr>
 		        </thead>
 		        <tbody>
-		        	<?php if(is_array($syslist)): foreach($syslist as $k=>$vo): ?><tr>
+
+			<?php if(is_array($objlist)): foreach($objlist as $k=>$vo): ?><tr>
 		            <th scope="row" class="Auto_ID"><?php echo ($vo["id"]); ?></th>
-		            <td><span class="label label-danger"><?php echo ($vo["zc_key"]); ?></span></td>
+					<td><span >
+		            <?php if( $vo["status"] == 0): ?>不可用
+									<?php elseif($vo["status"] == 1): ?>可用
+									<?php else: ?>未知<?php endif; ?>
+					</span></td>
 		            <td>
-		            	<span class="label label-default"><?php echo ($vo["zc_val"]); ?></span>
+		            	<span ><?php echo ($vo["objname"]); ?></span>
 					</td>
 		            <td>
-						<span class="label label-default"><?php echo ($vo["zc_descript"]); ?></span>
+						<span ><?php echo ($vo["goal"]); ?>/12.00</span>
+					</td>
+
+					<td>
+						<span>123人</span>
+					</td>
+
+					<td>
+						<span ><?php echo (date("Y-m-d H:i",$vo["start_time"])); ?></span>
 					</td>
 					<td>
-						<a href="javascript:void(0);" class="btn btn-default btn-xs">修改</a>
+						<span ><?php echo (date("Y-m-d H:i",$vo["end_time"])); ?></span>
+					</td>
+
+					<td>
+						<span ><a href="javascript:void(0);" class="btn btn-default btn-xs">23</a></span>
+					</td>
+
+					<td>
+						<span >323</span>
+					</td>
+					<td>
+						<a href="javascript:void(0);" class="btn btn-default btn-xs">添加文章</a>
+						<a href="javascript:void(0);" class="btn btn-default btn-xs">修改设置</a>
+						<a href="javascript:void(0);" class="btn btn-error btn-xs">删除</a>
 					</td>
 		          </tr><?php endforeach; endif; ?>
+
 				 </tbody>
 		      </table>
 	  </div>
       <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
        asdf
-	     </div>
+	  </div>
+	  <div role="tabpanel" class="tab-pane fade" id="zctrash" aria-labelledby="profile-tab">
+       asdf123
+	  </div>
 
 
     </div>
@@ -153,13 +184,13 @@
         <h4 class="modal-title" id="exampleModalLabel">新建众筹项目</h4>
       </div>
       <div class="modal-body">
-        <form>
+
           <div class="form-group">
             <label for="recipient-name" class="control-label">项目名称:</label>
             <input type="text" class="form-control" id="recipient-name" name="objname" placeholder="新建项目">
 		  </div>
 
-		  <div class="form-group"
+		  <div class="form-group">
 			 <label for="recipient-name" class="control-label">项目目标:</label>
 			 <label class="sr-only" for="exampleInputAmount">总额 (请输入数字)</label>　
 		     <div class="input-group">
@@ -180,8 +211,10 @@
           <div class="form-group">
             <label for="message-text" class="control-label">项目简要描述</label>
             <textarea class="form-control" id="message-text" name="descript" placeholder="项目简要描述 ......."></textarea>
+			<input type="hidden" value="<?php echo ($create_time); ?>" name="start_time" />
+			<input type="hidden" value="1" name="status" />
           </div>
-        </form>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>

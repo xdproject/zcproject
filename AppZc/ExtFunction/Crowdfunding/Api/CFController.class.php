@@ -2,6 +2,7 @@
 namespace ExtFunction\Crowdfunding\Api;
 
 
+use ExtFunction\Crowdfunding\Model\CrowdundingModel;
 /******************************************************************************
  * Builder-Tools:Zend Studio v10.6.2
 * Create-Date:2016-04-20 11:21:23
@@ -13,60 +14,29 @@ namespace ExtFunction\Crowdfunding\Api;
 
 class CFController extends Api{
 
-	private    $STR_FUNCTIONNAME="众筹应用";
-	private    $STR_FUNCITONVERSION="v1.0.0";
-	private    $STR_FUNCTIONSTATUS=TRUE;
+		public function _init(){
+			$this->crowdfundingObj = new CrowdundingModel();
+		}
+		/**
+		 * 新建众筹项目
+		 * @param array $objinfo
+		 * @return boolean
+		 */
+		public function AddZcPorject($objinfo=array()){
 
-	/* (non-PHPdoc)
-	 * @see \ExtFunction\IFunctionsPlugin::getFunctionName()
-	 */
-	public function getFunctionName() {
-		return static::$STR_FUNCTIONNAME;
-	}
-
-	/* (non-PHPdoc)
-	 * @see \ExtFunction\IFunctionsPlugin::getFunctionStatus()
-	 */
-	public function getFunctionStatus() {
-		return static::$STR_FUNCTIONSTATUS;
-
-	}
-
-	/* (non-PHPdoc)
-	 * @see \ExtFunction\IFunctionsPlugin::getFunctionVersion()
-	 */
-	public function getFunctionVersion() {
-		return static::$STR_FUNCITONVERSION;
-
-	}
-
-	/* (non-PHPdoc)
-	 * @see \ExtFunction\IFunctionsPlugin::InitPlugin()
-	 */
-	public function InitPlugin() {
-		// TODO Auto-generated method stub
-
-	}
-
-	/* (non-PHPdoc)
-	 * @see \ExtFunction\IFunctionsPlugin::Start()
-	 */
-	public function Start() {
-		$this->index();
-
-	}
-
-	public function __construct(){
-	//	$this->InitPlugin();
-	}
+			if(!is_array($objinfo)) return false;
+			if(!array_key_exists('objname', $objinfo))  	return false;
+			if(!array_key_exists('sort', $objinfo)) 		return false;
+			if(!array_key_exists('goal', $objinfo)) 		return false;
+			if(!array_key_exists('start_time', $objinfo))	return false;
+			if(!array_key_exists('end_time', $objinfo)) 	return false;
+			if(!array_key_exists('status', $objinfo)) 		return false;
+			if(!array_key_exists('descript', $objinfo)) 	return false;
+			return $this->crowdfundingObj->AddProject($objinfo) ? true :false;
+		}
 
 
-	private function index(){
-		$this->display();
-	}
-
-
-
-
-
+		public function getObjlist(){
+			return $this->crowdfundingObj->getObjectList();
+		}
 }

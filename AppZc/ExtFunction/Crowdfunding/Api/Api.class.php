@@ -8,12 +8,15 @@
 * E-mail:vcmsdn@gmail.com
 *****************************************************************************/
 namespace ExtFunction\Crowdfunding\Api;
-use ExtFunction\IFunctionsPlugin;
-use Think\Controller;
+
+define('CROWDFUNDING_PATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
+if(!defined(EXTFUNCTION_FUNCTIONPLUGIN)) define('EXTFUNCTION_FUNCTIONPLUGIN',dirname(dirname(CROWDFUNDING_PATH)).DIRECTORY_SEPARATOR);
 
 
-
-abstract  class Api extends  Controller implements IFunctionsPlugin{
+abstract  class Api{
 
 	protected  $crowdfundingObj;
+
+	abstract  function _init();
+	public function __construct(){$this->_init();}
 }
