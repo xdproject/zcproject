@@ -32,13 +32,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="javascript:void(0);">微信助手-<smill>推荐使用谷歌浏览器,以达到最佳的用户体验</smill></a>
+          <a class="navbar-brand" href="javascript:void(0);">微信助手</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">设置</a></li>
             <li><a href="#">帮助</a></li>
-			<li><a href="/index.php?s=/Home/Login/LoginOut">退出</a></li>
+			<li><a href="/index.php?s=/Home/Login/index">退出</a></li>
           </ul>
         </div>
       </div>
@@ -48,13 +48,6 @@
 			  <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="/index.php?s=/home/index/index.html">欢迎首页 <span class="sr-only">(current)</span></a></li>
-
-          </ul>
-
-		  <ul class="nav nav-sidebar">
-		  	<div class="zc_title" style="width:100%; background-color:#428bca; height:40px;">
-				<strong style="line-height:40px; text-align:center; padding-left:20px; color:#fff;">微信助手功能</strong>
-			</div>
             <li><a href="/index.php?s=/home/WeChatUser/index.html">微信用户</a></li>
 			<li><a href="/index.php?s=/home/WeChatUser/replayindex.html">自动回复</a></li>
             <li><a href="#">自定义菜单</a></li>
@@ -62,15 +55,15 @@
 
 		  <ul class="nav nav-sidebar">
 		  	<div class="zc_title" style="width:100%; background-color:#428bca; height:40px;">
-				<strong style="line-height:40px; text-align:center; padding-left:20px; color:#fff;">微信助手扩展</strong>
+				<strong style="line-height:40px; text-align:center; padding-left:20px; color:#fff;">微信助手功能</strong>
 			</div>
-            <li><a href="/index.php?s=/home/Crowdfunding/index.html">众筹应用</a></li>
+            <li><a href="/index.php?s=/home/Crowdfunding/index.html">众筹项目</a></li>
 			<li><a href="#" style="color:red;">更多应用>></a></li>
           </ul>
 
 		   <ul class="nav nav-sidebar">
 		   	<div class="zc_title" style="width:100%; background-color:#428bca; height:40px;">
-				<strong style="line-height:40px; text-align:center; padding-left:20px; color:#fff;">微信助手设置</strong>
+				<strong style="line-height:40px; text-align:center; padding-left:20px; color:#fff;">微信助手功能</strong>
 			</div>
             <li><a href="/index.php?s=/home/SysConfig/index.html">系统设置</a></li>
           </ul>

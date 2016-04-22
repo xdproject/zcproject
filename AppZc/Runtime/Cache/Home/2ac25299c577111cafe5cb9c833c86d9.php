@@ -157,6 +157,7 @@
 						<span >323</span>
 					</td>
 					<td>
+						<a href="/index.php?s=/home/crowdfunding/addBodyIndex/oid/<?php echo ($vo["id"]); ?>" class="btn btn-default btn-xs">主体介绍</a>
 						<a href="javascript:void(0);" class="btn btn-default btn-xs">添加文章</a>
 						<a href="javascript:void(0);" class="btn btn-default btn-xs">修改设置</a>
 						<a href="javascript:void(0);" class="btn btn-error btn-xs">删除</a>

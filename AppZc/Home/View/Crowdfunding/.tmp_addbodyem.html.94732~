@@ -1,0 +1,17 @@
+<h1 class="page-header">微信助手-功能中心</h1>
+<div class="panel panel-default margin-sy">
+  <!-- Default panel contents -->
+  <div class="panel-heading" style="height:50px;">
+  	<div class="pull-left">众筹应用-项目主体介绍,这里的内容将在众筹的前台显示!一般情况下这里的内容是对当前您的众筹进行介绍</div>
+  </div>
+</div>
+<script type="text/javascript">
+    var editor = new baidu.editor.ui.Editor({
+        toolbars:[['Spechars','Emotion','InsertImage','Bold','Italic','ForeColor','FontFamily','FontSize', ]],//自定义ueditor工具栏
+        initialContent: '<span style="color:#ccc">点击这里发泄吧</span>',
+        minFrameHeight: 100,//初始化框架大小
+        autoFloatEnabled: false,//工具栏自动浮动-》关闭
+        textarea:'myVent'//form表单将通过该参数获得表单提交的数据
+    });
+    editor.render("Vent");
+</script>

@@ -19,13 +19,14 @@
 		        	<foreach  name="syslist" item="vo" key="k">
 				<tr>
 		            <th scope="row" class="Auto_ID"><{$vo.id}></th>
+					 <td>
+						<span class="label label-default"><{$vo.zc_descript}></span>
+					</td>
 		            <td><span class="label label-danger"><{$vo.zc_key}></span></td>
 		            <td>
 		            	<span class="label label-default"><{$vo.zc_val}></span>
 					</td>
-		            <td>
-						<span class="label label-default"><{$vo.zc_descript}></span>
-					</td>
+
 					<td>
 						<a href="javascript:void(0);" class="btn btn-default btn-xs">修改</a>
 					</td>

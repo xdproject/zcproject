@@ -32,13 +32,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="javascript:void(0);">微信助手-<smill>推荐使用谷歌浏览器,以达到最佳的用户体验</smill></a>
+          <a class="navbar-brand" href="javascript:void(0);">微信助手</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">设置</a></li>
             <li><a href="#">帮助</a></li>
-			<li><a href="/index.php?s=/Home/Login/LoginOut">退出</a></li>
+			<li><a href="/index.php?s=/Home/Login/index">退出</a></li>
           </ul>
         </div>
       </div>
@@ -80,7 +80,7 @@
 <div class="panel panel-default margin-sy">
       <!-- Default panel contents -->
       <div class="panel-heading">
-	  	<a href="/index.php?s=/home/WeChatUser/addRReplay" id="AddAutoKeyWorkBtn" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Tooltip on top">添加文本回复</a>
+	  	<a href="javascript:void(0);" id="AddAutoKeyWorkBtn" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#AddKeyWordBtn" data-whatever="@mdo">添加文本回复</a>
 		<a href="javascript:void(0);" id="AddAutoKeyWorkBtn" class="btn btn-success btn-sm" data-toggle="modal" data-target="#AddKeyWordBtn" data-whatever="@mdo">添加图文回复</a>
 		（PS:添加新回复的关键词）
 	  </div>

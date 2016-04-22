@@ -31,6 +31,21 @@ class CrowdfundingController extends BasicController {
 	public function replayindex(){$this->display();}
 	public function crlist(){$this->display();}
 
+	public function addBodyIndex(){
+		if(empty(I("get.oid"))) $this->error('系统错误,请重试!');
+		$this->assign('oid',I("get.oid"));
+		$this->display();
+	}
+	public function addbodyem(){$this->display();}
+
+	public function ueditor(){
+
+		//$data= new Ueditor();
+		$data = new \Org\Util\Ueditor();
+		echo $data->output();
+	}
+
+
 	/**
 	 * 添加新项目到数据库当中
 	 */
