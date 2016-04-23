@@ -24,15 +24,7 @@
         <script type="text/javascript" src="/Public/js/jquery-2.0.2.js"></script>
 	 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="http://v3.bootcss.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-	    <script type="text/javascript" src="/Public/ueditor/ueditor.config.js"></script>
-	    <script type="text/javascript" src="/Public/ueditor/ueditor.all.min.js"></script>
-	    <script>
-	    $(function(){
-	        var ue = UE.getEditor('container',{
-	            serverUrl :'<?php echo U('Home/Crowdfunding/ueditor');?>'
-	        });
-	    })
-	    </script>
+
   </head>
 
   <body>
@@ -96,11 +88,21 @@
   	<div class="pull-left">众筹应用-项目主体介绍,这里的内容将在众筹的前台显示!一般情况下这里的内容是对当前您的众筹进行介绍</div>
   </div>
 </div>
-<script id="container" name="content" type="text/plain">
-        开始使用
-    </script>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Panel title</h3>
+    </div>
+    <div class="panel-body">
+        Panel content
+    </div>
+</div>
+<script type="text/javascript"> $(function(){ var ue = UE.getEditor('container',{ initialFrameHeight:400 }); }) </script>
+<script type="text/javascript" src="/Public/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="/Public/ueditor/ueditor.all.min.js"></script>
+<script> $(function(){ var ue = UE.getEditor('container',{ serverUrl :'<?php echo U('Home/Crowdfunding/ueditor');?>' }); }) </script>
+<script id="container" name="content" type="text/plain" style="width:100%;height:100%;"> </script>
 
-
+<a class="btn button-default" href="" >确认添加</a>
 
         </div>
       </div>

@@ -40,7 +40,6 @@ class CrowdfundingController extends BasicController {
 
 	public function ueditor(){
 
-		//$data= new Ueditor();
 		$data = new \Org\Util\Ueditor();
 		echo $data->output();
 	}

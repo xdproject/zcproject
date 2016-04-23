@@ -1464,15 +1464,37 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2016-04-22T16:15:10+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
+[ 2016-04-22T19:38:49+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/index.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:38:52+08:00 ] 14.134.26.192 /index.php?s=/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015623s ]
+NOTIC: [8] Undefined index: zc_user_info D:\www\wechatapp\web\AppZc\Home\Controller\LoginController.class.php 第 20 行.
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
@@ -1486,21 +1508,21 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2016-04-22T16:39:37+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
+[ 2016-04-22T19:38:56+08:00 ] 14.134.26.192 /index.php/Home/Login/LoginIn
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_admin` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031246s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
@@ -1508,7 +1530,84 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2016-04-22T16:39:56+08:00 ] 119.60.2.182 /index.php?s=/home/Crowdfunding/index.html
+[ 2016-04-22T19:38:58+08:00 ] 14.134.26.192 /index.php?s=/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:39:00+08:00 ] 14.134.26.192 /index.php?s=/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:39:03+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 28 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:39:06+08:00 ] 14.134.26.192 /index.php?s=/home/Crowdfunding/index.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
@@ -1527,8 +1626,8 @@ INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031246s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
@@ -1536,7 +1635,7 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2016-04-22T16:39:59+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
+[ 2016-04-22T19:39:09+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
@@ -1558,7 +1657,20 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2016-04-22T16:47:32+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
+[ 2016-04-22T19:39:12+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461325136712
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:40:19+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
@@ -1580,7 +1692,7 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2016-04-22T16:49:32+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
+[ 2016-04-22T19:40:21+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461325205659
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
@@ -1589,6 +1701,115 @@ INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
 SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:40:46+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/ueditor.html&action=listimage&start=0&size=20&noCache=1461325230810
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:51:28+08:00 ] 14.134.26.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: zc_user_info D:\www\wechatapp\web\AppZc\Home\Controller\LoginController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:51:44+08:00 ] 14.134.26.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: zc_user_info D:\www\wechatapp\web\AppZc\Home\Controller\LoginController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:51:44+08:00 ] 14.134.26.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: zc_user_info D:\www\wechatapp\web\AppZc\Home\Controller\LoginController.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:52:16+08:00 ] 14.134.26.192 /index.php/Home/Login/LoginIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_admin` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-22T19:52:18+08:00 ] 14.134.26.192 /index.php?s=/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
@@ -1602,71 +1823,36 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2016-04-22T16:49:35+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
+[ 2016-04-22T19:52:20+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/index.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 28 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015623s ]
-INFO: [ app_end ] --END-- [ RunTime:0.015623s ]
-
-[ 2016-04-22T16:49:37+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461314986652
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [2] file_get_contents(./AppZc/Common/Conf/ueditor.json): failed to open stream: No such file or directory D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 25 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T16:50:48+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=&start=0&noCache=1461315057583
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [2] file_get_contents(./AppZc/Common/Conf/ueditor.json): failed to open stream: No such file or directory D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 25 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T16:52:56+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
@@ -1674,322 +1860,39 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
-[ 2016-04-22T16:52:58+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461315187254
+[ 2016-04-22T19:52:25+08:00 ] 14.134.26.192 /index.php?s=/home/we_chat_user/index/p/2.html
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 INFO: [ app_begin ] --START--
 INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [2] file_get_contents(./AppZc/Common/Conf/ueditor.json): failed to open stream: No such file or directory D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 25 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T16:55:15+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 28 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 25,25   [ RunTime:0.0000s ]
 INFO: [ view_parse ] --START--
 INFO: [ template_filter ] --START--
 INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
 INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
 INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T16:55:17+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461315325966
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [2] file_get_contents(./AppZc/Common/Conf/ueditor.json): failed to open stream: No such file or directory D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 25 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:00:29+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:00:33+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:00:35+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461315644199
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [2] file_get_contents(./AppZc/Common/Conf/ueditor.json): failed to open stream: No such file or directory D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 25 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:01:22+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:01:25+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461315694582
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [2] file_get_contents(./AppZc/Common/Conf/ueditor.json): failed to open stream: No such file or directory D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 25 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:04:27+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:04:29+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461315877994
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [2] file_get_contents(./AppZc/Common/Conf/ueditor.json): failed to open stream: No such file or directory D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 25 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:05:36+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-INFO: [ view_parse ] --START--
-INFO: [ template_filter ] --START--
-INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
-INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
-INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
-INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
-INFO: [ view_filter ] --START--
-INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:05:38+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=config&&noCache=1461315947064
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:05:41+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=uploadimage
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [8] Undefined property: Org\Util\Ueditor::$uid D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 347 行.
-NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\wechatapp\web\Include\Library\Think\Upload.class.php 第 170 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015622s ]
-INFO: [ app_end ] --END-- [ RunTime:0.015622s ]
-
-[ 2016-04-22T17:07:46+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=uploadimage&encode=utf-8
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [8] Undefined property: Org\Util\Ueditor::$uid D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 347 行.
-NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\wechatapp\web\Include\Library\Think\Upload.class.php 第 170 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:07:47+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=uploadimage&encode=utf-8
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [8] Undefined property: Org\Util\Ueditor::$uid D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 347 行.
-NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\wechatapp\web\Include\Library\Think\Upload.class.php 第 170 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:07:48+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=uploadimage&encode=utf-8
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [8] Undefined property: Org\Util\Ueditor::$uid D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 347 行.
-NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\wechatapp\web\Include\Library\Think\Upload.class.php 第 170 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:07:49+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=uploadimage&encode=utf-8
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [8] Undefined property: Org\Util\Ueditor::$uid D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 347 行.
-NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\wechatapp\web\Include\Library\Think\Upload.class.php 第 170 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015623s ]
-INFO: [ app_end ] --END-- [ RunTime:0.015623s ]
-
-[ 2016-04-22T17:07:50+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=uploadimage&encode=utf-8
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [8] Undefined property: Org\Util\Ueditor::$uid D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 347 行.
-NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\wechatapp\web\Include\Library\Think\Upload.class.php 第 170 行.
-INFO: [ app_end ] --START--
-INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
-INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
-
-[ 2016-04-22T17:07:51+08:00 ] 119.60.2.182 /index.php?s=/home/crowdfunding/ueditor.html&action=uploadimage&encode=utf-8
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
-INFO: [ app_begin ] --START--
-INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
-INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
-NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
-SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
-NOTIC: [8] Undefined property: Org\Util\Ueditor::$uid D:\www\wechatapp\web\Include\Library\Org\Util\Ueditor.class.php 第 347 行.
-NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\www\wechatapp\web\Include\Library\Think\Upload.class.php 第 170 行.
 INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
