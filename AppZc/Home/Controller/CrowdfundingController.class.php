@@ -32,8 +32,11 @@ class CrowdfundingController extends BasicController {
 	public function crlist(){$this->display();}
 
 	public function addBodyIndex(){
-		if(empty(I("get.oid"))) $this->error('系统错误,请重试!');
-		$this->assign('oid',I("get.oid"));
+
+		if(empty(I("get.oid")) || empty(I("get.cdt")) || empty(I("get.cname")))
+			$this->error("系统错误!");
+		$objinfo = array('oid'=>I("get.oid"),'cdt'=>I("get.cdt"),'cname'=>I("get.cname"));
+		$this->assign('objinfo',$objinfo);
 		$this->display();
 	}
 	public function addbodyem(){$this->display();}
@@ -58,5 +61,20 @@ class CrowdfundingController extends BasicController {
 			$this->error("项目建立失败!!");
 
 
+	}
+
+	public function AddProjectBody(){
+
+		if(!IS_POST)
+				exit("Error");
+		$data_map=array();
+		$data_map['oid'] = I("post.oid");
+		$data_map['lastdt']=I("post.lastdt");
+		$data_map['cdt'] =I("post.cdt");
+		$data_map['body'] =I("post.body");
+		if(static::$CFCObject->addObjBody($data_map))
+			exit(json_encode(array('status'=>true,'msg'=>'添加成功!','omsg'=>'/index.php?s=/home/Crowdfunding/index.html')));
+		else
+            exit(json_encode(array('status'=>false,'msg'=>'操作失败了!!','omsg'=>'')));
 	}
 }

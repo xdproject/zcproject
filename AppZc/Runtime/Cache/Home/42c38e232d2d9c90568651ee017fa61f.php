@@ -21,10 +21,10 @@
       <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-        <script type="text/javascript" src="/Public/js/jquery-2.0.2.js"></script>
-	 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Public/js/jquery-2.0.2.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	<script src="http://v3.bootcss.com/assets/js/ie10-viewport-bug-workaround.js"></script>
-
+    <script type="text/javascript" src="/Public/js/pub_func.js"></script>
   </head>
 
   <body>
@@ -81,28 +81,43 @@
           </ul>
         </div>
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-			<h1 class="page-header">微信助手-功能中心</h1>
-<div class="panel panel-default margin-sy">
-  <!-- Default panel contents -->
-  <div class="panel-heading" style="height:50px;">
-  	<div class="pull-left">众筹应用-项目主体介绍,这里的内容将在众筹的前台显示!一般情况下这里的内容是对当前您的众筹进行介绍</div>
-  </div>
-</div>
+			<h1 class="page-header" xmlns="http://www.w3.org/1999/html">微信助手-功能中心</h1>
 <div class="panel panel-default">
     <div class="panel-heading">
-        <h3 class="panel-title">Panel title</h3>
+        <h3 class="panel-title">众筹应用-项目主体介绍,这里的内容将在众筹的前台显示!一般情况下这里的内容是对当前您的众筹进行介绍</h3>
     </div>
     <div class="panel-body">
-        Panel content
+        <h5>
+           <h5><span style="font-weight:bold;">项目编号:</span>&nbsp;&nbsp;<?php echo ($objinfo["oid"]); ?>&nbsp;&nbsp;</h5>
+           <h5><span style="font-weight:bold;">项目创建日期:</span>&nbsp;&nbsp;<?php echo (date("Y-m-d H:i",$objinfo["cdt"])); ?>&nbsp;&nbsp;</h5>
+           <h5><span style="font-weight:bold;"> 项目名称:</span>&nbsp;&nbsp;<?php echo ($objinfo["cname"]); ?></h5>
+        </h5>
     </div>
 </div>
 <script type="text/javascript"> $(function(){ var ue = UE.getEditor('container',{ initialFrameHeight:400 }); }) </script>
 <script type="text/javascript" src="/Public/ueditor/ueditor.config.js"></script>
 <script type="text/javascript" src="/Public/ueditor/ueditor.all.min.js"></script>
 <script> $(function(){ var ue = UE.getEditor('container',{ serverUrl :'<?php echo U('Home/Crowdfunding/ueditor');?>' }); }) </script>
-<script id="container" name="content" type="text/plain" style="width:100%;height:100%;"> </script>
+<script id="container" name="content" type="text/plain" style="width:100%;height:100%;"> <p>baizengfei</p></script>
+<script type="text/javascript" src="/Public/ueditor/cu_functions.js"></script>
 
-<a class="btn button-default" href="" >确认添加</a>
+<a id="getcontent" class="btn btn-primary pull-left" style="margin-top:20px;" href="javascript:void(0);" >确认添加</a>
+
+<script type="text/javascript">
+   $(function(){
+       $("#getcontent").click(function(){
+           UeditContentPost(
+                  {'oid':'<?php echo ($objinfo["oid"]); ?>','cdt':'<?php echo ($objinfo["cdt"]); ?>','pdt':'<?php echo time();?>','cname':'<?php echo ($objinfo["cname"]); ?>','body':getUEFormatBody()},
+                   "/index.php?s=/home/crowdfunding/AddProjectBody",
+                   function(data){
+                      alert(data.status);
+                   },function(){
+                       alert("ERROR!!");
+                   }
+           )
+       });
+   })
+</script>
 
         </div>
       </div>

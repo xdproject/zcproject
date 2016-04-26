@@ -39,4 +39,19 @@ class CFController extends Api{
 		public function getObjlist(){
 			return $this->crowdfundingObj->getObjectList();
 		}
+
+	/**
+	 * 为项目添加项目说明
+	 * @param $oid 项目编号
+	 * @param $str_body 项目内容主体
+	 */
+		public function addObjBody($pinfo=array()){
+				//var_dump($pinfo);
+				//die();
+				if($this->crowdfundingObj->AddZcProjectBody($pinfo))
+					return true;
+				else
+					return false;
+		}
+
 }
