@@ -22,9 +22,10 @@ class CrowdfundingController extends BasicController {
 	public function index(){
 		$this->_initialize();
 		$this->assign('create_time',time());
-		$this->assign('objlist',static ::$CFCObject->getObjlist());
-// 		var_dump(static ::$CFCObject->getObjlist());
-// 		die();
+		$objlist =static ::$CFCObject->getObjlist();
+		//var_dump($objlist);
+		//die();
+		$this->assign('objlist',$objlist);
 		$this->display();
 	}
 
@@ -36,6 +37,8 @@ class CrowdfundingController extends BasicController {
 		if(empty(I("get.oid")) || empty(I("get.cdt")) || empty(I("get.cname")))
 			$this->error("系统错误!");
 		$objinfo = array('oid'=>I("get.oid"),'cdt'=>I("get.cdt"),'cname'=>I("get.cname"));
+
+		$this->assign('zc_body',static::$CFCObject->getObjBody(I("get.oid")));
 		$this->assign('objinfo',$objinfo);
 		$this->display();
 	}
@@ -63,6 +66,9 @@ class CrowdfundingController extends BasicController {
 
 	}
 
+	/**
+	 *为项目添加主体介绍内容
+	 */
 	public function AddProjectBody(){
 
 		if(!IS_POST)
@@ -76,5 +82,30 @@ class CrowdfundingController extends BasicController {
 			exit(json_encode(array('status'=>true,'msg'=>'添加成功!','omsg'=>'/index.php?s=/home/Crowdfunding/index.html')));
 		else
             exit(json_encode(array('status'=>false,'msg'=>'操作失败了!!','omsg'=>'')));
+	}
+
+	/**
+	 * 为项目添加文章
+	 */
+	public function AddObjArcData(){
+		if(isset($_GET['cp']))
+		    switch($_GET['cp']){
+		    	case "add":
+		    		$this->display('oparc');
+					exit();
+		    		break;
+		    	case "edit":
+		    		break;
+		    	case "del":
+		    		break;
+		    	default:
+		    		$this->error("错误!");
+		    		break;
+
+		    }
+
+			$this->display('arclist');
+
+
 	}
 }

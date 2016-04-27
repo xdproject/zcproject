@@ -33,6 +33,7 @@
     <footer class="footer">
         <div class="container">
             <p class="text-muted">本软件由StudioIT工作室开发，维护</p>
+            <img src="<?php echo ($qrimg); ?>" />
         </div>
     </footer>
 </body>

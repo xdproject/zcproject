@@ -98,7 +98,7 @@
 <script type="text/javascript" src="/Public/ueditor/ueditor.config.js"></script>
 <script type="text/javascript" src="/Public/ueditor/ueditor.all.min.js"></script>
 <script> $(function(){ var ue = UE.getEditor('container',{ serverUrl :'<?php echo U('Home/Crowdfunding/ueditor');?>' }); }) </script>
-<script id="container" name="content" type="text/plain" style="width:100%;height:100%;"> <p>baizengfei</p></script>
+<script id="container" name="content" type="text/plain" style="width:100%;height:100%;"> <?php echo (stripslashes(htmlspecialchars_decode($zc_body))); ?></script>
 <script type="text/javascript" src="/Public/ueditor/cu_functions.js"></script>
 
 <a id="getcontent" class="btn btn-primary pull-left" style="margin-top:20px;" href="javascript:void(0);" >确认添加</a>

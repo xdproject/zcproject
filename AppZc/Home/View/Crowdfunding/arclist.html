@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta author="BarneyX" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>微信助手-后台管理中心-众筹</title>
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <load href="__PUBLIC__/css/dashboard.css" />
+</head>
+
+<body>
+<include file='Public/header' />
+<div class="container-fluid">
+    <div class="row">
+        <include file='Public/nav' />
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+            <h1 class="page-header">微信助手-功能中心</h1>
+            <div class="panel panel-default margin-sy">
+                <!-- Default panel contents -->
+                <div class="panel-heading" style="height:50px;">
+                    <div class="pull-left">众筹应用-众筹文章列表</div>
+                    <div class="pull-right">
+                            <a type="button" class="btn btn-success" id="AddZcProjectArc"  href="__URL__/AddObjArcData/cp/add">添加文章 </a>
+                    </div>
+                </div>
+            </div>
+            <ul id="myTabs" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">文章列表</a></li>
+
+            </ul>
+
+            <div id="myTabContent" class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+
+                    <table class="table table-hover">
+                        <thead>
+                        <tr>
+                            <th>选择</th>
+                            <th>编号</th>
+                            <th>文章标题</th>
+                            <th>文章描述</th>
+                            <th>文章标记</th>
+                            <th>点击量</th>
+                            <th>阅读量</th>
+                            <th>发布日期</th>
+                            <th>文章权重</th>
+                            <th>回复总数</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+
+                        <foreach  name="objlist" item="vo" key="k">
+                            <tr>
+                                <th scope="row" class="Auto_ID"><{$vo.id}></th>
+                                <td><span >
+		            <if condition=" $vo.status eq 0">不可用
+                        <elseif condition="$vo.status eq 1"/>可用
+                        <else />未知
+                    </if>
+					</span></td>
+                                <td>
+                                    <span ><{$vo.objname}></span>
+                                </td>
+                                <td>
+                                    <span ><{$vo.goal}>/12.00</span>
+                                </td>
+
+                                <td>
+                                    <span>123人</span>
+                                </td>
+
+                                <td>
+                                    <span ><{$vo.start_time|date="Y-m-d H:i",###}></span>
+                                </td>
+                                <td>
+                                    <span ><{$vo.end_time|date="Y-m-d H:i",###}></span>
+                                </td>
+
+                                <td>
+                                    <span ><a href="javascript:void(0);" class="btn btn-default btn-xs">23</a></span>
+                                </td>
+
+                                <td>
+                                    <span >323</span>
+                                </td>
+                                <td>
+                                    <button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm">生成二维码</button>
+                                    <a href="javascript:void(0);" class="btn btn-default btn-xs">预览</a>
+                                    <a href="__URL__/addBodyIndex/oid/<{$vo.id}>/cdt/<{$vo.start_time}>/cname/<{$vo.objname|urlencode=###}>" class="btn btn-default btn-xs">主体介绍</a>
+                                    <a href="__URL__/AddObjArcData" class="btn btn-default btn-xs">文章管理</a>
+                                    <a href="javascript:void(0);" class="btn btn-default btn-xs">修改设置</a>
+                                    <a href="javascript:void(0);" class="btn btn-error btn-xs">删除</a>
+                                </td>
+                            </tr>
+                        </foreach>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

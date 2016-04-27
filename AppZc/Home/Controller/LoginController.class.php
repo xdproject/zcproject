@@ -11,6 +11,8 @@ namespace Home\Controller;
 use Think\Controller;
 use User\Api\UserApi;
 
+//define('CONTROLLER_PATH',dirname(__FILE__).DIRECTORY_SEPARATOR);
+
 class LoginController extends Controller {
 	private $uname = "";
 	private $upwd = "";

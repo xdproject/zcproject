@@ -3,13 +3,11 @@
 namespace ExtFunction\Crowdfunding\Model;
 use Think\Model;
 
-class CrowdundingModel extends Model {
+class CrowdundingAddonObjectModel extends Model {
 
 	protected $tableName = 'addonobject';
 
-	protected $_validate = array(
-			//array('oid','','项目名称已经存在！',0,'unique',1),
-	);
+	//protected $_validate = array( //array('oid','','项目名称已经存在！',0,'unique',1), );
 
 	/**
 	 * 获取所有项目
@@ -37,33 +35,44 @@ class CrowdundingModel extends Model {
 
 		$res_objinfo = $this->where($datamap)->find();
 		if(is_array($res_objinfo))
-			return array(
-					$res_objinfo['id'],
-					$res_objinfo['cid'],
-					$res_objinfo['lastid'],
-					$res_objinfo['body'],
-					);
+			return $res_objinfo;//return array( $res_objinfo['id'], $res_objinfo['cid'], $res_objinfo['lastid'], $res_objinfo['body'], );
 		else
 			return false;
 	}
 
+	/**
+	 * @param $oid 项目编号，在当前表中，一项目只存在一个这个编号的介绍
+	 * @return bool	如果当前系统当中有已经有了项目的主体介绍则返回FALSE 否则返回 TRUE
+	 */
+	public function checkObjConent($oid){
+		$res_ = $this->where(array('oid'=>$oid))->find();
+		if($res_)
+			return true;
+		else
+			return false;
+	}
+	
+
+	/**
+	 * 项目介绍内容介绍添加 修改 
+	 * @param array $zc_pBody 项目介绍的主体内容
+	 * @return bool 如果项目介绍添加成功，则返回TRUE 否则返回FALSE
+	 */
 	public function AddZcProjectBody($zc_pBody=array()){
-		//$map_data = array();
-		//$map_data['oid']=$oid;
-		//$map_data['body']=$str_body;
-		//查询当前数据库当中是否有此oid项目的主体记录数据
-        //if(!$this->FileCheck($oid))
-        //    return false;
-		//var_dump($zc_pBody);
-		//die();
+		
 		if(is_array($zc_pBody)){
 			if( array_key_exists('oid',$zc_pBody)  ||
 			    array_key_exists('body',$zc_pBody) ||
 				array_key_exists('cdt',$zc_pBody)   ||
 				array_key_exists('lastdt',$zc_pBody)
 			)
-				if($this->where(array('oid'=>$zc_pBody['oid']))->save($zc_pBody))
-					return true;
+				if($this->checkObjConent($zc_pBody['oid'])){
+					if($this->save($zc_pBody)) {return true;}
+				}else{
+					if($this->add($zc_pBody)){return true;}	
+				}
+					
+						
 			else
 				return false;
 		}
@@ -71,7 +80,4 @@ class CrowdundingModel extends Model {
 		return false;
 	}
 
-	public function getArticle($obj){
-
-	}
 }
