@@ -108,7 +108,7 @@
 					<th>结束日期</th>
 					<th>文章总数</th>
 					<th>回复总数</th>
-					<th>操作</th>
+					<th><center>操作</center></th>
 		          </tr>
 		        </thead>
 		        <tbody>
@@ -148,10 +148,10 @@
 					<td>
 						<button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm">生成二维码</button>
 						<a href="javascript:void(0);" class="btn btn-default btn-xs">预览</a>
-						<a href="/index.php?s=/home/crowdfunding/addBodyIndex/oid/<?php echo ($vo["id"]); ?>/cdt/<?php echo ($vo["start_time"]); ?>/cname/<?php echo (urlencode($vo["objname"])); ?>" class="btn btn-default btn-xs">主体介绍</a>
-						<a href="/index.php?s=/home/crowdfunding/AddObjArcData" class="btn btn-default btn-xs">文章管理</a>
-						<a href="javascript:void(0);" class="btn btn-default btn-xs">修改设置</a>
-						<a href="javascript:void(0);" class="btn btn-error btn-xs">删除</a>
+						<a href="/index.php?s=/home/crowdfunding/addBodyIndex/oid/<?php echo ($vo["id"]); ?>/cdt/<?php echo ($vo["start_time"]); ?>/cname/<?php echo (urlencode($vo["objname"])); ?>" class="btn btn-success btn-xs">主体介绍</a>
+						<a href="/index.php?s=/home/crowdfunding/AddObjArcData/oid/<?php echo ($vo["id"]); ?>" class="btn btn-info btn-xs">文章管理</a>
+						<a href="javascript:void(0);" class="btn btn-primary btn-xs">修改设置</a>
+						<a href="javascript:void(0);" class="btn btn-danger btn-xs">删除</a>
 					</td>
 		          </tr><?php endforeach; endif; ?>
 

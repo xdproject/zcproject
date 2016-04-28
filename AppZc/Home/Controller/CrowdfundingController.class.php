@@ -102,6 +102,11 @@ class CrowdfundingController extends BasicController {
 		    		$this->error("错误!");
 		    		break;
 		    }
+			$arclist = static::$CFCObject->getZcProjectArticleList(I("get.oid"));
+			//var_dump($arclist);
+            //die();
+			$this->assign('oid',I("get.oid"));
+			$this->assign('arclist',$arclist);
 			$this->display('arclist');
 	}
 
@@ -136,7 +141,7 @@ class CrowdfundingController extends BasicController {
 		    );
 			$optfunc = I("post.opt");
 			if(!empty($optfunc)) {
-				if (static::$CFCObject->AddZcProjectArticle(, $arcinfo, $arcbody))
+				if (static::$CFCObject->AddZcProjectArticle($optfunc, $arcinfo, $arcbody))
 					return true;
 				else
 					return false;

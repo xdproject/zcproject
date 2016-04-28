@@ -99,9 +99,12 @@ class CrowdundingArchivesModel extends Model {
                 return -2;
             break;
         }
+        if($type==0)
+            $res_article = $this->where($data_map)->select();
+        else
+            $res_article =$this->where($data_map)->find();
 
-        $res_article = $this->where($data_map)->find();
-        if(is_array($res_article)){ return true; }
+        if(is_array($res_article)){ return $res_article; }
         return false;
     }
 }

@@ -95,7 +95,7 @@ class CFController extends Api{
 	 * @param $oid  项目编号
 	 */
 	public function getZcProjectArticleList($oid){
-			return $this->corwdfundingArchivesObj->CheckData($oid);
+        return $this->corwdfundingArchivesObj->CheckData($oid);
 	}
 
 	/**

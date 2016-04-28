@@ -13,6 +13,18 @@
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <load href="__PUBLIC__/css/dashboard.css" />
+    <script type="text/javascript">
+        function ShowUrlTr(){
+            var jumpTest = document.getElementById("flagsj");
+            var redirecturltr =document.getElementById("redirecturltr");
+            var redirecturl = document.getElementById("redirecturl");
+            if(jumpTest.checked) redirecturltr.style.display='block';
+            else{
+                redirecturl.value='';
+                redirecturltr.style.display='none';
+            }
+        }
+    </script>
 </head>
 
 <body>
@@ -22,8 +34,69 @@
         <include file='Public/nav' />
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <h1 class="page-header">微信助手-功能中心</h1>
+            <!--arclhives start -->
+            <div class="panel panel-info">
+                <div class="panel-body">
+                        <!--start-->
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="body" >文章标题:</label>
+                                        <input type="text" class="form-control" id="body" placeholder="文章标题">
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                   <div class="form-group">
+                                      <label for="shorttitle">简略标题：</label>
+                                       <input type="text" class="form-control" id="shorttitle" placeholder="简略标题">
+                                   </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-10">
+                                    <div class="form-group">
+                                        <label for="body" >自定义属性:</label>
+                                        <td align="left">
+                                            <input class="np" type="checkbox" name="flags[]" id="flagsh" value="h">头条[h]
+                                            <input class="np" type="checkbox" name="flags[]" id="flagsc" value="c">推荐[c]
+                                            <input class="np" type="checkbox" name="flags[]" id="flagsf" value="f">幻灯[f]
+                                            <input class="np" type="checkbox" name="flags[]" id="flagsa" value="a">特荐[a]
+                                            <input class="np" type="checkbox" name="flags[]" id="flagss" value="s">滚动[s]
+                                            <input class="np" type="checkbox" name="flags[]" id="flagsb" value="b">加粗[b]
+                                            <input class="np" type="checkbox" name="flags[]" id="flagsp" value="p">图片[p]
+                                            <input class="np" type="checkbox" name="flags[]" id="flagsj" value="j" onclick="ShowUrlTr()">跳转[j]
+                                        </td>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row" id="redirecturltr" style="display:none">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="redirecturl" >跳转地址:</label>
+                                        <input type="text" class="form-control" id="redirecturl" name="redirecturl" placeholder="请在此输入跳转的地址">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">.col-md-6</div>
+                                <div class="col-md-6">.col-md-6</div>
+                            </div>
+                        <!--ends-->
+                </div>
+            </div>
+            <!--body -->
+            <div class="panel panel-default">
+                <script type="text/javascript"> $(function(){ var ue = UE.getEditor('container',{ initialFrameHeight:400 }); }) </script>
+                <include file='Public/uedit' />
+            </div>
+
         </div>
+
     </div>
+
+
 </div>
 </body>
 </html>

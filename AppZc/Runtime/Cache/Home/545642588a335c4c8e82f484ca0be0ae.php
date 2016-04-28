@@ -75,7 +75,8 @@
                 <div class="panel-heading" style="height:50px;">
                     <div class="pull-left">众筹应用-众筹文章列表</div>
                     <div class="pull-right">
-                            <a type="button" class="btn btn-success" id="AddZcProjectArc"  href="/index.php?s=/home/crowdfunding/AddObjArcData/cp/add">添加文章 </a>
+                            <a type="button" class="btn btn-danger"  href="javascript:void(0);">批量删除 </a>
+                            <a type="button" class="btn btn-success" id="AddZcProjectArc"  href="/index.php?s=/home/crowdfunding/AddObjArcData/oid/<?php echo ($oid); ?>/cp/add">添加文章 </a>
                     </div>
                 </div>
             </div>
@@ -100,50 +101,27 @@
                             <th>发布日期</th>
                             <th>文章权重</th>
                             <th>回复总数</th>
-                            <th>操作</th>
+                            <th><center>操作</center></th>
                         </tr>
                         </thead>
                         <tbody>
 
-                        <?php if(is_array($objlist)): foreach($objlist as $k=>$vo): ?><tr>
+                        <?php if(is_array($arclist)): foreach($arclist as $k=>$vo): ?><tr>
+                                <td> <input type="checkbox" name="arcids" value="<?php echo ($vo["id"]); ?>" /> </td>
                                 <th scope="row" class="Auto_ID"><?php echo ($vo["id"]); ?></th>
-                                <td><span >
-		            <?php if( $vo["status"] == 0): ?>不可用
-                        <?php elseif($vo["status"] == 1): ?>可用
-                        <?php else: ?>未知<?php endif; ?>
-					</span></td>
-                                <td>
-                                    <span ><?php echo ($vo["objname"]); ?></span>
-                                </td>
-                                <td>
-                                    <span ><?php echo ($vo["goal"]); ?>/12.00</span>
-                                </td>
+                                <td><?php echo ($vo["title"]); ?></td>
+                                <td> <span ><?php echo ($vo["description"]); ?></span> </td>
+                                <td><?php echo ($vo["flag"]); ?> </td>
+                                <td> <?php echo ($vo["click"]); ?> </td>
+                                <td> <?php echo ($vo["read"]); ?> </td>
+                                <td> <?php echo (date("Y-m-d H:i",$vo["pubdate"])); ?> </td>
+                                <td><?php echo ($vo["short"]); ?></td>
+                                <td>123</td>
 
-                                <td>
-                                    <span>123人</span>
-                                </td>
-
-                                <td>
-                                    <span ><?php echo (date("Y-m-d H:i",$vo["start_time"])); ?></span>
-                                </td>
-                                <td>
-                                    <span ><?php echo (date("Y-m-d H:i",$vo["end_time"])); ?></span>
-                                </td>
-
-                                <td>
-                                    <span ><a href="javascript:void(0);" class="btn btn-default btn-xs">23</a></span>
-                                </td>
-
-                                <td>
-                                    <span >323</span>
-                                </td>
-                                <td>
-                                    <button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm">生成二维码</button>
+                                <td align="center">
                                     <a href="javascript:void(0);" class="btn btn-default btn-xs">预览</a>
-                                    <a href="/index.php?s=/home/crowdfunding/addBodyIndex/oid/<?php echo ($vo["id"]); ?>/cdt/<?php echo ($vo["start_time"]); ?>/cname/<?php echo (urlencode($vo["objname"])); ?>" class="btn btn-default btn-xs">主体介绍</a>
-                                    <a href="/index.php?s=/home/crowdfunding/AddObjArcData" class="btn btn-default btn-xs">文章管理</a>
-                                    <a href="javascript:void(0);" class="btn btn-default btn-xs">修改设置</a>
-                                    <a href="javascript:void(0);" class="btn btn-error btn-xs">删除</a>
+                                    <a href="javascript:void(0);" class="btn btn-primary btn-xs">编辑</a>
+                                    <a href="javascript:void(0);" class="btn btn-danger btn-xs">删除</a>
                                 </td>
                             </tr><?php endforeach; endif; ?>
 
