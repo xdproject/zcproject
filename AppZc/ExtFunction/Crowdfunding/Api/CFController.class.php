@@ -2,6 +2,7 @@
 namespace ExtFunction\Crowdfunding\Api;
 
 
+use ExtFunction\Crowdfunding\Model\CrowdundingArchivesModel;
 use ExtFunction\Crowdfunding\Model\CrowdundingModel;
 use ExtFunction\Crowdfunding\Model\CrowdundingAddonObjectModel;
 /******************************************************************************
@@ -18,6 +19,7 @@ class CFController extends Api{
 		public function _init(){
 			$this->crowdfundingObj = new CrowdundingModel();
 			$this->corwdfundingOAddOnObj = new  CrowdundingAddonObjectModel();
+			$this->corwdfundingArchivesObj = new CrowdundingArchivesModel();
 		}
 		/**
 		 * 新建众筹项目
@@ -41,13 +43,6 @@ class CFController extends Api{
 		public function getObjlist(){
 			//return $this->crowdfundingObj->getObjectList();
 			$temp_addQrArr = $this->crowdfundingObj->getObjectList();
-			//var_dump($temp_addQrArr);
-			//echo $temp_addQrArr[0]['id'];
-			//print_r($temp_addQrArr);
-			//echo $temp_addQrArr[0]['objname'];
-			//var_dump(json_decode(file_get_contents('http://xd.studioit.cn/process.php?dt=http://www.baidu.com&level=M&size=4'),true)['imgurl']);
-			//echo getQRcodeUrl('http://www.baidu.com');
-			//die();
 			for($i = 0; $i<count($temp_addQrArr);$i++){
 				$temp_addQrArr[$i]['qrimgurl'] =getQRcodeUrl('http://www.baidu.com');
 			}
@@ -81,6 +76,34 @@ class CFController extends Api{
 		else
 			return "请在些添加项目介绍吧！！！";
 		
+	}
+
+	/**
+	 * 添加文章表指定的项目当中去
+	 * @param array $archives 文章基本信息 即文章的archives表
+	 * @param array $addonobject 文章主体内容 即文章附加表的内容
+	 */
+	public function AddZcProjectArticle($opt='add',$archives=array(),$addonobject=array()){
+		if($this->corwdfundingArchivesObj->AddArchives($opt,$archives,$addonobject))
+			return true;
+		else
+			return false;
+	}
+
+	/**
+	 * 查询指定项目下的所有文章
+	 * @param $oid  项目编号
+	 */
+	public function getZcProjectArticleList($oid){
+			return $this->corwdfundingArchivesObj->CheckData($oid);
+	}
+
+	/**
+	 * @param $oid 项目编号
+	 * @param $qrUrl 二维码的地址
+	 */
+	public function setZcProjectQRcodeUrl($oid,$qrUrl){
+
 	}
 
 }

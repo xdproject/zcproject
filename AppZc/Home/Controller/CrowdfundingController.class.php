@@ -85,7 +85,7 @@ class CrowdfundingController extends BasicController {
 	}
 
 	/**
-	 * 为项目添加文章
+	 * 用户操作控制器,根据用户的操作跳转到相应的操作界面
 	 */
 	public function AddObjArcData(){
 		if(isset($_GET['cp']))
@@ -101,11 +101,46 @@ class CrowdfundingController extends BasicController {
 		    	default:
 		    		$this->error("错误!");
 		    		break;
-
 		    }
-
 			$this->display('arclist');
+	}
 
+	/**
+	 * 为指定的项目添加或是修改文章
+	 * @param array $arcinfo 文章概要信息
+	 * @param array $arcbody 文章主体内容
+	 * @return bool 如果文章添加成功则返回TRUE 否则返回 FALSE
+	 */
+	public function OptZcProjectArchives(){
+		//判读当前数据是否以POST方式来提交的,如果不是POST方式提交的,则认为他是错误的!
+		if(!IS_POST) $this->error("操作错误!");
+		    $arcinfo = array(
+		    	'oid'=>I("post.oid"),
+		    	'short'=>I("post.short"),
+		    	'flag'=>I("post.flag"),
+		    	'shorttitle'=>I("post.shorttitle"),
+		    	'title'=>I("post.title"),
+		    	'color'=>I("post.color"),
+		    	'writer'=>I("post.writer"),
+		    	'source'=>I("post.source"),
+		    	'litpic'=>I("post.litpic"),
+		    	'pubdate'=>I("post.pubdate"),
+		    	'senddate'=>I("post.senddate"),
+		    	'keywords'=>I("post.keywords"),
+		    	'description'=>I("post.description")
+		    );
+		    $arcbody = array(
+                'oid'=>I("post.oid"),
+		    	'typeid'=>0, //附加信息-当前没有什么卵用!!
+		    	'body'=>I("post.body")
+		    );
+			$optfunc = I("post.opt");
+			if(!empty($optfunc)) {
+				if (static::$CFCObject->AddZcProjectArticle(, $arcinfo, $arcbody))
+					return true;
+				else
+					return false;
+			}else return false;
 
 	}
 }
