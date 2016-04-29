@@ -1,5 +1,12 @@
 <?php
-
+/******************************************************************************
+ * Builder-Tools:Zend Studio v10.6.2
+ * Create-Date:2016-04-29
+ * ZC-Project
+ * Author:BarneyX
+ * QQ:35353415
+ * E-mail:vcmsdn@gmail.com
+ *****************************************************************************/
 namespace ExtFunction\Crowdfunding\Model;
 use Think\Model;
 

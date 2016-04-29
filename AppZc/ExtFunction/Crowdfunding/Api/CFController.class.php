@@ -7,7 +7,7 @@ use ExtFunction\Crowdfunding\Model\CrowdundingModel;
 use ExtFunction\Crowdfunding\Model\CrowdundingAddonObjectModel;
 /******************************************************************************
  * Builder-Tools:Zend Studio v10.6.2
-* Create-Date:2016-04-20 11:21:23
+* Create-Date:2016-04-29
 * ZC-Project
 * Author:BarneyX
 * QQ:35353415
@@ -96,6 +96,49 @@ class CFController extends Api{
 	 */
 	public function getZcProjectArticleList($oid){
         return $this->corwdfundingArchivesObj->CheckData($oid);
+	}
+
+	/**
+	 * 返回文章信息
+	 * @param $aid
+	 * @param int $type 类型参数:
+	 * 1.编号(默认)
+	 * 2.标题(需要设置标志为2)
+	 * 3.模型当中已经写好了,需要可以自己扩展!
+	 * @return mixed 返回相应类型的结果
+	 */
+	public function getOneZcProjectArticle($aid,$type=1){
+		switch($type){
+			//按文章的编号来查询
+			case 1:
+				return $this->ArticleMarge($aid);
+				break;
+			//按文章的标题来查询
+			case 2:
+				return $this->ArticleMarge($aid,2);
+				break;
+			//其他的则默认也是按照文章的编号来查询
+			default:
+				return $this->ArticleMarge($aid);
+				break;
+		}
+
+	}
+
+	/**
+	 * 全拼文章的概要信息和文章的主体信息成为一个数组
+	 * @param $aid 文章的编号
+	 * @param int $type
+	 * @return array
+	 */
+	private function ArticleMarge($aid,$type=1){
+		//获取文章概要信息
+		$res_info= $this->corwdfundingArchivesObj->CheckData($aid,$type);
+		//获取文章的主体内容
+		$res_body = $this->corwdfundingArchivesObj->getArticleBody($aid);
+
+		//合拼成为一个数组并返回
+		return array_merge($res_info,$res_body);
 	}
 
 	/**

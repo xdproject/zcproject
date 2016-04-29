@@ -75,6 +75,26 @@
             <li><a href="/index.php?s=/home/SysConfig/index.html">系统设置</a></li>
           </ul>
         </div>
+
+  <!--dialogBox -->
+<div class="modal fade bs-example-modal-sm" id="MsgBox" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">信息框</h4>
+            </div>
+            <div class="modal-body" id="modal-body-c"> </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <script type="text/javascript">
+	  function MsgBox(msgbody){ $("#modal-body-c").html(msgbody); $("#MsgBox").modal(); }
+  </script>
+
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 			
 

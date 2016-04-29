@@ -68,6 +68,31 @@
             <li><a href="/index.php?s=/home/SysConfig/index.html">系统设置</a></li>
           </ul>
         </div>
+
+  <!--dialogBox -->
+<div class="modal fade bs-example-modal-sm" id="MsgBox" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">信息框</h4>
+            </div>
+            <div class="modal-body" id="modal-body-c"> </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="MsgBox_closeBtn">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <script type="text/javascript">
+	  function MsgBox(msgbody,jmpurl){
+          $("#modal-body-c").html(msgbody); $("#MsgBox").modal();
+          $("#MsgBox_closeBtn").click(function(){
+              window.location.href=jmpurl;
+          })
+      }
+  </script>
+
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <h1 class="page-header">微信助手-功能中心</h1>
             <div class="panel panel-default margin-sy">
@@ -91,36 +116,36 @@
                     <table class="table table-hover">
                         <thead>
                         <tr>
-                            <th>选择</th>
-                            <th>编号</th>
-                            <th>文章标题</th>
-                            <th>文章描述</th>
-                            <th>文章标记</th>
-                            <th>点击量</th>
-                            <th>阅读量</th>
-                            <th>发布日期</th>
-                            <th>文章权重</th>
-                            <th>回复总数</th>
+                            <th><center>选择</center></th>
+                            <th><center>编号</center></th>
+                            <th><center>文章标题</center></th>
+                            <th><center>文章描述</center></th>
+                            <th><center>文章标记</center></th>
+                            <th><center>点击量</center></th>
+                            <th><center>阅读量</center></th>
+                            <th><center>发布日期</center></th>
+                            <th><center>权重</center></th>
+                            <th><center>回复总数</center></th>
                             <th><center>操作</center></th>
                         </tr>
                         </thead>
                         <tbody>
 
                         <?php if(is_array($arclist)): foreach($arclist as $k=>$vo): ?><tr>
-                                <td> <input type="checkbox" name="arcids" value="<?php echo ($vo["id"]); ?>" /> </td>
-                                <th scope="row" class="Auto_ID"><?php echo ($vo["id"]); ?></th>
-                                <td><?php echo ($vo["title"]); ?></td>
-                                <td> <span ><?php echo ($vo["description"]); ?></span> </td>
-                                <td><?php echo ($vo["flag"]); ?> </td>
-                                <td> <?php echo ($vo["click"]); ?> </td>
-                                <td> <?php echo ($vo["read"]); ?> </td>
-                                <td> <?php echo (date("Y-m-d H:i",$vo["pubdate"])); ?> </td>
-                                <td><?php echo ($vo["short"]); ?></td>
-                                <td>123</td>
+                                <td> <center><input type="checkbox" name="arcids" value="<?php echo ($vo["id"]); ?>" /></center> </td>
+                                <th scope="row" class="Auto_ID"><center><?php echo ($vo["id"]); ?></center></th>
+                                <td><center><span style="color:<?php echo ($vo["color"]); ?>"><?php echo ($vo["title"]); ?></span></center></td>
+                                <td><center> <span  class="label label-info" data-toggle="tooltip" data-placement="top" title="<?php echo ($vo["description"]); ?>">查看描述</span> </center></td>
+                                <td><center><?php echo ($vo["flag"]); ?> </center></td>
+                                <td> <center><?php echo ($vo["click"]); ?> </center></td>
+                                <td> <center><?php echo ($vo["read"]); ?> </center></td>
+                                <td> <center><?php echo ($vo["senddate"]); ?></center> </td>
+                                <td><center><?php echo ($vo["short"]); ?></center></td>
+                                <td><center>123</center></td>
 
                                 <td align="center">
                                     <a href="javascript:void(0);" class="btn btn-default btn-xs">预览</a>
-                                    <a href="javascript:void(0);" class="btn btn-primary btn-xs">编辑</a>
+                                    <a href="/index.php?s=/home/crowdfunding/AddObjArcData/oid/<?php echo ($oid); ?>/aid/<?php echo ($vo["id"]); ?>/cp/edit" class="btn btn-primary btn-xs">编辑</a>
                                     <a href="javascript:void(0);" class="btn btn-danger btn-xs">删除</a>
                                 </td>
                             </tr><?php endforeach; endif; ?>
@@ -135,5 +160,6 @@
         </div>
     </div>
 </div>
+<script type="text/javascript"> $(function(){ $('[data-toggle="popover"]').popover(); $('[data-toggle="tooltip"]').tooltip(); }) </script>
 </body>
 </html>

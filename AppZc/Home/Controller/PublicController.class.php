@@ -16,5 +16,6 @@ class PublicController extends BasicController {
 	public function header(){$this->display();}
 	public function footer(){$this->display();}
 	public function uedit(){$this->display();}
+	public function msgbox{$this->display();}
 
 }

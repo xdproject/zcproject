@@ -28,3 +28,13 @@
             <li><a href="/index.php?s=/home/SysConfig/index.html">系统设置</a></li>
           </ul>
         </div>
+
+  <include file='Public/msgbox' />
+  <script type="text/javascript">
+	  function MsgBox(msgbody,jmpurl){
+          $("#modal-body-c").html(msgbody); $("#MsgBox").modal();
+          $("#MsgBox_closeBtn").click(function(){
+              window.location.href=jmpurl;
+          })
+      }
+  </script>

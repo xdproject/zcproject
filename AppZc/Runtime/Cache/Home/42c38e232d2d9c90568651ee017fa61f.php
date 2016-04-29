@@ -80,6 +80,26 @@
             <li><a href="/index.php?s=/home/SysConfig/index.html">系统设置</a></li>
           </ul>
         </div>
+
+  <!--dialogBox -->
+<div class="modal fade bs-example-modal-sm" id="MsgBox" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">信息框</h4>
+            </div>
+            <div class="modal-body" id="modal-body-c"> </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <script type="text/javascript">
+	  function MsgBox(msgbody){ $("#modal-body-c").html(msgbody); $("#MsgBox").modal(); }
+  </script>
+
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 			<h1 class="page-header" xmlns="http://www.w3.org/1999/html">微信助手-功能中心</h1>
 <div class="panel panel-default">
@@ -98,7 +118,10 @@
 <script type="text/javascript" src="/Public/ueditor/ueditor.config.js"></script>
 <script type="text/javascript" src="/Public/ueditor/ueditor.all.min.js"></script>
 <script> $(function(){ var ue = UE.getEditor('container',{ serverUrl :'<?php echo U('Home/Crowdfunding/ueditor');?>' }); }) </script>
-<script id="container" name="content" type="text/plain" style="width:100%;height:100%;"> <?php echo (stripslashes(htmlspecialchars_decode($zc_body))); ?></script>
+<script id="container" name="content" type="text/plain" style="width:100%;height:100%;">
+    <?php echo (stripslashes(htmlspecialchars_decode($zc_body))); ?>
+    <?php echo (stripslashes(htmlspecialchars_decode($arcinfo["body"]))); ?>
+    </script>
 <script type="text/javascript" src="/Public/ueditor/cu_functions.js"></script>
 
 <a id="getcontent" class="btn btn-primary pull-left" style="margin-top:20px;" href="javascript:void(0);" >确认添加</a>

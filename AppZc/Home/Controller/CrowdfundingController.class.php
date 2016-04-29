@@ -90,11 +90,30 @@ class CrowdfundingController extends BasicController {
 	public function AddObjArcData(){
 		if(isset($_GET['cp']))
 		    switch($_GET['cp']){
+				//文章添加
 		    	case "add":
+					$this->assign('arc_attrinfo',array(
+						'oid'=>I("get.oid"),
+							'opt'=>'add'
+						)
+					);
 		    		$this->display('oparc');
 					exit();
 		    		break;
+				//文章编辑
 		    	case "edit":
+					$arcInfo = static::$CFCObject->getOneZcProjectArticle(I("get.aid"));
+					$this->assign('arc_attrinfo',array(
+							'oid'=>I("get.oid"),
+							'aid'=>I("get.aid"),
+							'opt'=>'edit'
+						)
+					);
+					$this->assign('arcinfo',$arcInfo);
+//					var_dump($arcInfo);
+//					die();
+					$this->display("oparc");
+					exit();
 		    		break;
 		    	case "del":
 		    		break;
@@ -117,35 +136,44 @@ class CrowdfundingController extends BasicController {
 	 * @return bool 如果文章添加成功则返回TRUE 否则返回 FALSE
 	 */
 	public function OptZcProjectArchives(){
+
 		//判读当前数据是否以POST方式来提交的,如果不是POST方式提交的,则认为他是错误的!
 		if(!IS_POST) $this->error("操作错误!");
 		    $arcinfo = array(
 		    	'oid'=>I("post.oid"),
+				'redirecturl'=>I("post.redirecturl"),
 		    	'short'=>I("post.short"),
 		    	'flag'=>I("post.flag"),
 		    	'shorttitle'=>I("post.shorttitle"),
 		    	'title'=>I("post.title"),
 		    	'color'=>I("post.color"),
-		    	'writer'=>I("post.writer"),
-		    	'source'=>I("post.source"),
+		    	'writer'=>htmlspecialchars(I("post.writer")),
+		    	'source'=>htmlspecialchars(I("post.source")),
 		    	'litpic'=>I("post.litpic"),
-		    	'pubdate'=>I("post.pubdate"),
-		    	'senddate'=>I("post.senddate"),
+		    	'pubdate'=>date('Y-m-d H:i:s',time()),//I("post.pubdate"),
+		    	'senddate'=>date('Y-m-d H:i:s',time()),//I("post.senddate"),
 		    	'keywords'=>I("post.keywords"),
-		    	'description'=>I("post.description")
+		    	'description'=>htmlspecialchars(I("post.description"))
 		    );
+
 		    $arcbody = array(
                 'oid'=>I("post.oid"),
 		    	'typeid'=>0, //附加信息-当前没有什么卵用!!
 		    	'body'=>I("post.body")
 		    );
+
 			$optfunc = I("post.opt");
+			if($optfunc==="edit"){
+				$arcinfo = array_merge($arcinfo,array('id'=>I("post.aid")));
+				$arcbody = array_merge($arcbody,array('aid'=>I("post.aid")));
+			}
+
 			if(!empty($optfunc)) {
 				if (static::$CFCObject->AddZcProjectArticle($optfunc, $arcinfo, $arcbody))
-					return true;
-				else
-					return false;
-			}else return false;
+					exit(json_encode(array('status'=>true,'msg'=>'文章添加成功!','jmpurl'=>'/index.php?s=/home/crowdfunding/AddObjArcData/oid/'.I("post.oid"))));
+
+			}else
+				exit(json_encode(array('status'=>false,'msg'=>'操作失败了!!','omsg'=>'')));
 
 	}
 }

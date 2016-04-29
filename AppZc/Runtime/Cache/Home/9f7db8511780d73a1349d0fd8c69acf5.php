@@ -13,6 +13,7 @@
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/Public/css/dashboard.css" />
+    <script type="text/javascript" src="/Public/js/pub_func.js"></script>
     <script type="text/javascript">
         function ShowUrlTr(){
             var jumpTest = document.getElementById("flagsj");
@@ -80,30 +81,62 @@
             <li><a href="/index.php?s=/home/SysConfig/index.html">系统设置</a></li>
           </ul>
         </div>
+
+  <!--dialogBox -->
+<div class="modal fade bs-example-modal-sm" id="MsgBox" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">信息框</h4>
+            </div>
+            <div class="modal-body" id="modal-body-c"> </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="MsgBox_closeBtn">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <script type="text/javascript">
+	  function MsgBox(msgbody,jmpurl){
+          $("#modal-body-c").html(msgbody); $("#MsgBox").modal();
+          $("#MsgBox_closeBtn").click(function(){
+              window.location.href=jmpurl;
+          })
+      }
+  </script>
+
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
             <h1 class="page-header">微信助手-功能中心</h1>
             <!--arclhives start -->
             <div class="panel panel-info">
+
                 <div class="panel-body">
                         <!--start-->
                             <div class="row">
-                                <div class="col-md-8">
+                                <div class="col-md-5">
                                     <div class="form-group">
-                                        <label for="body" >文章标题:</label>
-                                        <input type="text" class="form-control" id="body" placeholder="文章标题">
+                                        <label for="title" >文章标题:</label>
+                                        <input type="text" class="form-control" id="title" value="<?php echo ($arcinfo["title"]); ?>" name="title" placeholder="文章标题">
                                     </div>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-5">
                                    <div class="form-group">
                                       <label for="shorttitle">简略标题：</label>
-                                       <input type="text" class="form-control" id="shorttitle" placeholder="简略标题">
+                                       <input type="text" class="form-control" id="shorttitle" value="<?php echo ($arcinfo["shorttitle"]); ?>" name="shorttitle" placeholder="简略标题">
                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="form-group">
+                                        <label for="short">权重(越小越靠前)：</label>
+                                        <input type="text" class="form-control" id="short" name="short" value="<?php echo ($arcinfo["short"]); ?>" placeholder="80">
+                                    </div>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-10">
+                                <div class="col-md-12">
                                     <div class="form-group">
-                                        <label for="body" >自定义属性:</label>
+                                        <label for="flags" >自定义属性:</label>
                                         <td align="left">
                                             <input class="np" type="checkbox" name="flags[]" id="flagsh" value="h">头条[h]
                                             <input class="np" type="checkbox" name="flags[]" id="flagsc" value="c">推荐[c]
@@ -115,40 +148,131 @@
                                             <input class="np" type="checkbox" name="flags[]" id="flagsj" value="j" onclick="ShowUrlTr()">跳转[j]
                                         </td>
                                     </div>
-
                                 </div>
+
                             </div>
                             <div class="row" id="redirecturltr" style="display:none">
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="redirecturl" >跳转地址:</label>
-                                        <input type="text" class="form-control" id="redirecturl" name="redirecturl" placeholder="请在此输入跳转的地址">
+                                        <input type="text" class="form-control" id="redirecturl" name="redirecturl" value="<?php echo ($arcinfo["redirecturl"]); ?>" placeholder="请在此输入跳转的地址" />
                                     </div>
                                 </div>
 
                             </div>
                             <div class="row">
-                                <div class="col-md-6">.col-md-6</div>
-                                <div class="col-md-6">.col-md-6</div>
+                                <div class="col-md-4">
+                                   <div class="form-group">
+                                       <label for="color">标题颜色值(可选):</label>
+                                       <input type="text" class="form-control" id="color" name="color" value="<?php echo ($arcinfo["color"]); ?>" placeholder="#000000" />
+                                   </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="writer">作者:</label>
+                                        <input type="text" class="form-control" id="writer" name="writer" value="<?php echo ($arcinfo["writer"]); ?>" placeholder="ZcProject" />
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="source">来源:</label>
+                                        <input type="text" class="form-control" id="source" name="source" value="<?php echo ($arcinfo["source"]); ?>" placeholder="From SZP Project~~!!" />
+                                    </div>
+                                </div>
+                            </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label for="keywords">关键词</label>
+                                    <input type="text" name="keyworkds" class="form-control" id="keywords"  value="<?php echo ($arcinfo["keywords"]); ?>" placeholder="文章关键字" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                               <div class="col-md-12">
+                                   <div class="form-group">
+                                       <label for="description">描述</label>
+                                       <input type="text" name="description" class="form-control" id="description" value="<?php echo ($arcinfo["description"]); ?>" placeholder="文章描述信息" />
+                                   </div>
+                               </div>
                             </div>
                         <!--ends-->
                 </div>
+
             </div>
             <!--body -->
-            <div class="panel panel-default">
+            <div class="panel">
                 <script type="text/javascript"> $(function(){ var ue = UE.getEditor('container',{ initialFrameHeight:400 }); }) </script>
                 <script type="text/javascript" src="/Public/ueditor/ueditor.config.js"></script>
 <script type="text/javascript" src="/Public/ueditor/ueditor.all.min.js"></script>
 <script> $(function(){ var ue = UE.getEditor('container',{ serverUrl :'<?php echo U('Home/Crowdfunding/ueditor');?>' }); }) </script>
-<script id="container" name="content" type="text/plain" style="width:100%;height:100%;"> <?php echo (stripslashes(htmlspecialchars_decode($zc_body))); ?></script>
+<script id="container" name="content" type="text/plain" style="width:100%;height:100%;">
+    <?php echo (stripslashes(htmlspecialchars_decode($zc_body))); ?>
+    <?php echo (stripslashes(htmlspecialchars_decode($arcinfo["body"]))); ?>
+    </script>
 <script type="text/javascript" src="/Public/ueditor/cu_functions.js"></script>
             </div>
-
+            <div class="panel" style="border:none;">
+                <button type="button" class="btn btn-primary" style="margin-left:30px;" id="sendArcBtn">确认发布</button>
+            </div>
         </div>
 
     </div>
 
 
+
+<script type="text/javascript">
+        //获取当前用户表单内容 并返回一个json格式的对象用户Ajax方式发布文章
+        function AddZcArticleInfo(){
+            //alert($("input[id='title']").val());
+           // var $oid                =<?php echo ($arc_attrinfo["oid"]); ?>;
+            var $arc_title          =$("input[id='title']").val();
+            var $arc_shorttitle     =$("input[id='shorttitle']").val();
+            var $arc_short          =$("input[id='short']").val();
+            var $arc_color          =$("input[id='color']").val();
+            var $arc_writer         =$("input[id='writer']").val();
+            var $arc_source         =$("input[id='source']").val();
+            var $arc_keywords       =$("input[id='keywords']").val();
+            var $arc_descriptin     =$("input[id='description']").val();
+            var $arc_redirecturl    =$("input[id='redirecturl']").val();
+            var $arc_body           =getUEFormatBody();
+
+            if($arc_title.length<=0){ MsgBox("文章标题不能为空哈!"); return false;}
+            UeditContentPost(
+                {
+                    "opt":'<?php echo ($arc_attrinfo["opt"]); ?>',
+                    "oid":<?php echo ($arc_attrinfo["oid"]); ?>,
+                    <?php if(!empty($arc_attrinfo["aid"])): ?>"aid":<?php echo ($arc_attrinfo["aid"]); ?>,<?php endif; ?>
+                    'short':$arc_short,
+                    'flag':'c',
+                    'shorttitle':$arc_shorttitle,
+                    'title':$arc_title,
+                    'color':$arc_color,
+                    'writer':$arc_writer,
+                    'source':$arc_source,
+                    'litpic':'pp',
+                    'keywords':$arc_keywords,
+                    'description':$arc_descriptin,
+                    'body':$arc_body
+                },
+                "/index.php?s=/home/crowdfunding/OptZcProjectArchives",
+                function(data){
+                   // alert(data.status);
+                    MsgBox(data.msg,data.jmpurl);
+
+                },
+                function(){
+                    alert("ERROR!!123");
+                }
+
+            );
+
+
+        }
+
+
+        $("#sendArcBtn").click(function(){ AddZcArticleInfo();; });
+</script>
 </div>
 </body>
 </html>

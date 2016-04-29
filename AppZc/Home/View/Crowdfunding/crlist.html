@@ -77,10 +77,10 @@
 						<span >323</span>
 					</td>
 					<td>
-						<button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm">生成二维码</button>
-						<a href="javascript:void(0);" class="btn btn-default btn-xs">预览</a>
-						<a href="__URL__/addBodyIndex/oid/<{$vo.id}>/cdt/<{$vo.start_time}>/cname/<{$vo.objname|urlencode=###}>" class="btn btn-success btn-xs">主体介绍</a>
-						<a href="__URL__/AddObjArcData/oid/<{$vo.id}>" class="btn btn-info btn-xs">文章管理</a>
+						<button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm" >生成二维码</button>
+						<a href="javascript:void(0);" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="top" title="参与本次活动的所有用户">用户列表</a>
+						<a href="__URL__/addBodyIndex/oid/<{$vo.id}>/cdt/<{$vo.start_time}>/cname/<{$vo.objname|urlencode=###}>" data-toggle="tooltip" data-placement="top" title="应用的主体内容,是对当前活动的主体介绍,是用户的第一视角点" class="btn btn-success btn-xs">主体介绍</a>
+						<a href="__URL__/AddObjArcData/oid/<{$vo.id}>" class="btn btn-info btn-xs"  data-toggle="tooltip" data-placement="top" title="用户主体下面的扩展阅读文章,可选内容" >文章管理</a>
 						<a href="javascript:void(0);" class="btn btn-primary btn-xs">修改设置</a>
 						<a href="javascript:void(0);" class="btn btn-danger btn-xs">删除</a>
 					</td>
@@ -96,7 +96,7 @@
 	  <div role="tabpanel" class="tab-pane fade" id="zctrash" aria-labelledby="profile-tab">
        asdf123
 	  </div>
-		<script type="text/javascript"> $(function(){ $('[data-toggle="popover"]').popover() }) </script>
+
     </div>
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
 	<div class="modal-dialog modal-sm">

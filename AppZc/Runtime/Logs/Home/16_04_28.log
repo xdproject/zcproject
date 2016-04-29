@@ -3706,3 +3706,1208 @@ INFO: [ view_filter ] --START--
 INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
 INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
 
+[ 2016-04-28T19:28:21+08:00 ] 14.134.26.192 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: zc_user_info D:\www\wechatapp\web\AppZc\Home\Controller\LoginController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qrimg D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\5a9f992c6440e5fb5c7e0a31917658e7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078115s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:28:27+08:00 ] 14.134.26.192 /index.php/Home/Login/LoginIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_admin` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_admin` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:28:28+08:00 ] 14.134.26.192 /index.php?s=/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:28:32+08:00 ] 14.134.26.192 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0156s ]
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Model\CrowdundingModel.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_object`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:28:36+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1/cdt/1461227496/cname/%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_addonobject` WHERE `oid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:28:45+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/AddObjArcData/oid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_archives` WHERE `oid` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A non well formed numeric value encountered D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\545642588a335c4c8e82f484ca0be0ae.php 第 117 行.
+NOTIC: [8] A non well formed numeric value encountered D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\545642588a335c4c8e82f484ca0be0ae.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:29:24+08:00 ] 14.134.26.192 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Model\CrowdundingModel.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_object`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:33:30+08:00 ] 14.134.26.192 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Model\CrowdundingModel.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_object`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:33:34+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/addBodyIndex/oid/1/cdt/1461227496/cname/%E6%B5%8B%E8%AF%95%E9%A1%B9%E7%9B%AE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_addonobject` WHERE `oid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T19:33:37+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/AddObjArcData/oid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_archives` WHERE `oid` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A non well formed numeric value encountered D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\545642588a335c4c8e82f484ca0be0ae.php 第 117 行.
+NOTIC: [8] A non well formed numeric value encountered D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\545642588a335c4c8e82f484ca0be0ae.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:14:11+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/AddObjArcData/oid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:16:41+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/AddObjArcData/oid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:16:45+08:00 ] 14.134.26.192 /index.php?s=/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: zc_user_info D:\www\wechatapp\web\AppZc\Home\Controller\LoginController.class.php 第 22 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: qrimg D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\5a9f992c6440e5fb5c7e0a31917658e7.php 第 36 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:16:48+08:00 ] 14.134.26.192 /index.php/Home/Login/LoginIn
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_admin` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_admin` WHERE `uname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:16:49+08:00 ] 14.134.26.192 /index.php?s=/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:16:52+08:00 ] 14.134.26.192 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0156s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Model\CrowdundingModel.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_object`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:16:59+08:00 ] 14.134.26.192 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Model\CrowdundingModel.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_object`  [ RunTime:0.0156s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:17:01+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/AddObjArcData/oid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_archives` WHERE `oid` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A non well formed numeric value encountered D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\545642588a335c4c8e82f484ca0be0ae.php 第 117 行.
+NOTIC: [8] A non well formed numeric value encountered D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\545642588a335c4c8e82f484ca0be0ae.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:17:21+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:17:23+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 28 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031246s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:17:25+08:00 ] 14.134.26.192 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0156s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Model\CrowdundingModel.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_object`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:17:53+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/AddObjArcData/oid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_archives` WHERE `oid` = 1  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A non well formed numeric value encountered D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\545642588a335c4c8e82f484ca0be0ae.php 第 117 行.
+NOTIC: [8] A non well formed numeric value encountered D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\545642588a335c4c8e82f484ca0be0ae.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:18:11+08:00 ] 14.134.26.192 /index.php?s=/home/crowdfunding/AddObjArcData/oid/1/cp/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: zc_body D:\www\wechatapp\web\AppZc\Runtime\Cache\Home\9f7db8511780d73a1349d0fd8c69acf5.php 第 143 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:19:52+08:00 ] 14.134.26.192 /index.php?s=/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:19:55+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 28 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:19:56+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/replayindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:20:01+08:00 ] 14.134.26.192 /index.php?s=/home/Crowdfunding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant EXTFUNCTION_FUNCTIONPLUGIN - assumed 'EXTFUNCTION_FUNCTIONPLUGIN' D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Api\Api.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_object` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_addonobject` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_archives` [ RunTime:0.0156s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\ExtFunction\Crowdfunding\Model\CrowdundingModel.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_object`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:20:41+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 28 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-28T20:21:13+08:00 ] 14.134.26.192 /index.php?s=/home/we_chat_user/UpdateUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 186 D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatUser.class.php 第 22 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVozVz0PGvZAB732TqiBjpc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcRFjWNbT5-TwxlhGM4LGn8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZtv3DJFTHi7XEPNqPe420o' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRabGMVpUQoY8f2MVZmaNC8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweAkhxw4bfnzU6V8lmff7h8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSkPl6A3C28niw3C2z2Bhvo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb20l3DIG2YEowwAQO9RMds' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbOF5vud-j1F_8whRO1U7Jk' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQX-eNswymab6TBn1aCJ_B0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwT2j5kp3pP3KKoJdsnjYzeU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcoUrrXX2rvy5V3bYANL4R0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZxeuFvMRb96zFa_X7ZhplU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYkLjCvYUBNGAqXO-j9nzIM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZG-0Skg3GoIXlsClNVympw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTJx7zvBVCO4tk43phgErvo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwR_KOu-Nnxx7ZXtj4DpAMd4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcz6hf9QpFpb8AsoIEQNge8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwas-boxksqllr1VILTBDtWg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU_j52Usq_w7JruEm3XDpvM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwc6cai89JuuO4MryGGrh6HI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweo7uPe3G0obclEqSNHzANM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRJ577_zTCvKNcALOqrD4ic' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUKh1Y38vCEEcTR-xZKpMCU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdmVBmwITBQUIQIJzb1Ox3Y' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU1zUSKZeqy8x_99R1Xtx3s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWCl5kqTaDGNNAmh_sAOjPw' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwagUqfEq6qD0sKXUhejArpQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUYSuOgCpFnTMsoo2aslI54' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUxlGKfq-ExnW5kpR1u7H_E' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYjB9KV5tBqn2Gk4ugGuCdo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwaZ5VlP9DT6qyMNBsJ-zBAg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU5fP_KM94E3lKhVzRjpBuw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXS_maEJ2rt39yjkjRBpA2g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdm17diD1BhxZzrxvptG7qA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYfzLoCpmQW4aLSpVFiMfVc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcVu13w1ob74044rSqNGKDA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZyQNKetGl38Z83RDuvWTV4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYF733hu-2CLpWhJdKplslI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfvWFDJ1a5PFLSgiyQ_Baas' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwefTet9hxubI__mJW8FT4cw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdKIGiLnn1Mj3Z7DBIs3VOY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTuQpn34ct56KJbQkCj4r8c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQDOgQNJ4YHsehUUYEK_IVM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zc_wechatuserinfo` (`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('1','oEHwSwQDOgQNJ4YHsehUUYEK_IVM','banana_🍌','2','zh_CN','','','','http://wx.qlogo.cn/mmopen/DMKGOUXicPCFOiaMEHGZOZTZz5T4W7N4EwUVkb7prICdjDiaXibjXofJRb1gRRMnpWv0ynGbdIcs3eP06XwSwIo7Gg/0','1461400269','','0') [ RunTime:0.0312s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb1nLCJGF39He3J10Iz4r4M' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRz36geUAkuTQbIKV2SVD_g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTZMmODMnrQagBLPsCCAWAw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUjNmupyH6Ae3QYr6hwjdrg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU-5Wr_Qy9XjkrBTRzafMDU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRwh8LXVtw-iBvRzjBFI0H8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVkw-PZag79ZBSOHh5sO6Es' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweP-NoChJ8Zfvxxyr9UK4FY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQOyXE7xEP7juTLkC5aBDMY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXrWydYyLHudqYUTfgbWbkg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweOFcHpLRaLDKsUx41i676g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcfZzWfTMeID7RgVb4aL69E' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXczJq-ff5WFz97fGGeapiw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVfcqGPtU-SfbaO6GA_svOo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcOsgKUAsuCIjhCwfNDfLu0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRwBR7oV8LkX7o411N4Z418' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zc_wechatuserinfo` (`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('1','oEHwSwRwBR7oV8LkX7o411N4Z418','A积木城池','2','zh_CN','','','中国','http://wx.qlogo.cn/mmopen/PiajxSqBRaEKPPLibTXbnSYOINkYlFvk0bVU1sVMKLKpqVYXmsZibI0cAJaiam4xnAOqqyB82YId7DGcH7JTJ6NHTQ/0','1461381356','','0') [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQ3ddufipJGApByRJdPoLM8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQbZ3NRfFBaLFz-8zgRRieY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTQxnOApHkUMWbp2tMtUdVc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zc_wechatuserinfo` (`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('1','oEHwSwTQxnOApHkUMWbp2tMtUdVc','久了就旧了～','1','zh_CN','银川','宁夏','中国','http://wx.qlogo.cn/mmopen/kqodNCVWpEsKDtWlpic4gd0tDmnAjJOicjqygeKlIZUUIAmIDSkeXAchWjOxYicjr9Mpia5kHGezf879q9QLOrM0Zw/0','1461214835','','0') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwf9z2KwxIfZg6WuZL0mvMdw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWLR8fEBr7ggeJVs64FUpHg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwd3t1boEYpVV7gI5ictmYU8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRNdVgM7QaUxbzsvQB3_Ouw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVROJesupXCmS_BTGOaxj6c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZSv4yTNK4aMttzqGmEMbGw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYs38GWk-H0Td_hFe8J0gjY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwc3gN45DpnyEOZgWqEA0uIA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb0tWH7e67mlLB9W3hhKayc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXMs9rnhR-zI_EoLkDZXuJc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSy8J_GTsz_jzvXL3RUxjoY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfW0H-QwUmZdNrSb7cvFUV0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYYaqcrt8iK2i_DTwCSt0w4' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUAA3r9cgs5fnNtX6m12ijw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwat8NCoH7kDSqLCzRoTtwNE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwefwFQKi7FDotd5cVrqVgyI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUgymHluwhSJ4i1kvMgK4Nc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwaYIQ_bWIbollL6dldJPbl0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU5XFMlCz0qeDsAj-dSblc0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVqcyk_-DQKSbbYrfsQduwU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwW3-Qs29rfyE4e7mtpVxTqU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYVl_E5lZJUlVuRL-Eglc7w' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSY1-ZYI31qi2eYhxiikemA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfasy6xYMmiDqEr_MAYOJiw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfSyDWpjRmOjWZ2uYDZwyWI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVJ3NEJS-LdnKlFp8gNUyfE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSWdH_eOKr_TmthZhy5I69c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfGw58VgUAfe-jn58HxzyL4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwURJqg4tg6MVAlCT76WL3bo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXReDtcJX8CxYnsKA0n2Sz8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwY-xOks6FxbhzDNosNqhjvU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcfsoH3w7s6g52lNO2mVsHo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zc_wechatuserinfo` (`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('1','oEHwSwcfsoH3w7s6g52lNO2mVsHo','……','1','zh_CN','','','安道尔','http://wx.qlogo.cn/mmopen/DMKGOUXicPCF1jNmJAe8ka0IXX9yxOGCg1iauYnBpqDiccMRtB6MYjEA8Y9Iic1ampia5wvlGd5WjOxU3FMibEzO77XTPaq4jLXQ0s/0','1461636996','','0') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwa7m0UOBFB2p-4ReDM-EMNs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwd1_jSKO1bDL9bpHLqQzG54' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVFJUnRhkxiJ5Wy_BW9dQaE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZbYNUfb0sxaiwvIVXofaN8' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwX0SI7Bu4itev4NKaHCa0tw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwch1iGcHMx5-Od7AO8HeIv8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwV6xYh8hh9lqynNzGU0KcY8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwR7irw9SmNkpAr5v2BKLO8k' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwS0IR7WVnoUK96GZXD7Yw30' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZHe7RfiA4Aah5ffaKkFYzo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYC2af1DDiRSG-rx5Z4ClDo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWiLvXnvqD-23zekSe9o58M' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb0tZ8AcN6Dx06AP64RUUnY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQbJwJQwNj1YtSCpzgXi5ys' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwc9kcdYLmMhzcw6XIYHGEDc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwemt5iHt6x7DPOxdfFYIeEs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwY5sEVj4VThgTBkzkpCCHHI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwellVTGR0gJtS6fgV0Gq73c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwctOUMM3A5pe7oqaIgSXa6Q' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRvTbNRDqNk19ubknTaEcDs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSgu4pXY6-_F8egCfDJxr5k' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwejAG1IaHx8zfGfK_SfQfcY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYqrumoVq8aOPyErX9hOQIE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZikT7lv5sA-hXnVGcEnEMU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwegYtAeHIQr-zL9zCitpP_M' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbjtAJmQT9emF5KtJjQi7Z4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcA7QGl1WucpSoBr2vp5Hwc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZ3ou9SpnYuPvFhGamm0f_k' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfp6_TbN62BHV00oixYC2XU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXfRdlF6rg4C56vz7s6j0WQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdFIQY9jfic4FOw98NlFZeQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwd2Xdh0sSljxX32GHbLUx6c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVPF2Ug6HrGFqLeRkOn2BeU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb3q0s1uvkwZW6VqYKCK8M0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQDS2aFrJ9xpNmCLvHG24HU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYWBNZyVgovPBT4BkC_FK5E' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwft6wODJ3kGFLw1W6l-MFHQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwT_FGM9rHeZtob3kx0ak4d4' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUkF_jsO1baDuv9bowc3zis' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwftYXuGm84O5GsVJ3GV5Dow' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcEqspU7MviSLiEEzYkb6A0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweJl3VSP6A1qlTKk__zbQqk' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwalDEynXT2J_D7MVgSdMqv0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwaGA0NHUtFMtQjOLDBYRcX8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweRhyO140a48NS0uGDWTSbY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbDSYbd3kQFcAgO8CJ-Kr1s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZ0PiUaeATIJQzLDlaW-zME' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcEfAooQOebxUCm_3UXeQ5s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwe6Fhw-fcQtAzPNIkiXBvHM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdlUdgm4s_3-Gs9u5RP02P8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zc_wechatuserinfo` (`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('1','oEHwSwdlUdgm4s_3-Gs9u5RP02P8','春光','1','zh_CN','','','中国','http://wx.qlogo.cn/mmopen/Q3auHgzwzM6GmucFsSrdeMnjdSJNdtQuN9icvbicVqGz4N2VrfBcd8Gk222Q6GUTGNLUKx1y4ZmF3CYeV5SHBrymibo8pcvQqkBlGzic6EoIqUM/0','1461215326','','0') [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRMSsb219DOwZRJJJxi1ZTQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTmyEDjISmIJJU_sWnVDJKg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwap0KHBJGQXt-s5WPexVkmo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwX5fFc2L1RJLupA3tjGzBrs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZiFwkPq6x9HyHcLM8AqXW8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwanr9SwFmDQVNBftRaCQiO4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcatRhw8HNt9Z67e6mwz9Xw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVdHj2e-fiuF3vlJ7V0MYJ0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWlFVywc0SyY9VnnsdgM6e0' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSbxLak7zhF2ZN3LzR6AS64' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVGGjnuCxwppYh8zBbvHeMY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRCfQ-iJRM1XTiBuR9XCnsg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcnrL16lCGYV1sg-bwhy27Y' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWk-rfN838pnXAYmZN_2PmU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcFVWsLXZVT7zcJDJpClMVo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwftOuKwACl_GsccMm57GaLM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZ6nPRCDElWS1dczipcL5bY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVH30YapagkpQ7_fgtFmS54' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTpN_CbTF3UkjNar7-pdLxY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZKVYXUun-GlfVoRuqUCyh8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfyXdfdqIJm5F7pA4ahyIFE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSdidUV7Gt2gK8cNC65Roww' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zc_wechatuserinfo` (`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('1','oEHwSwSdidUV7Gt2gK8cNC65Roww','黑眼圈💘','2','zh_CN','','克莱尔','爱尔兰','http://wx.qlogo.cn/mmopen/DMKGOUXicPCGevZ6VkrsFfbvBuL2qje42djicWgJiaUb9F4cObjqBciaHuODfHfjr8kYvLfZzOC5s2JtUTz36iblkoyLO14yDXyVs/0','1461053417','','0') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZTGGhbnBFQBTC7ndQ8eoqc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `zc_wechatuserinfo` (`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('1','oEHwSwZTGGhbnBFQBTC7ndQ8eoqc','熊建','1','zh_CN','银川','宁夏','中国','http://wx.qlogo.cn/mmopen/kqodNCVWpEvUq4XO6JC9z19x8nYGqaicDcbKPsmGe7GiaPY95S2PcvHxV1jibxibtJCBRYPNus6UoTUxMJhHRuXjXBxUphDXxBYd/0','1461640580','','0') [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQxl2CVYJB3oaQyfzBCOmkI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwefzjFX0G-XVygtOPzQWidA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwd0XiBwglx5oigqzpYPAjMo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTT9U2UWDX_B8_wAk0FPUXo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVNC-Oytp966wS8HL10UkYE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSxYRz8TkqLR6XuMaqJvA_0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYhnmle3lpzqNz1wp0JoPfM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZQDZibkS3B7VFGBCKozOiU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXbAlqd-EFbhUnh5Ef9f5B4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSKTK9VN5h_SC0-HOpuvLhI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZqKv5vLLTRvJbdW4k-r-ms' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwf4SgCcDY12mDDzfsmVjQxQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVOzA3eRPnZiwXO4vw_fnY0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbtGfuwyYQVbYsZCfIBg534' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRI0BT-YXBXVcwoCNPG6oqg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbvGPR0hL2KmVbE_jtpde6I' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXzBk25uDfZ-kazE1BgiMSw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXmz8DcZ0cZL_S40CfKqEdA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweMEt5MVZLdhB1DgwGwHAu0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '181' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `zc_wechatuserinfo` (`id`,`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('181','1','oEHwSweMEt5MVZLdhB1DgwGwHAu0','蝶恋花','2','zh_CN','石嘴山','宁夏','中国','http://wx.qlogo.cn/mmopen/DMKGOUXicPCGevZ6VkrsFfdHv4EudYaE41WibibsRaEbsQaB61t7zwrw5cdt6bGf5StyC9Ep0d3qZiaF4twBPBWiccx3ETGJA0L3H/0','1458907285','','0')
+ERR: 1062:Duplicate entry '181' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `zc_wechatuserinfo` (`id`,`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('181','1','oEHwSweMEt5MVZLdhB1DgwGwHAu0','蝶恋花','2','zh_CN','石嘴山','宁夏','中国','http://wx.qlogo.cn/mmopen/DMKGOUXicPCGevZ6VkrsFfdHv4EudYaE41WibibsRaEbsQaB61t7zwrw5cdt6bGf5StyC9Ep0d3qZiaF4twBPBWiccx3ETGJA0L3H/0','1458907285','','0')
+
+[ 2016-04-28T20:21:48+08:00 ] 14.134.26.192 /index.php?s=/home/we_chat_user/UpdateUserList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 186 D:\www\wechatapp\web\AppZc\WeChat\Api\WeChatUser.class.php 第 22 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVozVz0PGvZAB732TqiBjpc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcRFjWNbT5-TwxlhGM4LGn8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZtv3DJFTHi7XEPNqPe420o' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRabGMVpUQoY8f2MVZmaNC8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweAkhxw4bfnzU6V8lmff7h8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSkPl6A3C28niw3C2z2Bhvo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb20l3DIG2YEowwAQO9RMds' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbOF5vud-j1F_8whRO1U7Jk' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQX-eNswymab6TBn1aCJ_B0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwT2j5kp3pP3KKoJdsnjYzeU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcoUrrXX2rvy5V3bYANL4R0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZxeuFvMRb96zFa_X7ZhplU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYkLjCvYUBNGAqXO-j9nzIM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZG-0Skg3GoIXlsClNVympw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTJx7zvBVCO4tk43phgErvo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwR_KOu-Nnxx7ZXtj4DpAMd4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcz6hf9QpFpb8AsoIEQNge8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwas-boxksqllr1VILTBDtWg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU_j52Usq_w7JruEm3XDpvM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwc6cai89JuuO4MryGGrh6HI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweo7uPe3G0obclEqSNHzANM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRJ577_zTCvKNcALOqrD4ic' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUKh1Y38vCEEcTR-xZKpMCU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdmVBmwITBQUIQIJzb1Ox3Y' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU1zUSKZeqy8x_99R1Xtx3s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWCl5kqTaDGNNAmh_sAOjPw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwagUqfEq6qD0sKXUhejArpQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUYSuOgCpFnTMsoo2aslI54' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUxlGKfq-ExnW5kpR1u7H_E' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYjB9KV5tBqn2Gk4ugGuCdo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwaZ5VlP9DT6qyMNBsJ-zBAg' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU5fP_KM94E3lKhVzRjpBuw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXS_maEJ2rt39yjkjRBpA2g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdm17diD1BhxZzrxvptG7qA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYfzLoCpmQW4aLSpVFiMfVc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcVu13w1ob74044rSqNGKDA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZyQNKetGl38Z83RDuvWTV4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYF733hu-2CLpWhJdKplslI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfvWFDJ1a5PFLSgiyQ_Baas' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwefTet9hxubI__mJW8FT4cw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdKIGiLnn1Mj3Z7DBIs3VOY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTuQpn34ct56KJbQkCj4r8c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQDOgQNJ4YHsehUUYEK_IVM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb1nLCJGF39He3J10Iz4r4M' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRz36geUAkuTQbIKV2SVD_g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTZMmODMnrQagBLPsCCAWAw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUjNmupyH6Ae3QYr6hwjdrg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU-5Wr_Qy9XjkrBTRzafMDU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRwh8LXVtw-iBvRzjBFI0H8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVkw-PZag79ZBSOHh5sO6Es' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweP-NoChJ8Zfvxxyr9UK4FY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQOyXE7xEP7juTLkC5aBDMY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXrWydYyLHudqYUTfgbWbkg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweOFcHpLRaLDKsUx41i676g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcfZzWfTMeID7RgVb4aL69E' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXczJq-ff5WFz97fGGeapiw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVfcqGPtU-SfbaO6GA_svOo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcOsgKUAsuCIjhCwfNDfLu0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRwBR7oV8LkX7o411N4Z418' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQ3ddufipJGApByRJdPoLM8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQbZ3NRfFBaLFz-8zgRRieY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTQxnOApHkUMWbp2tMtUdVc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwf9z2KwxIfZg6WuZL0mvMdw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWLR8fEBr7ggeJVs64FUpHg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwd3t1boEYpVV7gI5ictmYU8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRNdVgM7QaUxbzsvQB3_Ouw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVROJesupXCmS_BTGOaxj6c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZSv4yTNK4aMttzqGmEMbGw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYs38GWk-H0Td_hFe8J0gjY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwc3gN45DpnyEOZgWqEA0uIA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb0tWH7e67mlLB9W3hhKayc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXMs9rnhR-zI_EoLkDZXuJc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSy8J_GTsz_jzvXL3RUxjoY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfW0H-QwUmZdNrSb7cvFUV0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYYaqcrt8iK2i_DTwCSt0w4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUAA3r9cgs5fnNtX6m12ijw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwat8NCoH7kDSqLCzRoTtwNE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwefwFQKi7FDotd5cVrqVgyI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUgymHluwhSJ4i1kvMgK4Nc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwaYIQ_bWIbollL6dldJPbl0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwU5XFMlCz0qeDsAj-dSblc0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVqcyk_-DQKSbbYrfsQduwU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwW3-Qs29rfyE4e7mtpVxTqU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYVl_E5lZJUlVuRL-Eglc7w' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSY1-ZYI31qi2eYhxiikemA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfasy6xYMmiDqEr_MAYOJiw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfSyDWpjRmOjWZ2uYDZwyWI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVJ3NEJS-LdnKlFp8gNUyfE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSWdH_eOKr_TmthZhy5I69c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfGw58VgUAfe-jn58HxzyL4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwURJqg4tg6MVAlCT76WL3bo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXReDtcJX8CxYnsKA0n2Sz8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwY-xOks6FxbhzDNosNqhjvU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcfsoH3w7s6g52lNO2mVsHo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwa7m0UOBFB2p-4ReDM-EMNs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwd1_jSKO1bDL9bpHLqQzG54' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVFJUnRhkxiJ5Wy_BW9dQaE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZbYNUfb0sxaiwvIVXofaN8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwX0SI7Bu4itev4NKaHCa0tw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwch1iGcHMx5-Od7AO8HeIv8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwV6xYh8hh9lqynNzGU0KcY8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwR7irw9SmNkpAr5v2BKLO8k' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwS0IR7WVnoUK96GZXD7Yw30' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZHe7RfiA4Aah5ffaKkFYzo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYC2af1DDiRSG-rx5Z4ClDo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWiLvXnvqD-23zekSe9o58M' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb0tZ8AcN6Dx06AP64RUUnY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQbJwJQwNj1YtSCpzgXi5ys' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwc9kcdYLmMhzcw6XIYHGEDc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwemt5iHt6x7DPOxdfFYIeEs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwY5sEVj4VThgTBkzkpCCHHI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwellVTGR0gJtS6fgV0Gq73c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwctOUMM3A5pe7oqaIgSXa6Q' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRvTbNRDqNk19ubknTaEcDs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSgu4pXY6-_F8egCfDJxr5k' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwejAG1IaHx8zfGfK_SfQfcY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYqrumoVq8aOPyErX9hOQIE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZikT7lv5sA-hXnVGcEnEMU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwegYtAeHIQr-zL9zCitpP_M' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbjtAJmQT9emF5KtJjQi7Z4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcA7QGl1WucpSoBr2vp5Hwc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZ3ou9SpnYuPvFhGamm0f_k' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfp6_TbN62BHV00oixYC2XU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXfRdlF6rg4C56vz7s6j0WQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdFIQY9jfic4FOw98NlFZeQ' LIMIT 1   [ RunTime:0.0156s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwd2Xdh0sSljxX32GHbLUx6c' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVPF2Ug6HrGFqLeRkOn2BeU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwb3q0s1uvkwZW6VqYKCK8M0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQDS2aFrJ9xpNmCLvHG24HU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYWBNZyVgovPBT4BkC_FK5E' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwft6wODJ3kGFLw1W6l-MFHQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwT_FGM9rHeZtob3kx0ak4d4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwUkF_jsO1baDuv9bowc3zis' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwftYXuGm84O5GsVJ3GV5Dow' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcEqspU7MviSLiEEzYkb6A0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweJl3VSP6A1qlTKk__zbQqk' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwalDEynXT2J_D7MVgSdMqv0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwaGA0NHUtFMtQjOLDBYRcX8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweRhyO140a48NS0uGDWTSbY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbDSYbd3kQFcAgO8CJ-Kr1s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZ0PiUaeATIJQzLDlaW-zME' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcEfAooQOebxUCm_3UXeQ5s' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwe6Fhw-fcQtAzPNIkiXBvHM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwdlUdgm4s_3-Gs9u5RP02P8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRMSsb219DOwZRJJJxi1ZTQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTmyEDjISmIJJU_sWnVDJKg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwap0KHBJGQXt-s5WPexVkmo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwX5fFc2L1RJLupA3tjGzBrs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZiFwkPq6x9HyHcLM8AqXW8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwanr9SwFmDQVNBftRaCQiO4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcatRhw8HNt9Z67e6mwz9Xw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVdHj2e-fiuF3vlJ7V0MYJ0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWlFVywc0SyY9VnnsdgM6e0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSbxLak7zhF2ZN3LzR6AS64' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVGGjnuCxwppYh8zBbvHeMY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRCfQ-iJRM1XTiBuR9XCnsg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcnrL16lCGYV1sg-bwhy27Y' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwWk-rfN838pnXAYmZN_2PmU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwcFVWsLXZVT7zcJDJpClMVo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwftOuKwACl_GsccMm57GaLM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZ6nPRCDElWS1dczipcL5bY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVH30YapagkpQ7_fgtFmS54' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTpN_CbTF3UkjNar7-pdLxY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZKVYXUun-GlfVoRuqUCyh8' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwfyXdfdqIJm5F7pA4ahyIFE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSdidUV7Gt2gK8cNC65Roww' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZTGGhbnBFQBTC7ndQ8eoqc' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwQxl2CVYJB3oaQyfzBCOmkI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwefzjFX0G-XVygtOPzQWidA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwd0XiBwglx5oigqzpYPAjMo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwTT9U2UWDX_B8_wAk0FPUXo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVNC-Oytp966wS8HL10UkYE' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSxYRz8TkqLR6XuMaqJvA_0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwYhnmle3lpzqNz1wp0JoPfM' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZQDZibkS3B7VFGBCKozOiU' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXbAlqd-EFbhUnh5Ef9f5B4' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwSKTK9VN5h_SC0-HOpuvLhI' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwZqKv5vLLTRvJbdW4k-r-ms' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwf4SgCcDY12mDDzfsmVjQxQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwVOzA3eRPnZiwXO4vw_fnY0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbtGfuwyYQVbYsZCfIBg534' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwRI0BT-YXBXVcwoCNPG6oqg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwbvGPR0hL2KmVbE_jtpde6I' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXzBk25uDfZ-kazE1BgiMSw' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSwXmz8DcZ0cZL_S40CfKqEdA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = 'oEHwSweMEt5MVZLdhB1DgwGwHAu0' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zc_wechatuserinfo` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry '181' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `zc_wechatuserinfo` (`id`,`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('181','1','oEHwSweMEt5MVZLdhB1DgwGwHAu0','蝶恋花','2','zh_CN','石嘴山','宁夏','中国','http://wx.qlogo.cn/mmopen/DMKGOUXicPCGevZ6VkrsFfdHv4EudYaE41WibibsRaEbsQaB61t7zwrw5cdt6bGf5StyC9Ep0d3qZiaF4twBPBWiccx3ETGJA0L3H/0','1458907285','','0')
+ERR: 1062:Duplicate entry '181' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `zc_wechatuserinfo` (`id`,`subscribe`,`openid`,`nickname`,`sex`,`language`,`city`,`province`,`country`,`headimgurl`,`subscribe_time`,`remark`,`groupid`) VALUES ('181','1','oEHwSweMEt5MVZLdhB1DgwGwHAu0','蝶恋花','2','zh_CN','石嘴山','宁夏','中国','http://wx.qlogo.cn/mmopen/DMKGOUXicPCGevZ6VkrsFfdHv4EudYaE41WibibsRaEbsQaB61t7zwrw5cdt6bGf5StyC9Ep0d3qZiaF4twBPBWiccx3ETGJA0L3H/0','1458907285','','0')
+
+[ 2016-04-28T20:21:49+08:00 ] 14.134.26.192 /index.php?s=/home/WeChatUser/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_sysconfig` [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_TOKEN' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPSECRET' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_APPID' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`zc_key`,`zc_val`,`zc_descript` FROM `zc_sysconfig` WHERE `zc_key` = 'ZC_ENCODINGAESKEY' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zc_wechatuserinfo` [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 25 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `zc_wechatuserinfo` LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::where(), called in D:\www\wechatapp\web\AppZc\Home\Controller\WeChatUserController.class.php on line 28 and defined D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1797 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1805 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1808 行.
+NOTIC: [8] Undefined variable: where D:\www\wechatapp\web\Include\Library\Think\Model.class.php 第 1816 行.
+SQL: SELECT * FROM `zc_wechatuserinfo` ORDER BY id LIMIT 0,25   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

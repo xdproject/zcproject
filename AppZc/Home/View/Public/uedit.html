@@ -1,5 +1,8 @@
 <js href="__PUBLIC__/ueditor/ueditor.config.js" />
 <js href="__PUBLIC__/ueditor/ueditor.all.min.js" />
 <script> $(function(){ var ue = UE.getEditor('container',{ serverUrl :'<{:U('Home/Crowdfunding/ueditor')}>' }); }) </script>
-<script id="container" name="content" type="text/plain" style="width:100%;height:100%;"> <{$zc_body|htmlspecialchars_decode|stripslashes}></script>
+<script id="container" name="content" type="text/plain" style="width:100%;height:100%;">
+    <{$zc_body|htmlspecialchars_decode|stripslashes}>
+    <{$arcinfo.body|htmlspecialchars_decode|stripslashes}>
+    </script>
 <js href="__PUBLIC__/ueditor/cu_functions.js" />

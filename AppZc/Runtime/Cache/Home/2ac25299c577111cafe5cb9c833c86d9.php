@@ -68,6 +68,31 @@
             <li><a href="/index.php?s=/home/SysConfig/index.html">系统设置</a></li>
           </ul>
         </div>
+
+  <!--dialogBox -->
+<div class="modal fade bs-example-modal-sm" id="MsgBox" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">信息框</h4>
+            </div>
+            <div class="modal-body" id="modal-body-c"> </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="MsgBox_closeBtn">关闭</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <script type="text/javascript">
+	  function MsgBox(msgbody,jmpurl){
+          $("#modal-body-c").html(msgbody); $("#MsgBox").modal();
+          $("#MsgBox_closeBtn").click(function(){
+              window.location.href=jmpurl;
+          })
+      }
+  </script>
+
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 			<h1 class="page-header">微信助手-功能中心</h1>
 <div class="panel panel-default margin-sy">
@@ -146,10 +171,10 @@
 						<span >323</span>
 					</td>
 					<td>
-						<button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm">生成二维码</button>
-						<a href="javascript:void(0);" class="btn btn-default btn-xs">预览</a>
-						<a href="/index.php?s=/home/crowdfunding/addBodyIndex/oid/<?php echo ($vo["id"]); ?>/cdt/<?php echo ($vo["start_time"]); ?>/cname/<?php echo (urlencode($vo["objname"])); ?>" class="btn btn-success btn-xs">主体介绍</a>
-						<a href="/index.php?s=/home/crowdfunding/AddObjArcData/oid/<?php echo ($vo["id"]); ?>" class="btn btn-info btn-xs">文章管理</a>
+						<button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm" >生成二维码</button>
+						<a href="javascript:void(0);" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="top" title="参与本次活动的所有用户">用户列表</a>
+						<a href="/index.php?s=/home/crowdfunding/addBodyIndex/oid/<?php echo ($vo["id"]); ?>/cdt/<?php echo ($vo["start_time"]); ?>/cname/<?php echo (urlencode($vo["objname"])); ?>" data-toggle="tooltip" data-placement="top" title="应用的主体内容,是对当前活动的主体介绍,是用户的第一视角点" class="btn btn-success btn-xs">主体介绍</a>
+						<a href="/index.php?s=/home/crowdfunding/AddObjArcData/oid/<?php echo ($vo["id"]); ?>" class="btn btn-info btn-xs"  data-toggle="tooltip" data-placement="top" title="用户主体下面的扩展阅读文章,可选内容" >文章管理</a>
 						<a href="javascript:void(0);" class="btn btn-primary btn-xs">修改设置</a>
 						<a href="javascript:void(0);" class="btn btn-danger btn-xs">删除</a>
 					</td>
@@ -164,7 +189,7 @@
 	  <div role="tabpanel" class="tab-pane fade" id="zctrash" aria-labelledby="profile-tab">
        asdf123
 	  </div>
-		<script type="text/javascript"> $(function(){ $('[data-toggle="popover"]').popover() }) </script>
+
     </div>
 <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
 	<div class="modal-dialog modal-sm">
