@@ -129,6 +129,20 @@ class CrowdundingArchivesModel extends Model {
     }
 
     /**
+     * 获取指定项目下的所有文章总数
+     * @param $oid 项目编号
+     */
+    public function getObjArticleCount($oid){
+        $arc_count = $this->where(array('oid'=>$oid))->count();
+        if($arc_count>0)
+            return $arc_count;
+           // return array('oc_count'=>$arc_count);
+        else
+            return 0;
+            //return array('oc_count'=>'0');
+    }
+
+    /**
      * 获取项目文章的主体内容
      * @param $aid
      * @return bool|mixed

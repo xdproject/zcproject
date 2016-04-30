@@ -13,6 +13,7 @@
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/Public/css/dashboard.css" />
+    <link rel="stylesheet" type="text/css" href="/Public/css/bootstrap-datetimepicker.min.css" />
   </head>
 
   <body>
@@ -94,162 +95,172 @@
   </script>
 
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
-			<h1 class="page-header">微信助手-功能中心</h1>
-<div class="panel panel-default margin-sy">
-  <!-- Default panel contents -->
-  <div class="panel-heading" style="height:50px;">
-  	<div class="pull-left">众筹应用-众筹项目列表</div>
-	<div class="pull-right">
-		<form method="post" name="userInfoForm">
-			<a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">新建项目</a>
-			<input type="hidden" value="STOUIOID0x000" name="wid">
-			<input type="hidden" value="studioit" name="token">
-			<input type="hidden" value="dzCWxyJLTFCVcHEXcQB1j9NZcfMVUR4MovLdP6Pa5ix" name="encodingaeskey">
-			<input type="hidden" value="wxd3efc43c9d32fc92" name="appid">
-			<input type="hidden" value="14926261c374d50c7894122133690338" name="appsecret">
-		</form>
-	</div>
-  </div>
-</div>
-  <ul id="myTabs" class="nav nav-tabs" role="tablist">
-      <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">项目列表</a></li>
-      <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">众筹设置</a></li>
-	  <li role="presentation"><a href="#zctrash" role="tab" id="profile-tab" data-toggle="tab" aria-controls="zctrash">众筹回收站</a></li>
 
-    </ul>
+              <h1 class="page-header">微信助手-功能中心</h1>
+              <div class="panel panel-default margin-sy">
+                <!-- Default panel contents -->
+                <div class="panel-heading" style="height:50px;">
+                  <div class="pull-left">众筹应用-众筹项目列表</div>
+                  <div class="pull-right">
+                    <form method="post" name="userInfoForm">
+                      <a type="button" class="btn btn-success" id="UpdateWeChatUserBtn" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">新建项目</a>
+                      <input type="hidden" value="STOUIOID0x000" name="wid">
+                      <input type="hidden" value="studioit" name="token">
+                      <input type="hidden" value="dzCWxyJLTFCVcHEXcQB1j9NZcfMVUR4MovLdP6Pa5ix" name="encodingaeskey">
+                      <input type="hidden" value="wxd3efc43c9d32fc92" name="appid">
+                      <input type="hidden" value="14926261c374d50c7894122133690338" name="appsecret">
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <ul id="myTabs" class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#home" id="home-tab" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">项目列表</a></li>
+                <li role="presentation"><a href="#profile" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">众筹设置</a></li>
+                <li role="presentation"><a href="#zctrash" role="tab" id="profile-tab" data-toggle="tab" aria-controls="zctrash">众筹回收站</a></li>
 
-	<div id="myTabContent" class="tab-content">
-      <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
+              </ul>
 
-			<table class="table table-hover">
-		        <thead>
-		          <tr>
-		            <th>编号</th>
-					<th>项目状态</th>
-		            <th>项目名称</th>
-		            <th>目标/进度</th>
-					<th>关注人数</th>
-					<th>创建时间</th>
-					<th>结束日期</th>
-					<th>文章总数</th>
-					<th>回复总数</th>
-					<th><center>操作</center></th>
-		          </tr>
-		        </thead>
-		        <tbody>
+              <div id="myTabContent" class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="home" aria-labelledby="home-tab">
 
-			<?php if(is_array($objlist)): foreach($objlist as $k=>$vo): ?><tr>
-		            <th scope="row" class="Auto_ID"><?php echo ($vo["id"]); ?></th>
-					<td><span >
-		            <?php if( $vo["status"] == 0): ?>不可用
-									<?php elseif($vo["status"] == 1): ?>可用
-									<?php else: ?>未知<?php endif; ?>
+                  <table class="table table-hover">
+                    <thead>
+                    <tr>
+                      <th>编号</th>
+                      <th>项目状态</th>
+                      <th>是否过期</th>
+                      <th>项目名称</th>
+                      <th>目标/进度</th>
+                      <th>关注人数</th>
+                      <th>创建时间</th>
+                      <th>结束日期</th>
+                      <th>文章总数</th>
+                      <th>回复总数</th>
+                      <th><center>操作</center></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+
+                    <?php if(is_array($objlist)): foreach($objlist as $k=>$vo): ?><tr>
+                        <th scope="row" class="Auto_ID"><?php echo ($vo["id"]); ?></th>
+                        <td><span >
+		            <?php if($vo["status"] == 0): ?>不可用
+                      <?php elseif($vo["status"] == 1): ?>可用
+                      <?php else: ?>未知<?php endif; ?>
 					</span></td>
-		            <td>
-		            	<span ><?php echo ($vo["objname"]); ?></span>
-					</td>
-		            <td>
-						<span ><?php echo ($vo["goal"]); ?>/12.00</span>
-					</td>
+                        <td>
+                          <?php if($vo["is_finish"] == '0'): ?><span style="color:red; font-weight: bold;">已结束</span>
+                            <?php elseif($vo["is_finish"] == '1'): ?><span style="color:seagreen; font-weight: bold;">进行中...</span>
+                            <?php else: ?>系统错误<?php endif; ?>
+                        </td>
+                        <td>
+                          <span ><?php echo ($vo["objname"]); ?></span>
+                        </td>
+                        <td>
+                          <span ><?php echo ($vo["goal"]); ?>/12.00</span>
+                        </td>
 
-					<td>
-						<span>123人</span>
-					</td>
+                        <td>
+                          <span  data-toggle="tooltip" data-placement="top" title="参与本次活动的所有用户"> <a href="javascript:void(0);" class="" >1234人</a></span>
+                        </td>
 
-					<td>
-						<span ><?php echo (date("Y-m-d H:i",$vo["start_time"])); ?></span>
-					</td>
-					<td>
-						<span ><?php echo (date("Y-m-d H:i",$vo["end_time"])); ?></span>
-					</td>
+                        <td>
+                          <span ><?php echo (date("Y-m-d H:i",$vo["start_time"])); ?></span>
+                        </td>
+                        <td>
+                          <span ><?php echo (date("Y-m-d H:i",$vo["end_time"])); ?></span>
+                        </td>
 
-					<td>
-						<span ><a href="javascript:void(0);" class="btn btn-default btn-xs">23</a></span>
-					</td>
+                        <td>
+                          <center> <span ><a href="/index.php?s=/home/crowdfunding/AddObjArcData/oid/<?php echo ($vo["id"]); ?>" class=""><?php echo ($vo["oc_count"]); ?>篇</a></span></center>
+                        </td>
 
-					<td>
-						<span >323</span>
-					</td>
-					<td>
-						<button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm" >生成二维码</button>
-						<a href="javascript:void(0);" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="top" title="参与本次活动的所有用户">用户列表</a>
-						<a href="/index.php?s=/home/crowdfunding/addBodyIndex/oid/<?php echo ($vo["id"]); ?>/cdt/<?php echo ($vo["start_time"]); ?>/cname/<?php echo (urlencode($vo["objname"])); ?>" data-toggle="tooltip" data-placement="top" title="应用的主体内容,是对当前活动的主体介绍,是用户的第一视角点" class="btn btn-success btn-xs">主体介绍</a>
-						<a href="/index.php?s=/home/crowdfunding/AddObjArcData/oid/<?php echo ($vo["id"]); ?>" class="btn btn-info btn-xs"  data-toggle="tooltip" data-placement="top" title="用户主体下面的扩展阅读文章,可选内容" >文章管理</a>
-						<a href="javascript:void(0);" class="btn btn-primary btn-xs">修改设置</a>
-						<a href="javascript:void(0);" class="btn btn-danger btn-xs">删除</a>
-					</td>
-		          </tr><?php endforeach; endif; ?>
+                        <td>
+                          <span >323</span>
+                        </td>
+                        <td>
+                          <button class="btn btn-default btn-xs" data-toggle="modal" data-target=".bs-example-modal-sm" >生成二维码</button>
 
-				 </tbody>
-		      </table>
-	  </div>
-      <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
-       asdf
-	  </div>
-	  <div role="tabpanel" class="tab-pane fade" id="zctrash" aria-labelledby="profile-tab">
-       asdf123
-	  </div>
+                          <a href="/index.php?s=/home/crowdfunding/addBodyIndex/oid/<?php echo ($vo["id"]); ?>/cdt/<?php echo ($vo["start_time"]); ?>/cname/<?php echo (urlencode($vo["objname"])); ?>" data-toggle="tooltip" data-placement="top" title="应用的主体内容,是对当前活动的主体介绍,是用户的第一视角点" class="btn btn-success btn-xs">主体介绍</a>
+                          <a href="/index.php?s=/home/crowdfunding/AddObjArcData/oid/<?php echo ($vo["id"]); ?>" class="btn btn-info btn-xs"  data-toggle="tooltip" data-placement="top" title="用户主体下面的扩展阅读文章,可选内容" >文章管理</a>
+                          <a href="javascript:void(0);" class="btn btn-primary btn-xs">修改设置</a>
+                          <a href="javascript:void(0);" class="btn btn-danger btn-xs">删除</a>
+                        </td>
+                      </tr><?php endforeach; endif; ?>
 
-    </div>
-<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
-	<div class="modal-dialog modal-sm">
-		<div class="modal-content">
-		</div>
-	</div>
-</div>
+                    </tbody>
+                  </table>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
+                  asdf
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="zctrash" aria-labelledby="profile-tab">
+                  asdf123
+                </div>
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
-      <div class="modal-dialog" role="document">
-      	<form method="post" action="/index.php?s=/home/crowdfunding/AddProject">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="exampleModalLabel">新建众筹项目</h4>
-          </div>
-          <div class="modal-body">
-
-              <div class="form-group">
-                <label for="recipient-name" class="control-label">项目名称:</label>
-                <input type="text" class="form-control" id="recipient-name" name="objname" placeholder="新建项目">
-    		  </div>
-
-    		  <div class="form-group">
-    			 <label for="recipient-name" class="control-label">项目目标:</label>
-    			 <label class="sr-only" for="exampleInputAmount">总额 (请输入数字)</label>　
-    		     <div class="input-group">
-    		      <div class="input-group-addon">￥</div>
-    		      <input type="text" class="form-control" id="exampleInputAmount" name="goal" placeholder="总额　666.6666">
-    		      <div class="input-group-addon">.00</div>
-    		    </div>
-    		  </div>
-
-    		  <div class="form-group">
-    			 <label for="recipient-name" class="control-label">结束日期</label>
-                 <div class="input-group date form_datetime" data-date="2012-05-15 21:05" data-date-format="yyyy-MM-dd HH:ii" data-link-field="dtp_input1">
-                    <input class="form-control" size="16" type="text" value="" name="end_time" readonly>
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
-    				<span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
-                 </div>
               </div>
-              <div class="form-group">
-                <label for="message-text" class="control-label">项目简要描述</label>
-                <textarea class="form-control" id="message-text" name="descript" placeholder="项目简要描述 ......."></textarea>
-    			<input type="hidden" value="<?php echo ($create_time); ?>" name="start_time" />
-    			<input type="hidden" value="1" name="status" />
+              <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <div class="modal-dialog modal-sm">
+                  <div class="modal-content">
+                  </div>
+                </div>
               </div>
 
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-    		<input type="submit" class="btn btn-primary" value="确认新建" />
-          </div>
-        </div>
-    	</form>
-      </div>
-</div>
+              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                <div class="modal-dialog" role="document">
+                  <form method="post" action="/index.php?s=/home/crowdfunding/AddProject">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">新建众筹项目</h4>
+                      </div>
+                      <div class="modal-body">
+
+                        <div class="form-group">
+                          <label for="recipient-name" class="control-label">项目名称:</label>
+                          <input type="text" class="form-control" id="recipient-name" name="objname" placeholder="新建项目">
+                        </div>
+
+                        <div class="form-group">
+                          <label for="recipient-name" class="control-label">项目目标:</label>
+                          <label class="sr-only" for="exampleInputAmount">总额 (请输入数字)</label>　
+                          <div class="input-group">
+                            <div class="input-group-addon">￥</div>
+                            <input type="text" class="form-control" id="exampleInputAmount" name="goal" placeholder="总额　666.6666">
+                            <div class="input-group-addon">.00</div>
+                          </div>
+                        </div>
+
+                        <div class="form-group">
+                          <label for="recipient-name" class="control-label">结束日期</label>
+                          <div class="input-group date form_datetime" data-date="2012-05-15 21:05" data-date-format="yyyy-MM-dd HH:ii" data-link-field="dtp_input1">
+                            <input class="form-control" size="16" type="text" value="" name="end_time" readonly>
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-remove"></span></span>
+                            <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="message-text" class="control-label">项目简要描述</label>
+                          <textarea class="form-control" id="message-text" name="descript" placeholder="项目简要描述 ......."></textarea>
+                          <input type="hidden" value="<?php echo ($create_time); ?>" name="start_time" />
+                          <input type="hidden" value="1" name="status" />
+                        </div>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        <input type="submit" class="btn btn-primary" value="确认新建" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
 
             </div>
       </div>
     </div>
+    <script src="/Public/js/locales/bootstrap-datetimepicker.fr.js"></script>
+    <script src="/Public/js/bootstrap-datetimepicker.min.js" ></script>
+    <script src="/Public/js/zc-crowdfunding.js"></script>
   </body>
 </html>

@@ -13,6 +13,8 @@
     <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/Public/css/dashboard.css" />
+
+
 </head>
 
 <body>
@@ -161,5 +163,6 @@
     </div>
 </div>
 <script type="text/javascript"> $(function(){ $('[data-toggle="popover"]').popover(); $('[data-toggle="tooltip"]').tooltip(); }) </script>
+
 </body>
 </html>

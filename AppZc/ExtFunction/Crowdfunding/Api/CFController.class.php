@@ -28,6 +28,8 @@ class CFController extends Api{
 		 */
 		public function AddZcPorject($objinfo=array()){
 
+//			var_dump($objinfo);
+//			die();
 			if(!is_array($objinfo)) return false;
 			if(!array_key_exists('objname', $objinfo))  	return false;
 			if(!array_key_exists('sort', $objinfo)) 		return false;
@@ -36,15 +38,32 @@ class CFController extends Api{
 			if(!array_key_exists('end_time', $objinfo)) 	return false;
 			if(!array_key_exists('status', $objinfo)) 		return false;
 			if(!array_key_exists('descript', $objinfo)) 	return false;
-			return $this->crowdfundingObj->AddProject($objinfo) ? true :false;
+			$add_objflag = D("Object");
+			if($add_objflag->add($objinfo))
+				return true;
+			else
+				return false;
+			//return $this->crowdfundingObj->AddProject($objinfo) ? true :false;
 		}
 
-
+	/**
+	 * 获取项目列表
+	 * @return mixed
+	 */
 		public function getObjlist(){
 			//return $this->crowdfundingObj->getObjectList();
 			$temp_addQrArr = $this->crowdfundingObj->getObjectList();
 			for($i = 0; $i<count($temp_addQrArr);$i++){
 				$temp_addQrArr[$i]['qrimgurl'] =getQRcodeUrl('http://www.baidu.com');
+				//获取并统计项目下的文章数量,再进行和项目数且合并
+				$temp_addQrArr[$i]['oc_count'] =$this->corwdfundingArchivesObj->getObjArticleCount($temp_addQrArr[$i]['id']);
+//				var_dump(time()>$temp_addQrArr[$i]['end_time']);
+//				die();
+				//判断当前项目是否过期
+				if(intval(time())>=intval($temp_addQrArr[$i]['end_time']))
+					$temp_addQrArr[$i]['is_finish'] =0;
+				else
+					$temp_addQrArr[$i]['is_finish'] =1;
 			}
 			return $temp_addQrArr;
 		}

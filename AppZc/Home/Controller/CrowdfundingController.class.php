@@ -23,8 +23,8 @@ class CrowdfundingController extends BasicController {
 		$this->_initialize();
 		$this->assign('create_time',time());
 		$objlist =static ::$CFCObject->getObjlist();
-		//var_dump($objlist);
-		//die();
+//		var_dump($objlist);
+//		die();
 		$this->assign('objlist',$objlist);
 		$this->display();
 	}
@@ -57,12 +57,25 @@ class CrowdfundingController extends BasicController {
 	public function AddProject(){
 		if(!IS_POST)
 			$this->error("系统错误,请稍后重试!");
-		$addProjectObj = D("Object");
-		if($addProjectObj->create())
+
+		$objinfo = array(
+			'objname'=>I("post.objname"),
+			//'sort'   =>I("post.sort"),
+			'goal'	 =>I("post.goal"),
+			'start_time' =>time(),
+			'end_time' =>strtotime(I("post.end_time")),
+			'status'   =>'1',
+			'descript'=>I("post.descript")
+		);
+		if(empty(I("post.sort")))
+			$objinfo = array_merge($objinfo,array('sort'=>80));
+//		var_dump($objinfo);
+//		die();
+		$res_addFlag = static::$CFCObject->AddZcPorject($objinfo);
+		if($res_addFlag)
 			$this->success("项目新建成功!");
 		else
 			$this->error("项目建立失败!!");
-
 
 	}
 

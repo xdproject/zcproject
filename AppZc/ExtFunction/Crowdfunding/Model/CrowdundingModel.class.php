@@ -14,6 +14,16 @@ class CrowdundingModel extends Model {
 			//array('oid','unique',''),
 	);
 
+	//
+	public function addProject($objinfo=array()){
+		//如果当前的项目信息不为索引数组则返回FALSE
+		if(!is_array($objinfo)) return false;
+		if($this->add($objinfo))
+			return true;
+		else
+			return false;
+	}
+
 	/**
 	 * 获取所有项目
 	 * @param string $obj_type 默认值为1 设置成2则返回的是回收站当中的项目(也就是删除的项目) 在表当中is_Trash的默认值是0也

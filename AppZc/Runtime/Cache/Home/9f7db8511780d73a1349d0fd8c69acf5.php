@@ -264,13 +264,8 @@
                 function(){
                     alert("ERROR!!123");
                 }
-
             );
-
-
         }
-
-
         $("#sendArcBtn").click(function(){ AddZcArticleInfo();; });
 </script>
 </div>
