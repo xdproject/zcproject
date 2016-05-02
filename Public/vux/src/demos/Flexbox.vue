@@ -1,0 +1,116 @@
+<template>
+  <div>
+    <divider>Horizontal</divider>
+    <flexbox>
+      <flexbox-item><div class="flex-demo">1</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+    </flexbox>
+    <br>
+    <flexbox>
+      <flexbox-item><div class="flex-demo">1</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">3</div></flexbox-item>
+    </flexbox>
+    <br>
+    <flexbox>
+      <flexbox-item><div class="flex-demo">1</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">3</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">4</div></flexbox-item>
+    </flexbox>
+    <br>
+    <flexbox>
+      <flexbox-item><div class="flex-demo">1</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">3</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">4</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">5</div></flexbox-item>
+    </flexbox>
+    <br>
+    <flexbox>
+      <flexbox-item><div class="flex-demo">1</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">3</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">4</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">5</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">6</div></flexbox-item>
+    </flexbox>
+    <br>
+    <divider>Honrizontal with no gutter</divider>
+    <flexbox :gutter="0">
+      <flexbox-item><div class="flex-demo">1</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">3</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">4</div></flexbox-item>
+    </flexbox>
+    <br>
+    <divider>Vertical</divider>
+    <flexbox orient="vertical">
+      <flexbox-item><div class="flex-demo">1</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+    </flexbox>
+    <br>
+    <divider>Vertical with no gutter</divider>
+    <flexbox orient="vertical" :gutter="0">
+      <flexbox-item><div class="flex-demo">1</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2</div></flexbox-item>
+    </flexbox>
+    <br>
+    <divider>Grid support(12 columns)</divider>
+    <flexbox>
+      <flexbox-item :span="4"><div class="flex-demo">1/3</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">2/3</div></flexbox-item>
+    </flexbox>
+    <br>
+    <flexbox>
+      <flexbox-item :span="6"><div class="flex-demo">6/12</div></flexbox-item>
+      <flexbox-item :span="2"><div class="flex-demo">2/12</div></flexbox-item>
+      <flexbox-item ><div class="flex-demo">rest</div></flexbox-item>
+    </flexbox>
+    <br>
+    <divider>flexiable grid</divider>
+    <flexbox>
+      <flexbox-item :span="1/3"><div class="flex-demo">1/3</div></flexbox-item>
+      <flexbox-item :span="1/6"><div class="flex-demo">1/6</div></flexbox-item>
+      <flexbox-item :span="1/8"><div class="flex-demo">1/8</div></flexbox-item>
+      <flexbox-item :span="1/8"><div class="flex-demo">1/8</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">rest</div></flexbox-item>
+    </flexbox>
+    <br>
+    <flexbox :gutter="0">
+      <flexbox-item :span="1/3"><div class="flex-demo">1/3</div></flexbox-item>
+      <flexbox-item :span="1/6"><div class="flex-demo">1/6</div></flexbox-item>
+      <flexbox-item :span="1/8"><div class="flex-demo">1/8</div></flexbox-item>
+      <flexbox-item :span="1/8"><div class="flex-demo">1/8</div></flexbox-item>
+      <flexbox-item><div class="flex-demo">rest</div></flexbox-item>
+    </flexbox>
+    
+  </div>
+</template>
+
+<script>
+import { Flexbox, FlexboxItem, Divider } from '../components/'
+
+export default {
+  components: {
+    Flexbox,
+    FlexboxItem,
+    Divider
+  }
+}
+</script>
+
+<style>
+@import '../components/1px.css';
+
+.flex-demo {
+  text-align: center;
+  color: #fff;
+  background-color: #20b907;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  -webkit-background-clip: padding-box;
+}
+</style>

@@ -12,17 +12,17 @@
 namespace Home\Controller;
 use Think\Controller;
 use ExtFunction\Crowdfunding\Api\CFController;
-//define('EXT_FUNCTS',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'Common'.DIRECTORY_SEPARATOR.'functions.php');
-//include_once EXT_FUNCTS;
+define('EXT_FUNCTS',dirname(dirname(__FILE__)).DIRECTORY_SEPARATOR.'Common'.DIRECTORY_SEPARATOR.'functions.php');
+include_once EXT_FUNCTS;
 
 class CrowdfundingFrontController extends Controller{
 
         private static $Wap_FIX = 'CrowdfundingFront/wap/';         //手机对象
-        public static $CFCObject = new CFController();
+      //  public static $CFCObject = new CFController();
 
         public function index(){
 
-            if(is_mobile_request())
+            if(!is_mobile_request())
                 $this->display();
             else
                 $this->display(static::$Wap_FIX.ACTION_NAME);
