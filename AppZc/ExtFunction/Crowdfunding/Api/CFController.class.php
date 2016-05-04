@@ -68,6 +68,15 @@ class CFController extends Api{
 			return $temp_addQrArr;
 		}
 
+	/**
+	 * 通过指定的项目编号获取指定项目的详情数据
+	 * @param $oid 项目编号
+	 */
+	public function getZcPoejctInfoById($oid){
+		$temp_objinfo = $this->crowdfundingObj->FileCheck($oid);
+		$obj_info = array_merge($temp_objinfo,array($this->getObjBody($oid)));
+		if(is_array($obj_info)) return $obj_info; else false;
+	}
 
 
 	/**
@@ -116,6 +125,7 @@ class CFController extends Api{
 	public function getZcProjectArticleList($oid){
         return $this->corwdfundingArchivesObj->CheckData($oid);
 	}
+
 
 	/**
 	 * 返回文章信息
@@ -167,5 +177,9 @@ class CFController extends Api{
 	public function setZcProjectQRcodeUrl($oid,$qrUrl){
 
 	}
+
+
+
+
 
 }

@@ -15,101 +15,101 @@ class CrowdundingArchivesModel extends Model {
     protected $tableName = 'archives';
 
     /**
-     * ÎªÏîÄ¿Ìí¼ÓÏîÄ¿ÎÄÕÂ
-     * @param string $opt ²Ù×÷·½·¨
-     * @param array $arinfo ÎÄÕÂ¼òÒªĞÅÏ¢
-     * @param array $arbody  ÎÄÕÂÖ÷ÌåÄÚÈİ
-     * @return bool|int ³É¹¦Ôò·µ»Ø£Ô£Ò£Õ£Å¡¡Ê§°ÜÁËÔò·µ»Ø¡¡£Æ£Á£Ì£Ó¡¡ÎÄÕÂ¸ÅÒªÄÚÈİÌí¼ÓÊ§°ÜÔò·µ»Ø -1
+     * ä¸ºé¡¹ç›®æ·»åŠ é¡¹ç›®æ–‡ç« 
+     * @param string $opt æ“ä½œæ–¹æ³•
+     * @param array $arinfo æ–‡ç« ç®€è¦ä¿¡æ¯
+     * @param array $arbody  æ–‡ç« ä¸»ä½“å†…å®¹
+     * @return bool|int æˆåŠŸåˆ™è¿”å›ï¼´ï¼²ï¼µï¼¥ã€€å¤±è´¥äº†åˆ™è¿”å›ã€€ï¼¦ï¼¡ï¼¬ï¼³ã€€æ–‡ç« æ¦‚è¦å†…å®¹æ·»åŠ å¤±è´¥åˆ™è¿”å› -1
      */
     public function AddArchives($opt='add',$arinfo=array(),$arbody=array()){
 
-            if(is_array($arinfo) && is_array($arbody)){
-                switch($opt){
-                    //ĞŞ¸ÄÎÄÕÂ
-                    case 'add':{
-                        if(!$this->checkData($arinfo['title'],2)){
-                            $In_ArId = $this->add($arinfo); //Ìí¼ÓĞÂÎÄÕÂ»ù±¾ĞÅÏ¢µ½Êı¾İ¿âµ±ÖĞ,³É¹¦·µ»ØÌí¼ÓµÄÎÄÕÂĞÂ±àºÅ
-                            if(!$In_ArId) return false; //Èç¹ûÊ§°ÜÁË,Ôò·µ»Ø -1 ²¢ÍË³öµ±Ç°²Ù×÷
-                            $str_body = addslashes($arbody['body']);
-                            $aid = $arbody['oid'];
-                            $str_contentBody = "INSERT INTO `zc_addonarticle` (`aid`, `body`) VALUES ({$In_ArId},'{$str_body}');";
+        if(is_array($arinfo) && is_array($arbody)){
+            switch($opt){
+                //ä¿®æ”¹æ–‡ç« 
+                case 'add':{
+                    if(!$this->checkData($arinfo['title'],2)){
+                        $In_ArId = $this->add($arinfo); //æ·»åŠ æ–°æ–‡ç« åŸºæœ¬ä¿¡æ¯åˆ°æ•°æ®åº“å½“ä¸­,æˆåŠŸè¿”å›æ·»åŠ çš„æ–‡ç« æ–°ç¼–å·
+                        if(!$In_ArId) return false; //å¦‚æœå¤±è´¥äº†,åˆ™è¿”å› -1 å¹¶é€€å‡ºå½“å‰æ“ä½œ
+                        $str_body = addslashes($arbody['body']);
+                        $aid = $arbody['oid'];
+                        $str_contentBody = "INSERT INTO `zc_addonarticle` (`aid`, `body`) VALUES ({$In_ArId},'{$str_body}');";
 //                            var_dump($str_contentBody);
 //                            die();
-                            if($In_ArId>0) {
-                                $Arc_BodyFlag = $this->execute($str_contentBody);
-                                if($Arc_BodyFlag) {  //ÅĞ¶ÏÏîÄ¿ÎÄÕÂµÄÖ÷ÌåÎÄÕÂÄÚÈİÊÇ·ñÌí¼Ó³É¹¦
-                                 //   unset($temp_ContentBody, $temp_aid);
-                                    return true;
-                                } else
-                                    return false;
-                            }
-                        }
-                        return false; //ÎÄÕÂÒÑ¾­´æÔÚÔò·µ»Ø
-                    } break;
-                    //ĞŞ¸ÄÎÄÕÂ
-                    case 'edit':{
-                        $In_ArId = $this->save($arinfo); //Ìí¼ÓĞÂÎÄÕÂ»ù±¾ĞÅÏ¢µ½Êı¾İ¿âµ±ÖĞ,³É¹¦·µ»ØÌí¼ÓµÄÎÄÕÂĞÂ±àºÅ
-                        if(!$In_ArId) return false; //Èç¹ûÊ§°ÜÁË,Ôò·µ»Ø -1 ²¢ÍË³öµ±Ç°²Ù×÷
-                        $str_body = addslashes($arbody['body']);
-                        $aid = $arbody['aid'];
-                        $edit_str_Query = "UPDATE `zc_addonarticle` SET `body`='.{$str_body}.' WHERE  `zc_addonarticle`.`aid`={$aid};";
-                        if($aid>0) {
-                           $Arc_BodyFlag = $this->execute($edit_str_Query);
-                            if($Arc_BodyFlag) {  //ÅĞ¶ÏÏîÄ¿ÎÄÕÂµÄÖ÷ÌåÎÄÕÂÄÚÈİÊÇ·ñÌí¼Ó³É¹¦
+                        if($In_ArId>0) {
+                            $Arc_BodyFlag = $this->execute($str_contentBody);
+                            if($Arc_BodyFlag) {  //åˆ¤æ–­é¡¹ç›®æ–‡ç« çš„ä¸»ä½“æ–‡ç« å†…å®¹æ˜¯å¦æ·»åŠ æˆåŠŸ
+                                //   unset($temp_ContentBody, $temp_aid);
                                 return true;
                             } else
                                 return false;
                         }
-                        return false;
-                    }break;
-                    //É¾³ıÎÄÕÂ
-                    case 'del':{
+                    }
+                    return false; //æ–‡ç« å·²ç»å­˜åœ¨åˆ™è¿”å›
+                } break;
+                //ä¿®æ”¹æ–‡ç« 
+                case 'edit':{
+                    $In_ArId = $this->save($arinfo); //æ·»åŠ æ–°æ–‡ç« åŸºæœ¬ä¿¡æ¯åˆ°æ•°æ®åº“å½“ä¸­,æˆåŠŸè¿”å›æ·»åŠ çš„æ–‡ç« æ–°ç¼–å·
+                    if(!$In_ArId) return false; //å¦‚æœå¤±è´¥äº†,åˆ™è¿”å› -1 å¹¶é€€å‡ºå½“å‰æ“ä½œ
+                    $str_body = addslashes($arbody['body']);
+                    $aid = $arbody['aid'];
+                    $edit_str_Query = "UPDATE `zc_addonarticle` SET `body`='.{$str_body}.' WHERE  `zc_addonarticle`.`aid`={$aid};";
+                    if($aid>0) {
+                        $Arc_BodyFlag = $this->execute($edit_str_Query);
+                        if($Arc_BodyFlag) {  //åˆ¤æ–­é¡¹ç›®æ–‡ç« çš„ä¸»ä½“æ–‡ç« å†…å®¹æ˜¯å¦æ·»åŠ æˆåŠŸ
+                            return true;
+                        } else
+                            return false;
+                    }
+                    return false;
+                }break;
+                //åˆ é™¤æ–‡ç« 
+                case 'del':{
 
-                    }break;
-                    default:
-                        return -3;
+                }break;
+                default:
+                    return -3;
                     break;
-                }
             }
+        }
     }
 
     /**
-     * ÏîÄ¿ÎÄÕÂ²éÑ¯
-     * @param $oid ¹Ø¼ü×Ö¶Î  Í¨¹ıÉèÖÃ$typeÀ´¸Ä±äoidµÄ²»Í¬º¬Òå
-     * @param int $type ²éÑ¯Àà±ğ:
-     *                  0:Ä¬ÈÏÖµÊÇ°´ÏîÄ¿±àºÅÀ´²éÑ¯
-     *                  1:°´ÕÕÎÄÕÂµÄ±àºÅÀ´²éÑ¯
-     *                  2:°´ÕÕÎÄÕÂµÄ±êÌâÀ´²éÑ¯
-     *                  3:°´ÕÕÎÄÕÂµÄ·¢²¼ÈÕÆÚÀ´²éÑ¯
-     *                  4:°´ÕÕÎÄÕÂµÄ±êÖ¾À´²éÑ¯
-     *                  5:°´ÕÕÎÄÕÂµÄÈ¨ÀûÀ´²éÑ¯
-     * @return int ³É¹¦·µ»ØÎÄÕÂµÄ¼òÒªĞÅÏ¢ ·ñÔò·µ»Ø´íÎó±àºÅ
+     * é¡¹ç›®æ–‡ç« æŸ¥è¯¢
+     * @param $oid å…³é”®å­—æ®µ  é€šè¿‡è®¾ç½®$typeæ¥æ”¹å˜oidçš„ä¸åŒå«ä¹‰
+     * @param int $type æŸ¥è¯¢ç±»åˆ«:
+     *                  0:é»˜è®¤å€¼æ˜¯æŒ‰é¡¹ç›®ç¼–å·æ¥æŸ¥è¯¢
+     *                  1:æŒ‰ç…§æ–‡ç« çš„ç¼–å·æ¥æŸ¥è¯¢
+     *                  2:æŒ‰ç…§æ–‡ç« çš„æ ‡é¢˜æ¥æŸ¥è¯¢
+     *                  3:æŒ‰ç…§æ–‡ç« çš„å‘å¸ƒæ—¥æœŸæ¥æŸ¥è¯¢
+     *                  4:æŒ‰ç…§æ–‡ç« çš„æ ‡å¿—æ¥æŸ¥è¯¢
+     *                  5:æŒ‰ç…§æ–‡ç« çš„æƒåˆ©æ¥æŸ¥è¯¢
+     * @return int æˆåŠŸè¿”å›æ–‡ç« çš„ç®€è¦ä¿¡æ¯ å¦åˆ™è¿”å›é”™è¯¯ç¼–å·
      */
     public function CheckData($oid,$type=0){
-        $data_map = array(); //Êı¾İ²éÑ¯ÁÙÊ±
-        //²éÑ¯·½Ê½ÅĞ¶Ï
+        $data_map = array(); //æ•°æ®æŸ¥è¯¢ä¸´æ—¶
+        //æŸ¥è¯¢æ–¹å¼åˆ¤æ–­
         switch($type){
             case 0:
-                $data_map['oid'] = $oid; //°´ÕÕÏîÄ¿µÄ±àºÅÀ´²éÑ¯
+                $data_map['oid'] = $oid; //æŒ‰ç…§é¡¹ç›®çš„ç¼–å·æ¥æŸ¥è¯¢
                 break;
             case 1:
-                $data_map['id'] = $oid; //°´ÕÕÎÄÕÂµÄ±àºÅÀ´²éÑ¯Êı¾İ
+                $data_map['id'] = $oid; //æŒ‰ç…§æ–‡ç« çš„ç¼–å·æ¥æŸ¥è¯¢æ•°æ®
                 break;
             case 2:
-                $data_map['title'] = $oid; //°´ÕÕÎÄÕÂµÄ±êÌâÀ´²éÑ¯
+                $data_map['title'] = $oid; //æŒ‰ç…§æ–‡ç« çš„æ ‡é¢˜æ¥æŸ¥è¯¢
                 break;
             case 3:
-                $data_map['senddate'] = $oid; //°´ÕÕÎÄÕÂµÄ·¢²¼ÈÕÆÚÀ´²éÑ¯
+                $data_map['senddate'] = $oid; //æŒ‰ç…§æ–‡ç« çš„å‘å¸ƒæ—¥æœŸæ¥æŸ¥è¯¢
                 break;
             case 4:
-                $data_map['flag'] = $oid; //°´ÕÕÎÄÕÂµÄ±êÖ¾Î»À´²éÑ¯
+                $data_map['flag'] = $oid; //æŒ‰ç…§æ–‡ç« çš„æ ‡å¿—ä½æ¥æŸ¥è¯¢
                 break;
             case 5:
-                $data_map['short'] = $oid; //°´ÕÕÎÄÕÂµÄÈ¨ÖØÀ´²éÑ¯
+                $data_map['short'] = $oid; //æŒ‰ç…§æ–‡ç« çš„æƒé‡æ¥æŸ¥è¯¢
                 break;
             default:
                 return -2;
-            break;
+                break;
         }
 
         switch($type){
@@ -129,21 +129,21 @@ class CrowdundingArchivesModel extends Model {
     }
 
     /**
-     * »ñÈ¡Ö¸¶¨ÏîÄ¿ÏÂµÄËùÓĞÎÄÕÂ×ÜÊı
-     * @param $oid ÏîÄ¿±àºÅ
+     * è·å–æŒ‡å®šé¡¹ç›®ä¸‹çš„æ‰€æœ‰æ–‡ç« æ€»æ•°
+     * @param $oid é¡¹ç›®ç¼–å·
      */
     public function getObjArticleCount($oid){
         $arc_count = $this->where(array('oid'=>$oid))->count();
         if($arc_count>0)
             return $arc_count;
-           // return array('oc_count'=>$arc_count);
+        // return array('oc_count'=>$arc_count);
         else
             return 0;
-            //return array('oc_count'=>'0');
+        //return array('oc_count'=>'0');
     }
 
     /**
-     * »ñÈ¡ÏîÄ¿ÎÄÕÂµÄÖ÷ÌåÄÚÈİ
+     * è·å–é¡¹ç›®æ–‡ç« çš„ä¸»ä½“å†…å®¹
      * @param $aid
      * @return bool|mixed
      */

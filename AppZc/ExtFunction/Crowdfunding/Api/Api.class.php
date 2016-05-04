@@ -1,12 +1,12 @@
 <?php
 /******************************************************************************
  * Builder-Tools:Zend Studio v10.6.2
-* Create-Date:2016-04-20 11:21:23
-* ZC-Project
-* Author:BarneyX
-* QQ:35353415
-* E-mail:vcmsdn@gmail.com
-*****************************************************************************/
+ * Create-Date:2016-04-20 11:21:23
+ * ZC-Project
+ * Author:BarneyX
+ * QQ:35353415
+ * E-mail:vcmsdn@gmail.com
+ *****************************************************************************/
 namespace ExtFunction\Crowdfunding\Api;
 
 define('CROWDFUNDING_PATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
@@ -16,11 +16,11 @@ include_once HOME_PATH.'Common'.DIRECTORY_SEPARATOR.'functions.php';
 
 abstract  class Api{
 
-	//ÏÂÃæÁ½¸öÐ´µÄÓÐµã·±Ëö,¿ÉÒÔºÏ²¢³ÉÒ»¸ö¶ÔÏó,ÏÂ´Îµ±³ÉBUG°ÑËûÐÞ¸ÄÁË
-	protected  $crowdfundingObj; //ÏîÄ¿¸ÅÒªÄ£ÐÍ¶ÔÏó
-	protected  $corwdfundingOAddOnObj; //ÏîÄ¿¸½¼Ó±í¶ÔÏó
+	//ä¸‹é¢ä¸¤ä¸ªå†™çš„æœ‰ç‚¹ç¹ç,å¯ä»¥åˆå¹¶æˆä¸€ä¸ªå¯¹è±¡,ä¸‹æ¬¡å½“æˆBUGæŠŠä»–ä¿®æ”¹äº†
+	protected  $crowdfundingObj; //é¡¹ç›®æ¦‚è¦æ¨¡åž‹å¯¹è±¡
+	protected  $corwdfundingOAddOnObj; //é¡¹ç›®é™„åŠ è¡¨å¯¹è±¡
 
-	//ÏîÄ¿ÎÄÕÂ¶ÔÏó
+	//é¡¹ç›®æ–‡ç« å¯¹è±¡
 	protected  $corwdfundingArchivesObj;
 
 	abstract  function _init();

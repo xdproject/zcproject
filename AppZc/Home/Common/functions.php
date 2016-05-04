@@ -9,19 +9,17 @@
  *****************************************************************************/
 
 /**
- * Í¨¹ıµÚÈı·½½Ó¿Ú»ñÈ¡¶şÎ¬ÂëÍ¼Æ¬:×¢¶şÎ¬ÂëÊÇÓÉStuidoiT¹¤×÷ÊÒÌá¹©
- * @param $url ¶şÎ¬ÂëµÄURLµØÖ·
- * @param string $level ¶şÎ¬ÂëµÄµÈ¼¶ Ä¬ÈÏÖµÊÇM
- * @param int $size 1-7¶şÎ¬µÄ´óĞ¡   Ä¬ÈÏÖµÊÇ4
- * @return mixed Èç¹ûµ÷ÓÃ³É¹¦Ôò·µ»ØµÄÊÇ¶şÎ¬ÂëµÄURLµØÖ·,¿ÉÒÔ½«Õâ¸öµØÖ··ÅÔÚÊı¾İ¿âµ±ÖĞ
+ * é€šè¿‡ç¬¬ä¸‰æ–¹æ¥å£è·å–äºŒç»´ç å›¾ç‰‡:æ³¨äºŒç»´ç æ˜¯ç”±StuidoiTå·¥ä½œå®¤æä¾›
+ * @param $url äºŒç»´ç çš„URLåœ°å€
+ * @param string $level äºŒç»´ç çš„ç­‰çº§ é»˜è®¤å€¼æ˜¯M
+ * @param int $size 1-7äºŒç»´çš„å¤§å°   é»˜è®¤å€¼æ˜¯4
+ * @return mixed å¦‚æœè°ƒç”¨æˆåŠŸåˆ™è¿”å›çš„æ˜¯äºŒç»´ç çš„URLåœ°å€,å¯ä»¥å°†è¿™ä¸ªåœ°å€æ”¾åœ¨æ•°æ®åº“å½“ä¸­
  */
- function getQRcodeUrl($url,$level='M',$size=4){
+function getQRcodeUrl($url,$level='M',$size=4){
     return json_decode(file_get_contents('http://xd.studioit.cn/process.php?dt='.$url.'&level='.$level.'&size='.$size),true)['imgurl'];
-
 }
-
 /**
- * ÅĞ¶ÏÊÇÓÃ»§ÊÇÊÖ»ú¶Ë·ÃÎÊ»¹ÊÇÍ¨¹ıPC¶ËÀ´·ÃÎÊµÄ;
+ * åˆ¤æ–­æ˜¯ç”¨æˆ·æ˜¯æ‰‹æœºç«¯è®¿é—®è¿˜æ˜¯é€šè¿‡PCç«¯æ¥è®¿é—®çš„;
  * @return bool
  */
 function is_mobile_request()
@@ -62,4 +60,51 @@ function is_mobile_request()
         return true;
     else
         return false;
+}
+
+
+/**
+ * è·å–å†…å®¹å‘å¸ƒå‡ å¤©å‰,å‡ å‘¨å‰,å‡ æœˆå‰,å‡ å¹´å‰
+ * @param $time
+ * @return string
+ */
+function time2Units ($time)
+{
+    $year = floor($time / 60 / 60 / 24 / 365);
+    $time -= $year * 60 * 60 * 24 * 365;
+    $month = floor($time / 60 / 60 / 24 / 30);
+    $time -= $month * 60 * 60 * 24 * 30;
+    $week = floor($time / 60 / 60 / 24 / 7);
+    $time -= $week * 60 * 60 * 24 * 7;
+    $day = floor($time / 60 / 60 / 24);
+    $time -= $day * 60 * 60 * 24;
+    $hour = floor($time / 60 / 60);
+    $time -= $hour * 60 * 60;
+    $minute = floor($time / 60);
+    $time -= $minute * 60;
+    $second = $time;
+    $elapse = '';
+    $unitArr = array('å¹´å‰' =>'year', 'ä¸ªæœˆå‰'=>'month', 'å‘¨å‰'=>'week', 'å¤©å‰'=>'day',
+        'å°æ—¶å‰'=>'hour', 'åˆ†é’Ÿå‰'=>'minute', 'ç§’å‰'=>'second'
+    );
+    foreach ( $unitArr as $cn => $u )
+    {
+        if ( $$u > 0 )
+        {
+            $elapse = $$u . $cn;
+            break;
+        }
+    }
+    return $elapse;
+}
+
+function time2string($second){
+    $day = floor($second/(3600*24));
+    $second = $second%(3600*24);//é™¤å»æ•´å¤©ä¹‹åå‰©ä½™çš„æ—¶é—´
+    $hour = floor($second/3600);
+    $second = $second/600;//é™¤å»æ•´å°æ—¶ä¹‹åå‰©ä½™çš„æ—¶é—´
+    $minute = floor($second/60);
+    $second = $second;//é™¤å»æ•´åˆ†é’Ÿä¹‹åå‰©ä½™çš„æ—¶é—´
+    //è¿”å›å­—ç¬¦ä¸²
+    return $day;'å¤©'.$hour.'å°æ—¶';//.$minute.'åˆ†'//.$second.'ç§’';
 }

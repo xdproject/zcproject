@@ -70,6 +70,13 @@ class CrowdundingModel extends Model {
 
 	}
 
+	/**
+	 * 通过指琮的字段获取项目数据
+	 * @param $id
+	 * @param bool|false $is_name
+	 * @param int $is_trash
+	 * @return array|bool|int
+	 */
 	public function FileCheck($id,$is_name=false,$is_trash=0){
 		$datamap  =  array();
 		if($is_name)
