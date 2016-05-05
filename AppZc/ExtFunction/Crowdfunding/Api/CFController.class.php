@@ -102,7 +102,7 @@ class CFController extends Api{
 		if(is_array($res))
 			return $res['body'];
 		else
-			return "请在些添加项目介绍吧！！！";
+			return "此项目还管理员还没有相关介绍呢0-0!!";
 		
 	}
 

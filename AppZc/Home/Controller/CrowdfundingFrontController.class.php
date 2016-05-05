@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /******************************************************************************
  * Builder-Tools:Zend Studio v10.6.2
  * Create-Date:2016-04-20 11:21:23
@@ -23,11 +23,12 @@ class CrowdfundingFrontController extends Controller{
             static::$CFCobject = new CFController();
         }
         public function show(){
+
             $now = strtotime(date("Y-m-d H:i:s")); // 当前日期
-            $res = static::$CFCobject->getZcPoejctInfoById(1);
+            $res = static::$CFCobject->getZcPoejctInfoById(I("get.oid"));
 
             $this->assign('objinfo',array(
-                'title'=>$res[8],
+                'title'=>$res[2],
                 'start_time'=>time2Units($now-intval($res[4])),
                 'residue'=>time2string(time(now)-$res[5]),
                 'goal'=>$res[3],
@@ -38,7 +39,10 @@ class CrowdfundingFrontController extends Controller{
                 $this->display(static::$Wap_FIX.ACTION_NAME);
         }
         public function index(){
-
+            if(!is_mobile_request())
+                $this->display();
+            else
+                $this->display(static::$Wap_FIX.ACTION_NAME);
         }
 
 
