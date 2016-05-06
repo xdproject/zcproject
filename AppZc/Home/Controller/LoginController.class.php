@@ -19,7 +19,10 @@ class LoginController extends Controller {
 
 
     public function index(){
-    	if($_SESSION['zc_user_info']['st']) $this->success("您已经登陆过了!",U("Home/Index/index"));
+    	if($_SESSION['zc_user_info']['st']) {
+			$this->success("您已经登陆过了!",U("Home/Index/index"));
+			exit();
+		}
 		$this->display();
     }
 

@@ -268,6 +268,8 @@ class Wechat
 		}
 	}
 
+
+
 	/**
 	 * For weixin server validation
 	 * @param bool $return 是否返回
