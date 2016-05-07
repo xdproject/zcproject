@@ -20,6 +20,7 @@ class WeChatBasic extends Wechat{
 		$this->wechat_option = $this->sysObj->getWeChatConfigInfo();
 		//初始化微信助手对象
 		$this->wechatObj = new Wechat($this->wechat_option);
+		$_SESSION['wechat_site']=$this->wechat_option;
 
 
 	}

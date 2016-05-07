@@ -13,7 +13,7 @@
 		'URL_CASE_INSENSITIVE'  =>  true,
 		'TMPL_L_DELIM'=>'<{',
 		'TMPL_R_DELIM'=>'}>',
-		'HTML_FILE_SUFFIX'=>'.zc',
+		//'HTML_FILE_SUFFIX'=>'.zc',
 		//'SHOW_PAGE_TRACE'=>true,
 		'TMPL_CACHE_ON'=>false,
 	);

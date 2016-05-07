@@ -2458,6 +2458,27 @@ class Wechat
 		}
 		return false;
 	}
+	/**
+	 * 通过code获取Access Token
+	 * @return array {access_token,expires_in,refresh_token,openid,scope}
+	 */
+	public function getOauthAccessTokenParam($code){
+		$code = isset($_GET['code'])?$_GET['code']:'';
+		if (!$code) return false;
+		$result = $this->http_get(self::API_BASE_URL_PREFIX.self::OAUTH_TOKEN_URL.'appid='.$this->appid.'&secret='.$this->appsecret.'&code='.$code.'&grant_type=authorization_code');
+		if ($result)
+		{
+			$json = json_decode($result,true);
+			if (!$json || !empty($json['errcode'])) {
+				$this->errCode = $json['errcode'];
+				$this->errMsg = $json['errmsg'];
+				return false;
+			}
+			$this->user_token = $json['access_token'];
+			return $json;
+		}
+		return false;
+	}
 
 	/**
 	 * 刷新access token并续期
