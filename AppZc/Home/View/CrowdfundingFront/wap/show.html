@@ -12,9 +12,16 @@
 </head>
 <body>
 <script type="text/javascript">
+    appId: '<?php echo $signPackage["appId"];?>',
+            timestamp: <?php echo $signPackage["timestamp"];?>,
+           nonceStr: '<?php echo $signPackage["nonceStr"];?>',
+            signature: '<?php echo $signPackage["signature"];?>',
+            jsApiList: [
+        // 所有要调用的 API 都要加到这个列表中
+    ]
     wx.config({
-                debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
-                appId: 'wx6a03560bfa81170e',
+                debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+                appId: '<{$Think.session.wechat_site.appid}>',
                 timestamp: <{:time()}>,
                 nonceStr: '<{:sha1(time())}>',
                 signature: '<{:sha1("studioit_zcproject!")}>',
@@ -47,7 +54,9 @@
                 // 用户取消分享后执行的回调函数
             }
         });
+     //   ocument.addEventListener("WeixinJSBridgeReady",function(){ WeixinJSBridge.call("showToolbar") });
     });
+
 </script>
 <div class="x-header" id="zc-top-bar" style="background-color:#43ac43; width:100%;">
     <div class="x-header-left" >

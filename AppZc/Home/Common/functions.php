@@ -108,3 +108,12 @@ function time2string($second){
     //返回字符串
     return $day;'天'.$hour.'小时';//.$minute.'分'//.$second.'秒';
 }
+
+function createNonceStr($length = 16) {
+    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    $str = "";
+    for ($i = 0; $i < $length; $i++) {
+        $str .= substr($chars, mt_rand(0, strlen($chars) - 1), 1);
+    }
+    return $str;
+}

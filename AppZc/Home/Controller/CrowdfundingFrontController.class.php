@@ -35,7 +35,8 @@ class CrowdfundingFrontController extends Controller{
         public function WechatUserLogin(){
             switch(I("get.ccid")){
                 case "list":
-                    static::$WeChatAPP->getAccoutUserInfo("http://".$_SERVER['HTTP_HOST']."/index.php/home/CrowdfundingFront/index.html");
+                    static::$WeChatAPP->getAccoutUserInfo("http://".$_SERVER['HTTP_HOST']."/index.php/home/CrowdfundingFront/index");
+                    //static::$WeChatAPP->getAccoutUserInfo(U("CrowdfundingFront/index"));
                     break;
                 case "project":
                     $param_list = array('oid' => I("get.oid"), 'ssid' => I("get.ssid"), 'eesi' => I("get.eesi"));
@@ -51,15 +52,26 @@ class CrowdfundingFrontController extends Controller{
             }
 
         }
+        public function getJsSign($url){
+            return static::$WeChatAPP->getJsSign($url);
+        }
         public function index(){
+//            var_dump($this->getJsSign("http://".$_SERVER['HTTP_HOST']."/index.php/home/CrowdfundingFront/WeChatUserLogin&ccid=list"));
+//            die();
+
             if(!I("get.bt")=="arc")
                  $this->saveWeChatUserInfoToDataBases(I("get.code"));
             $objlist = static::$CFCobject->getObjlist();
             $this->assign('list',$objlist);
-            if(!is_mobile_request())
-                $this->display();
-            else
-                $this->display(static::$Wap_FIX.ACTION_NAME);
+           $this->assign('signPackage',$this->getJsSign("http://".$_SERVER['HTTP_HOST']."/index.php/home/CrowdfundingFront/index/bt/arc"));
+           // $this->assign('signPackage',$this->getJsSign("http://".$_SERVER['HTTP_HOST']."/index.php/home/CrowdfundingFront/WeChatUserLogin&ccid=list&rtime=".time()));
+//            var_dump($this->getJsSign("http://".$_SERVER['HTTP_HOST']."/index.php/home/CrowdfundingFront/WeChatUserLogin&ccid=list&rtime=".time()));
+//            die();
+            $this->display();
+//            if(!is_mobile_request())
+//                $this->display();
+//            else
+//                $this->display(static::$Wap_FIX.ACTION_NAME);
         }
         public function show(){
             $now = strtotime(date("Y-m-d H:i:s")); // 当前日期
@@ -70,10 +82,11 @@ class CrowdfundingFrontController extends Controller{
                 'residue'=>time2string(time(now)-$res[5]),
                 'goal'=>$res[3],
                 'body'=>$res[9]));
-            if(!is_mobile_request())
-                $this->display();
-            else
-                $this->display(static::$Wap_FIX.ACTION_NAME);
+            $this->display();
+//            if(!is_mobile_request())
+//                $this->display();
+//            else
+//                $this->display(static::$Wap_FIX.ACTION_NAME);
         }
 
 

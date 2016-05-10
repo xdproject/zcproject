@@ -1312,7 +1312,8 @@ class Wechat
 	            "nonceStr"  => $noncestr,
 	            "timestamp" => $timestamp,
 	            "url"       => $url,
-	            "signature" => $sign
+	            "signature" => $sign,
+				"jsapi_ticket"=>$this->jsapi_ticket
 	    );
 	    return $signPackage;
 	}

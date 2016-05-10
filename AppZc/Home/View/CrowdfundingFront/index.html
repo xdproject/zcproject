@@ -1,10 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+    <title>欧亚起点公益</title>
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <load href="__PUBLIC__/vux/vux.css" />
+    <load href="__PUBLIC__/vux/cu-vux.css" />
+    <load href="__PUBLIC__/vux/vue.min.1.0.18.js" />
+    <load href="__PUBLIC__/zc/qscui.css" />
+    <load href="__PUBLIC__/zc/upgrade.css" />
+
 </head>
 <body>
-<h1>Hello</h1>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript">
+    wx.config({
+                debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+                appId: '<{$signPackage.appId}>',
+                timestamp:<{$signPackage.timestamp}>,
+                nonceStr:  '<{$signPackage.nonceStr}>',
+                signature: '<{$signPackage.signature}>',
+                jsApiList: ["onMenuShareAppMessage"]
+    });
+    wx.ready(function () {
+        wx.onMenuShareAppMessage({
+            title: '112123123123123', // 分享标题
+            desc: '111111111111111', // 分享描述
+            link: '<{$signPackage.url}>', // 分享链接
+            imgUrl: '', // 分享图标
+            type: 'link', // 分享类型,music、video或link，不填默认为link
+            dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            success: function () {
+                // 用户确认分享后执行的回调函数
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+    });
+</script>
+<div class="swiper-container qsc-tab tab-fixed home-navbar swiper-container-horizontal swiper-container-free-mode swiper-container-android">
+    <ul class="swiper-wrapper tab-item">
+        <li class="swiper-slide active swiper-slide-active">
+            <a href="javascript:;">关于我们</a>
+        </li>
+        <li class="swiper-slide swiper-slide-next">
+            <a href="javascript:;">筹款出处</a>
+        </li>
+        <li class="swiper-slide">
+            <a href="javascript:;">最新活动</a>
+        </li>
+    </ul>
+</div>
+
+
+
+<div class="content-fixed top mod-home bottom">
+    <div class="tab-content">
+        <div class="swiper-container home-banner swiper-container-horizontal swiper-container-android">
+            <!--
+            <div class="swiper-wrapper" style="transform: translate3d(-820.5px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
+                <a href="http://m.qschou.com/insurance/guide.html" title="查看项目"><img src="http://images.qingsongchou.com/files/banner/146098305351197cbe4e.png" alt="查看项目" width="100%"></a>
+            </div>
+                <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="0">
+                    <a href="http://m.qschou.com/insurance/guide.html" title="查看项目"><img src="http://images.qingsongchou.com/files/banner/146098305351197cbe4e.png" alt="查看项目" width="100%"></a>
+                </div>
+                <div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0">
+                    <a href="http://m.qschou.com/insurance/guide.html" title="查看项目"><img src="http://images.qingsongchou.com/files/banner/146098305351197cbe4e.png" alt="查看项目" width="100%"></a>
+                </div></div>
+            <div class="swiper-pagination swiper-pagination-clickable"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span></div>
+            -->
+        </div>
+        <div role="tabpanel" class="tab-pane fade in active ajax-loading data-number=10 J_tpl">
+            <volist name="list" id="data">
+                    <div class="mod-project-card card-type-1 item" data-pager="1" data-limit="0">
+                        <a href="/index.php?s=/home/CrowdfundingFront/show&ssid=<{$data.start_time}>&eesi=<{$data.end_time}>&oid=<{$data.id}>">
+                            <div class="mod-project-card_header clearfix">
+                                <div class="mod-project-card_header__avatar">
+                                    <img class="lazy-load" src="http://wx.qlogo.cn/mmopen/PiajxSqBRaEJnLSlpjK3wpLGZ02l0ak5Jo9EerwQMZDE4zz8xIicfPzIWPCDZMyaY0HywS5uicb90VGpWw0hH00oQ/96" data-original="http://wx.qlogo.cn/mmopen/PiajxSqBRaEJnLSlpjK3wpLGZ02l0ak5Jo9EerwQMZDE4zz8xIicfPzIWPCDZMyaY0HywS5uicb90VGpWw0hH00oQ/96" width="24" height="24" alt="育蜂人派大星" style="display: inline;">
+                                </div>
+                                <div class="mod-project-card_header__user">
+                                    <span>欧亚起点公益</span>
+                                    <em class="mod-project-card_header__time">2周前</em>
+                                </div>
+                            </div>
+                            <div class="mod-project-card_content">
+                                <header class="mod-project-card_content__header">
+                                    <h2><{$data.objname}></h2>
+                                </header>
+                                <div class="mod-project-card_content__detail">
+                                    <p class="description">
+                                       <{$data.descript}> </p>
+                                    <div class="mod-project-card_content__img clearfix">
+                                        <img class="lazy-load" src="http://images.qingsongchou.com/files/qschou.com/project/544/a86479dd-40e0-49c1-a9d4-7e79a5577df0/thumb_14611184941998164314.jpg" data-original="http://images.qingsongchou.com/files/qschou.com/project/544/a86479dd-40e0-49c1-a9d4-7e79a5577df0/thumb_14611184941998164314.jpg" width="25%" alt="三十年的等待，一个家庭和良心蜜的故事，养蜂人生活揭秘。" style="display: block;">
+                                        <img class="lazy-load" src="http://images.qingsongchou.com/files/qschou.com/project/544/a86479dd-40e0-49c1-a9d4-7e79a5577df0/thumb_1461118564666620c7d0.jpg" data-original="http://images.qingsongchou.com/files/qschou.com/project/544/a86479dd-40e0-49c1-a9d4-7e79a5577df0/thumb_1461118564666620c7d0.jpg" width="25%" alt="三十年的等待，一个家庭和良心蜜的故事，养蜂人生活揭秘。" style="display: block;">
+                                        <img class="lazy-load" src="http://images.qingsongchou.com/files/qschou.com/project/544/a86479dd-40e0-49c1-a9d4-7e79a5577df0/thumb_14611185729088074fa3.jpg" data-original="http://images.qingsongchou.com/files/qschou.com/project/544/a86479dd-40e0-49c1-a9d4-7e79a5577df0/thumb_14611185729088074fa3.jpg" width="25%" alt="三十年的等待，一个家庭和良心蜜的故事，养蜂人生活揭秘。" style="display: block;">
+                                        <img class="lazy-load" src="http://images.qingsongchou.com/files/qschou.com/project/544/a86479dd-40e0-49c1-a9d4-7e79a5577df0/thumb_146111858080390c0994.jpg" data-original="http://images.qingsongchou.com/files/qschou.com/project/544/a86479dd-40e0-49c1-a9d4-7e79a5577df0/thumb_146111858080390c0994.jpg" width="25%" alt="三十年的等待，一个家庭和良心蜜的故事，养蜂人生活揭秘。" style="display: block;">
+                                    </div>
+                                </div>
+                                <div class="mod-project-card_content__supporter clearfix">
+                                    <strong>
+
+                                        <span><img class="lazy-load" src="http://wx.qlogo.cn/mmopen/Q3auHgzwzM6avr1RQbV4jpOiab5wSLxzwLnnPopDM9lMEZ9oYYzc8QKyfbs5oKWBRVicjNv4IBGwo3N2Q5XGQwqw/96" data-original="http://wx.qlogo.cn/mmopen/Q3auHgzwzM6avr1RQbV4jpOiab5wSLxzwLnnPopDM9lMEZ9oYYzc8QKyfbs5oKWBRVicjNv4IBGwo3N2Q5XGQwqw/96" width="24" style="display: inline;"></span>
+                                    </strong>
+                                    <span>已有 <strong>157</strong> 人支持</span>
+                                </div>
+                                <div class="mod-project-card_content__status clearfix">
+                                    <span><i class="icon icon-aims"></i>目标<strong><{$data.goal}></strong>元</span>
+                                    <span><i class="icon icon-already"></i>已筹<strong>0</strong>元</span>
+                                    <span><i class="icon icon-supporter"></i>剩余<strong><{$data.end_time}></strong>天</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+            </volist>
+            <div class="loading" id="loading">
+                <a href="/index/index/recommend/2" data-remote="true" onclick="return false;"><i></i>正在加载更多</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="weui_tabbar zc-pfixed zc-topbar">
+    <a href="javascript:;" class="weui_tabbar_item weui_bar_item_on">
+        <div class="weui_tabbar_icon">
+            <img src="__PUBLIC__/WeUI/images/icon_nav_button.png" alt="">
+        </div>
+        <p class="weui_tabbar_label">微信</p>
+    </a>
+    <a href="javascript:;" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <img src="__PUBLIC__/WeUI/images/icon_nav_msg.png" alt="">
+        </div>
+        <p class="weui_tabbar_label">通讯录</p>
+    </a>
+    <a href="javascript:;" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <img src="__PUBLIC__/WeUI/images/icon_nav_article.png" alt="">
+        </div>
+        <p class="weui_tabbar_label">发现</p>
+    </a>
+    <a href="javascript:;" class="weui_tabbar_item">
+        <div class="weui_tabbar_icon">
+            <img src="__PUBLIC__/WeUI/images/icon_nav_cell.png" alt="">
+        </div>
+        <p class="weui_tabbar_label">我</p>
+    </a>
+</div>
 </body>
 </html>

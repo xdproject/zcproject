@@ -15,8 +15,12 @@ class WeChatApp extends WeChatBasic{
         if($this->mode==null) $this->InitAppWechatMode();
     }
 
+
     private function InitAppWechatMode(){
         $this->mode = new AppWeChatModel();
+    }
+    public function getJsSign($url){
+        return $this->wechatObj->getJsSign($url);
     }
     /**
      * 用户同意授权，获取code
